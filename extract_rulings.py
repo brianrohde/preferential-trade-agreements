@@ -37,6 +37,8 @@ from shared.reports import triage_report_goal
 from shared.utils import ensure_dir, load_json_if_exists
 from shared.excel_export import export_to_excel
 from shared.fetchers_report import run_all_tiers, export_fetchers_report
+from shared.performance_logger import PerformanceLogger
+
 
 
 def main() -> None:
@@ -67,7 +69,14 @@ def main() -> None:
     "--fetchers_report",
     action="store_true",
     help="Run all 3 tiers and generate fetchers comparison report (out/05_fetchers_report/)"
-)
+    )
+
+    parser.add_argument(
+        "--performance-log",
+        action="store_true",
+        help="Enable performance logging (writes to out/06_performance_logs/performance_log.jsonl)"
+    )
+
     
     args = parser.parse_args()
 
@@ -94,6 +103,17 @@ def main() -> None:
 
     if args.excel:
         ensure_dir(review_dir)
+
+    # Performance logging setup
+    perf_log_dir = os.path.join(out_dir, "06_performance_logs")
+    perf_log_path = os.path.join(perf_log_dir, "performance_log.jsonl")
+    perf_logger = None
+
+    if args.performance_log:
+        ensure_dir(perf_log_dir)
+        perf_logger = PerformanceLogger(perf_log_path)
+
+
 
     # ====================
     # OUTPUT FILE PATHS
@@ -137,19 +157,43 @@ def main() -> None:
 
     # Main extraction loop: one ruling at a time
     for rid in ruling_ids:
+        print(f"\n--- Processing ruling: {rid} ---")
+        
         # ALWAYS run regex extraction (fast, reliable baseline)
         rec, text = extract_record(rid, cache_dir=cache_dir)
         regex_raw_records.append(export_to_goal_schema(asdict(rec), bench_spec))
-
+        print(f"✓ Regex extraction complete for {rid}")
+        
+        # Track ruling as processed (assume cached for now, we'll improve this later)
+        if perf_logger:
+            perf_logger.track_ruling(is_cached=False)
+        
         # OPTIONAL LLM extraction (slower, called only with --llm flag)
         if args.llm:
+            print(f"Starting LLM extraction for {rid}...")
             try:
-                llm_obj = llm_extract(text, ruling_id=rid)  # ← Use KEYWORD argument
-                llm_raw_records.append(export_to_goal_schema(llm_obj, bench_spec))
+                llm_result = llm_extract(text=text, ruling_id=rid)
+                
+                # Track LLM token usage
+                if perf_logger:
+                    token_usage = llm_result.get("token_usage", {})
+                    perf_logger.track_llm_call(
+                        provider="openai",
+                        model="gpt-5-nano-2025-08-07",
+                        input_tokens=token_usage.get("input_tokens", 0),
+                        output_tokens=token_usage.get("output_tokens", 0)
+                    )
+                
+                llm_raw_records.append(export_to_goal_schema(llm_result["extracted_data"], bench_spec))
                 llm_updated_this_run = True
+                print(f"✓ LLM extraction complete for {rid}")
             except Exception as e:
-                # Graceful error handling - don't crash pipeline on LLM failure
                 print(f"[LLM ERROR] {rid}: {e}")
+
+
+
+
+
 
     if args.fetchers_report:
         print("\n" + "=" * 60)
@@ -223,6 +267,15 @@ def main() -> None:
     print("\n" + "=" * 60)
     print("EXTRACTION COMPLETE")
     print("=" * 60)
+    print(f"Regex extraction: ✓ {len(regex_raw_records)} rulings processed")
+    if args.llm:
+        llm_success = len(llm_raw_records)
+        llm_failed = len(regex_raw_records) - llm_success
+        if llm_failed > 0:
+            print(f"LLM extraction: ⚠ {llm_success} succeeded, {llm_failed} failed")
+        else:
+            print(f"LLM extraction: ✓ {llm_success} rulings processed")
+    print("=" * 60)
     print(f"Base directory: {base_dir}")
     print(f"Rulings processed: {len(regex_raw_records)}")
     print(f"Regex results: {regex_raw_path}")
@@ -232,6 +285,11 @@ def main() -> None:
     if args.excel and excel_path:
         print(f"Excel export: {excel_path}")
     print("=" * 60 + "\n")
+
+
+    # Write performance log
+    if perf_logger:
+        perf_logger.write_log(jurisdiction="ny")
 
 
 if __name__ == "__main__":

@@ -22,18 +22,7 @@ import requests
 from typing import Optional
 
 
-# Provider configuration - extend as needed
-PROVIDERS = {
-    "openai": {
-        "api_key_env": "OPENAI_API_KEY",
-        "base_url": "https://api.openai.com/v1",
-    },
-    "deepinfra": {
-        "api_key_env": "DEEPINFRA_API_KEY", 
-        "base_url": "https://api.deepinfra.com/v1/openai",
-    },
-    # Add more providers here
-}
+from shared.llm_config import PROVIDERS
 
 
 def llm_extract(
@@ -133,32 +122,48 @@ OUTPUT RULES:
     resp = requests.post(url, headers=headers, json=payload, timeout=90)
     print(f"DEBUG: Status={resp.status_code}, Response={resp.text[:500]}")
     resp.raise_for_status()
-    
+
+    resp_json = resp.json()
+
+    # Extract token usage from API response
+    usage = resp_json.get("usage", {})
+    input_tokens = usage.get("prompt_tokens", 0)
+    output_tokens = usage.get("completion_tokens", 0)
+
     # Extract content (OpenAI-compatible response format)
-    content = resp.json()["choices"][0]["message"]["content"]
-    
-    # Defensive parsing (unchanged)
+    content = resp_json["choices"][0]["message"]["content"]
+
+    # Defensive parsing
     if content is None:
         raise RuntimeError("LLM returned null content")
-    
+
     content = content.strip()
     if not content:
         raise RuntimeError(f"LLM returned empty content. Raw: {resp.text[:500]}")
-    
+
     # Handle markdown fences
     if content.startswith("```"):
         content = re.sub(r"^```(?:json)?\s*", "", content, flags=re.IGNORECASE)
         content = re.sub(r"\s*```$", "", content).strip()
-    
+
     # Extract JSON object if wrapped in prose
     if not content.startswith("{"):
         m = re.search(r"\{.*\}", content, flags=re.DOTALL)
         if not m:
             raise RuntimeError(f"LLM content is not JSON. Head: {content[:200]}")
         content = m.group(0).strip()
-    
+
     # Parse JSON
     try:
-        return json.loads(content)
+        extracted_data = json.loads(content)
     except json.JSONDecodeError as e:
         raise RuntimeError(f"Failed to parse LLM JSON: {e}. Head: {content[:200]}") from e
+
+    # Return both extracted data and token metrics
+    return {
+        "extracted_data": extracted_data,
+        "token_usage": {
+            "input_tokens": input_tokens,
+            "output_tokens": output_tokens
+        }
+    }
