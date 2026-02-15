@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "source": "Email guidance table (authoritative target format)",
+  "output": {
+    "type": "list_of_objects",
+    "null_value": null,
+    "field_order": [
+      "ruling_id",
+      "submitting_firm",
+      "submitter",
+      "importer",
+      "date_submitted",
+      "date_replied",
+      "replying_person",
+      "case_handler",
+      "hts_suggestion",
+      "hts_decision",
+      "duty_rate",
+      "product_description",
+      "accepted_flag",
+      "decision_reasoning"
+    ]
+  },
+  "types": {
+    "ruling_id": "string",
+    "submitting_firm": ["string", "null"],
+    "submitter": ["string", "null"],
+    "importer": ["string", "null"],
+    "date_submitted": ["string", "null"],
+    "date_replied": ["string", "null"],
+    "replying_person": ["string", "null"],
+    "case_handler": ["string", "null"],
+    "hts_suggestion": ["string", "null"],
+    "hts_decision": ["string", "null"],
+    "duty_rate": ["string", "null"],
+    "product_description": ["string", "null"],
+    "accepted_flag": ["string", "null"],
+    "decision_reasoning": ["string", "null"]
+  },
+  "format_rules": {
+    "date_format": "Month DD, YYYY",
+    "hts_format": "####.##.####",
+    "replying_person": "Use literal '<br><br>' between lines (name, title, division), exactly as in the requested table.",
+    "whitespace": "Trim leading/trailing whitespace; collapse internal runs of whitespace to single spaces except inside replying_person where '<br><br>' must be preserved exactly.",
+    "do_not_invent_values": true
+  }
+}
