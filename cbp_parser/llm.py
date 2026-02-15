@@ -37,7 +37,7 @@ PROVIDERS = {
 
 
 def llm_extract(
-    text: str, 
+    text: str,
     model: str = "gpt-5-nano-2025-08-07",
     provider: str = "openai",
     ruling_id: Optional[str] = None
@@ -58,18 +58,27 @@ def llm_extract(
         RuntimeError: Missing API key, API errors, or JSON parsing failures.
     """
     
-    # Get provider configuration
     if provider not in PROVIDERS:
         raise ValueError(f"Unknown provider: {provider}. Available: {list(PROVIDERS.keys())}")
-    
     provider_config = PROVIDERS[provider]
+
+    # Validate API keys only when LLM is actually called
     api_key = os.getenv(provider_config["api_key_env"])
-    
     if not api_key:
         raise RuntimeError(
             f"Missing {provider_config['api_key_env']}. "
-            f"Set it as env var before running with --llm."
+            "Set it in your .env file (see .env.example) before using --llm."
         )
+
+    # Also validate OpenAI-specific keys if using OpenAI
+    if provider == "openai":
+        org_id = os.getenv("OPENAI_ORGANIZATION_ID")
+        proj_id = os.getenv("OPENAI_PROJECT_ID")
+        if not org_id or not proj_id:
+            raise RuntimeError(
+                "Missing OPENAI_ORGANIZATION_ID or OPENAI_PROJECT_ID. "
+                "Set them in your .env file (see .env.example) before using --llm."
+            )
     
     # Build request
     url = f"{provider_config['base_url']}/chat/completions"

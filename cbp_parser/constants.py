@@ -1,3 +1,7 @@
+import os
+from dotenv import load_dotenv
+
+
 """
 CBP Parser - Constants
 =====================
@@ -28,3 +32,8 @@ YEAR_CANDIDATES = [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2
 # Example:
 # https://rulings.cbp.gov/api/getdoc/ny/2024/N340865.doc
 DOC_URL_TEMPLATE = "https://rulings.cbp.gov/api/getdoc/ny/{year}/{ruling_id}.doc"
+
+
+
+# Load environment variables
+load_dotenv()

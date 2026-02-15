@@ -6,6 +6,12 @@
 - Microsoft Word installed (required for legacy `.doc` extraction via COM)
 - Internet access (downloads CBP rulings)
 
+## Setup (Git Repository)
+1. Clone the repository
+2. Copy `.env.example` and paste it with a changed file ending `.env`. 
+3. Fill in your API keys in the `.env` file
+4. Run `pip install -r requirements.txt`
+
 ## Setup (PowerShell)
 
 Execute the below lines in the PowerShell line by line, to avoid errors (don’t paste them all at once).
@@ -20,6 +26,10 @@ python -m venv .venv
 
 ```powershell
 .\.venv\Scripts\Activate.ps1
+```
+
+```powershell
+cd pta-cbp-parser
 ```
 
 ```powershell
