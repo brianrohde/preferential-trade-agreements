@@ -13,7 +13,8 @@ Used by: reports.py to compare regex/LLM/benchmark results fairly.
 
 from typing import Dict
 
-from .utils import collapse_ws
+from shared.utils import collapse_ws
+
 
 
 # =========================

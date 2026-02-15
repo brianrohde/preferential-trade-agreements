@@ -27,16 +27,16 @@ from typing import List, Dict, Optional
 from datetime import datetime as dt
 
 # Core pipeline modules
-from cbp_parser.constants import FALLBACK_RULING_IDS
-from cbp_parser.io_inputs import load_ruling_ids, load_benchmark_spec, load_benchmark_values
-from cbp_parser.parsers import extract_record
-from cbp_parser.tier_fetchers import fetch_tier_3
-from cbp_parser.schema import export_to_goal_schema
-from cbp_parser.llm import llm_extract
-from cbp_parser.reports import triage_report_goal
-from cbp_parser.utils import ensure_dir, load_json_if_exists
-from cbp_parser.excel_export import export_to_excel
-from cbp_parser.fetchers_report import run_all_tiers, export_fetchers_report
+from jurisdictions.ny.constants import FALLBACK_RULING_IDS
+from jurisdictions.ny.parsers import extract_record
+from jurisdictions.ny.tier_fetchers import fetch_tier_3
+from jurisdictions.ny.schema import export_to_goal_schema
+from jurisdictions.ny.llm import llm_extract
+from shared.io_inputs import load_ruling_ids, load_benchmark_spec, load_benchmark_values
+from shared.reports import triage_report_goal
+from shared.utils import ensure_dir, load_json_if_exists
+from shared.excel_export import export_to_excel
+from shared.fetchers_report import run_all_tiers, export_fetchers_report
 
 
 def main() -> None:

@@ -20,7 +20,8 @@ from typing import Optional, Tuple
 
 
 from .tier_fetchers import fetch_tier_3
-from .utils import first_match, collapse_ws
+from shared.utils import first_match, collapse_ws
+
 
 
 # =========================

@@ -16,7 +16,7 @@ consistent across reports (especially around `replying_person`).
 
 from typing import Dict, List
 
-from .utils import collapse_ws
+from shared.utils import collapse_ws
 
 
 # =========================

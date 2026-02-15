@@ -33,7 +33,7 @@ import time
 from .constants import YEAR_CANDIDATES, DOC_URL_TEMPLATE
 
 # Shared utilities
-from .utils import ensure_dir, read_text, normalize_text
+from shared.utils import ensure_dir, read_text, normalize_text
 
 
 # =========================
