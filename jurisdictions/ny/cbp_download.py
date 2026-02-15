@@ -30,7 +30,7 @@ import subprocess
 import time
 
 # Constants
-from .constants import YEAR_CANDIDATES, DOC_URL_TEMPLATE
+from jurisdictions.ny.config import YEAR_CANDIDATES, DOC_URL_TEMPLATE
 
 # Shared utilities
 from shared.utils import ensure_dir, read_text, normalize_text

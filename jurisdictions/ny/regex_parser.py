@@ -23,6 +23,7 @@ from .document_fetchers import fetch_tier_3
 from shared.utils import first_match, collapse_ws
 
 
+
 # =========================
 # RECORD ASSEMBLY
 # =========================

@@ -27,9 +27,9 @@ from typing import List, Dict, Optional
 from datetime import datetime as dt
 
 # Core pipeline modules
-from jurisdictions.ny.constants import FALLBACK_RULING_IDS
-from jurisdictions.ny.parsers import extract_record
-from jurisdictions.ny.tier_fetchers import fetch_tier_3
+from jurisdictions.ny.config import FALLBACK_RULING_IDS
+from jurisdictions.ny.regex_parser import extract_record
+from jurisdictions.ny.document_fetchers import fetch_tier_3
 from jurisdictions.ny.schema import export_to_goal_schema
 from jurisdictions.ny.llm import llm_extract
 from shared.io_inputs import load_ruling_ids, load_benchmark_spec, load_benchmark_values
