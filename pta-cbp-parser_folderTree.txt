@@ -1,0 +1,101 @@
+pta-cbp-parser
+├── .env
+├── .env.example
+├── .gitignore
+├── cache
+│   └── ny
+│       ├── N275583.normalized.txt
+│       ├── N275583.pretty.txt
+│       ├── N275583.raw.doc
+│       ├── N339572.normalized.txt
+│       ├── N339572.pretty.txt
+│       ├── N339572.raw.doc
+│       ├── N339572.raw.html
+│       ├── N340183.normalized.txt
+│       ├── N340183.pretty.txt
+│       ├── N340183.raw.doc
+│       ├── N340183.raw.html
+│       ├── N340865.normalized.txt
+│       ├── N340865.pretty.txt
+│       ├── N340865.raw.doc
+│       └── N340865.raw.html
+├── CLAUDE.md
+├── extract_rulings.py
+├── in
+│   ├── ca
+│   │   ├── 01_benchmarks
+│   │   │   └── 02_benchmark_values.json
+│   │   └── 02_rulings
+│   │       └── 01_ruling_ids.json
+│   └── ny
+│       ├── 01_benchmarks
+│       │   ├── 01_benchmark_spec.json
+│       │   └── 02_benchmark_values.json
+│       └── 02_rulings
+│           └── Archive
+│               └── 01_ruling_ids.json
+├── jurisdictions
+│   ├── ca
+│   │   └── __init__.py
+│   ├── ny
+│   │   ├── config.py
+│   │   ├── document_fetchers.py
+│   │   ├── llm.py
+│   │   ├── regex_parser.py
+│   │   ├── schema.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── config.cpython-314.pyc
+│   │       ├── constants.cpython-314.pyc
+│   │       ├── document_fetchers.cpython-314.pyc
+│   │       ├── llm.cpython-314.pyc
+│   │       ├── parsers.cpython-314.pyc
+│   │       ├── regex_parser.cpython-314.pyc
+│   │       ├── schema.cpython-314.pyc
+│   │       ├── tier_fetchers.cpython-314.pyc
+│   │       └── __init__.cpython-314.pyc
+│   ├── __init__.py
+│   └── __pycache__
+│       └── __init__.cpython-314.pyc
+├── out
+│   ├── 00_meta
+│   ├── 01_artifacts
+│   │   └── N340865
+│   ├── 02_extractions_raw
+│   │   ├── extract__llm__raw__all.json
+│   │   └── extract__regex__raw__all.json
+│   ├── 03_checks
+│   │   └── check__triage__bench_regex_llm__goal__all.json
+│   ├── 04_review
+│   │   └── review.xlsx
+│   ├── 06_performance_logs
+│   │   └── performance_log.jsonl
+│   └── ny
+│       ├── 02_extractions_raw
+│       │   ├── extract__llm__raw__all.json
+│       │   └── extract__regex__raw__all.json
+│       ├── 03_checks
+│       │   └── check__triage__bench_regex_llm__goal__all.json
+│       └── 06_performance_logs
+│           └── performance_log.jsonl
+├── readme.md
+├── requirements.txt
+└── shared
+    ├── clean_cache.py
+    ├── excel_export.py
+    ├── fetchers_report.py
+    ├── io_inputs.py
+    ├── llm_config.py
+    ├── performance_logger.py
+    ├── reports.py
+    ├── utils.py
+    ├── __init__.py
+    └── __pycache__
+        ├── excel_export.cpython-314.pyc
+        ├── fetchers_report.cpython-314.pyc
+        ├── io_inputs.cpython-314.pyc
+        ├── llm_config.cpython-314.pyc
+        ├── performance_logger.cpython-314.pyc
+        ├── reports.cpython-314.pyc
+        ├── utils.cpython-314.pyc
+        └── __init__.cpython-314.pyc

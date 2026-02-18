@@ -125,12 +125,10 @@ def main() -> None:
 
     # Performance logging setup
     perf_log_dir = os.path.join(out_dir, "06_performance_logs")
-    perf_log_path = os.path.join(perf_log_dir, "performance_log.jsonl")
     perf_logger = None
-
     if args.performance_log:
         ensure_dir(perf_log_dir)
-        perf_logger = PerformanceLogger(perf_log_path)
+        perf_logger = PerformanceLogger(perf_log_dir)
 
 
 
@@ -186,42 +184,76 @@ def main() -> None:
     total_in_tok = 0
     total_out_tok = 0
     total_cost = 0.0
+    total_fetch_sec = 0.0
+    total_rx_sec = 0.0
+    total_llm_sec = 0.0
     regex_ok = 0
     regex_fail = 0
     llm_ok = 0
     llm_fail = 0
 
     # Table header
+
+    # Print the headers of the tabular summary into the terminal
     if args.llm:
-        hdr = (f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12}"
-               f" {'LLM.Start':<10} {'LLM.End':<9} {'LLM.Status':<12}"
-               f" {'IN Tok':>7} {'OUT Tok':>7} {'Cost':>10}")
+        hdr = (f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12} {'Rx.Sec':>7}"
+            f" {'LLM.Start':<10} {'LLM.End':<9} {'LLM.Status':<12} {'LLM.Sec':>8}"
+            f" {'IN Tok':>7} {'OUT Tok':>7} {'Cost':>10}")
     else:
-        hdr = f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12}"
+        hdr = f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12} {'Rx.Sec':>7}"
+
+    if perf_logger:
+        print("\n" + "=" * 60)
+        print(f"Session: {perf_logger.session_id}")
+        print("=" * 60 + "\n")
+
     print(hdr)
     print("-" * len(hdr))
 
+    # Print for each Ruling processed the tabular summary in the terminal
     for rid in ruling_ids:
-        # --- Regex extraction ---
-        rx_start = dt.now()
+        # --- Document fetch ---
+        fetch_start = dt.now()
         try:
             rec, text = extract_record(rid, cache_dir=cache_dir)
-            regex_raw_records.append(export_to_goal_schema(asdict(rec), bench_spec))
-            rx_end = dt.now()
-            rx_status = "Complete"
-            regex_ok += 1
+            fetch_end = dt.now()
+            fetch_status = "Complete"
+        except Exception as fetch_exc:
+            fetch_end = dt.now()
+            fetch_status = "Failed"
+            text = ""
+            rec = None
+        fetch_elapsed = (fetch_end - fetch_start).total_seconds()
+        total_fetch_sec += fetch_elapsed
+
+        # --- Regex parsing ---
+        rx_start = dt.now()
+        try:
+            if rec is not None:
+                regex_raw_records.append(export_to_goal_schema(asdict(rec), bench_spec))
+                rx_end = dt.now()
+                rx_status = "Complete"
+                regex_ok += 1
+            else:
+                raise ValueError("No record from fetch")
         except Exception:
             rx_end = dt.now()
             rx_status = "Failed"
             regex_fail += 1
-            text = ""
+
+        rx_elapsed = (rx_end - rx_start).total_seconds()
+        total_rx_sec += rx_elapsed
 
         if perf_logger:
             perf_logger.track_ruling(is_cached=False)
+            perf_logger.track_fetch(ruling_id=rid, start=fetch_start, end=fetch_end, status=fetch_status, cache_hit=False)
+            perf_logger.track_regex(ruling_id=rid, start=rx_start, end=rx_end, status=rx_status)
 
         # --- LLM extraction (optional) ---
         if args.llm:
             llm_start = dt.now()
+            llm_end = llm_start
+            llm_status = "Failed"
             in_tok = out_tok = 0
             cost = 0.0
             try:
@@ -234,49 +266,65 @@ def main() -> None:
                 total_out_tok += out_tok
                 total_cost += cost
 
-                if perf_logger:
-                    perf_logger.track_llm_call(
-                        provider=LLM_PROVIDER,
-                        model=LLM_MODEL,
-                        input_tokens=in_tok,
-                        output_tokens=out_tok,
-                    )
-
                 llm_raw_records.append(export_to_goal_schema(llm_result["extracted_data"], bench_spec))
                 llm_updated_this_run = True
                 llm_end = dt.now()
                 llm_status = "Complete"
                 llm_ok += 1
             except Exception as exc:
-                llm_end = dt.now()
-                llm_status = "Failed"
-                llm_fail += 1
-                print(f"  [LLM ERROR] {rid}: {exc}")
+                    llm_end = dt.now()
+                    llm_status = "Failed"
+                    llm_fail += 1
+            llm_elapsed = (llm_end - llm_start).total_seconds()
+            total_llm_sec += llm_elapsed
+                    
+            if perf_logger:
+                perf_logger.track_llm_call(
+                    provider=LLM_PROVIDER,
+                    model=LLM_MODEL,
+                    input_tokens=in_tok,
+                    output_tokens=out_tok,
+                    ruling_id=rid,
+                    start=llm_start,
+                    end=llm_end,
+                    status=llm_status,
+                )
 
             print(
-                f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12}"
-                f" {llm_start.strftime('%H:%M:%S'):<10} {llm_end.strftime('%H:%M:%S'):<9} {llm_status:<12}"
+                f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12} {rx_elapsed:>7.2f}"
+                f" {llm_start.strftime('%H:%M:%S'):<10} {llm_end.strftime('%H:%M:%S'):<9} {llm_status:<12} {llm_elapsed:>8.2f}"
                 f" {in_tok:>7} {out_tok:>7} ${cost:>9.4f}"
             )
-        else:
-            print(f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12}")
 
-    # Totals row
+        else:
+            print(f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12} {rx_elapsed:>7.2f}")
+
+
+    # Print the Totals row 
     print("-" * len(hdr))
+    n_rulings = len(ruling_ids)
     rx_total = f"{regex_ok} OK" + (f", {regex_fail} Err" if regex_fail else "")
     if args.llm:
         llm_total = f"{llm_ok} OK" + (f", {llm_fail} Err" if llm_fail else "")
+        avg_rx_sec  = total_rx_sec  / n_rulings if n_rulings else 0
+        avg_llm_sec = total_llm_sec / n_rulings if n_rulings else 0
+        avg_in_tok  = total_in_tok  / n_rulings if n_rulings else 0
+        avg_out_tok = total_out_tok / n_rulings if n_rulings else 0
+        avg_cost    = total_cost    / n_rulings if n_rulings else 0
         print(
-            f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12}"
-            f" {'':<10} {'':<9} {llm_total:<12}"
+            f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12} {total_rx_sec:>7.2f}"
+            f" {'':<10} {'':<9} {llm_total:<12} {total_llm_sec:>8.2f}"
             f" {total_in_tok:>7} {total_out_tok:>7} ${total_cost:>9.4f}"
         )
+        print(
+            f"{'AVG':<9} {'':<9} {'':<9} {'':<12} {avg_rx_sec:>7.2f}"
+            f" {'':<10} {'':<9} {'':<12} {avg_llm_sec:>8.2f}"
+            f" {avg_in_tok:>7.0f} {avg_out_tok:>7.0f} ${avg_cost:>9.4f}"
+        )
     else:
-        print(f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12}")
-
-
-
-
+        avg_rx_sec = total_rx_sec / n_rulings if n_rulings else 0
+        print(f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12} {total_rx_sec:>7.2f}")
+        print(f"{'AVG':<9} {'':<9} {'':<9} {'':<12} {avg_rx_sec:>7.2f}")
 
 
     if args.fetchers_report:
@@ -348,9 +396,29 @@ def main() -> None:
     # SUMMARY OUTPUT
     # ====================
 
+    # --- Extrapolation to 300k rulings ---
+    EXTRAP_N = 300_000
+    if n_rulings > 0:
+        extrap_rx_hrs   = (total_rx_sec  / n_rulings * EXTRAP_N) / 3600
+        extrap_cost     = total_cost     / n_rulings * EXTRAP_N
+        print("\n" + "=" * 60)
+        print(f"EXTRAPOLATION  ({EXTRAP_N:,} rulings)")
+        print("=" * 60)
+        extrap_rx_days = extrap_rx_hrs / 24
+        print(f"  Regex time:   {extrap_rx_hrs:>8.1f} hrs  ({extrap_rx_days:.1f} days)")
+        if args.llm:
+            extrap_llm_hrs  = (total_llm_sec / n_rulings * EXTRAP_N) / 3600
+            extrap_llm_days = extrap_llm_hrs / 24
+            extrap_in_tok   = total_in_tok   / n_rulings * EXTRAP_N
+            extrap_out_tok  = total_out_tok  / n_rulings * EXTRAP_N
+            print(f"  LLM time:     {extrap_llm_hrs:>8.1f} hrs  ({extrap_llm_days:.1f} days)")
+            print(f"  LLM tokens:   {extrap_in_tok/1_000_000:>7.1f}M in / {extrap_out_tok/1_000_000:>6.1f}M out")
+            print(f"  LLM cost:     ${extrap_cost:>10,.2f}")
+
     print("\n" + "=" * 60)
     print("EXTRACTION COMPLETE")
     print("=" * 60)
+
     print(f"Base directory:  {base_dir}")
     print(f"Regex results:   {regex_raw_path}")
     if args.llm:
@@ -364,6 +432,15 @@ def main() -> None:
     # Write performance log
     if perf_logger:
         perf_logger.write_log(jurisdiction=jurisdiction)
+        n_rulings = len(ruling_ids)
+        avg_rx_sec  = total_rx_sec  / n_rulings if n_rulings else 0
+        avg_llm_sec = total_llm_sec / n_rulings if n_rulings else 0 if args.llm else None
+        print(f"  - Total  tokens:       {total_in_tok:,} in / {total_out_tok:,} out")
+        print(f"  - Avg cost per ruling: ${total_cost / n_rulings:.4f}" if n_rulings else "")
+        print(f"  - Total  Rx time:      {total_rx_sec:.2f}s  (avg {avg_rx_sec:.2f}s/ruling)")
+        if args.llm:
+            print(f"  - Total  LLM time:     {total_llm_sec:.2f}s  (avg {avg_llm_sec:.2f}s/ruling)")
+
 
 
 if __name__ == "__main__":
