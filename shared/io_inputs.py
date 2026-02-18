@@ -64,24 +64,25 @@ def _normalize_ruling_ids(items: List[str]) -> List[str]:
     return cleaned
 
 
-def load_ruling_ids(base_dir: str, fallback: List[str]) -> List[str]:
+def load_ruling_ids(base_dir: str, fallback: List[str], jurisdiction: str = "ny") -> List[str]:
     """
     Load ruling IDs from the standard input folder, falling back to provided defaults.
 
     Search order (first match wins):
-    1) in/02_rulings/01_ruling_ids.json
-    2) in/02_rulings/01_ruling_ids.csv
-    3) in/02_rulings/01_ruling_ids.xlsx  (requires pandas + openpyxl)
+    1) in/{jurisdiction}/02_rulings/01_ruling_ids.json
+    2) in/{jurisdiction}/02_rulings/01_ruling_ids.csv
+    3) in/{jurisdiction}/02_rulings/01_ruling_ids.xlsx  (requires pandas + openpyxl)
     4) fallback list passed by caller
 
     Args:
         base_dir: Project base directory containing the `in/` folder.
         fallback: Ruling IDs to use if no input file exists.
+        jurisdiction: Jurisdiction subfolder name (e.g. "ny", "ca").
 
     Returns:
         A normalized list of ruling IDs.
     """
-    rulings_dir = os.path.join(base_dir, "in", "02_rulings")
+    rulings_dir = os.path.join(base_dir, "in", jurisdiction, "02_rulings")
     json_path = os.path.join(rulings_dir, "01_ruling_ids.json")
     csv_path = os.path.join(rulings_dir, "01_ruling_ids.csv")
     xlsx_path = os.path.join(rulings_dir, "01_ruling_ids.xlsx")
@@ -153,25 +154,33 @@ def load_ruling_ids(base_dir: str, fallback: List[str]) -> List[str]:
 # These are small helpers that read the benchmark JSON files in fixed locations.
 
 
-def load_benchmark_spec(base_dir: str) -> dict:
+def load_benchmark_spec(base_dir: str, jurisdiction: str = "ny") -> dict:
     """
     Load the benchmark specification JSON.
 
     The spec typically contains output field ordering and formatting rules used
     by the rest of the pipeline (export, comparisons, reports).
+
+    Args:
+        base_dir: Project base directory containing the `in/` folder.
+        jurisdiction: Jurisdiction subfolder name (e.g. "ny", "ca").
     """
-    path = os.path.join(base_dir, "in", "01_benchmarks", "01_benchmark_spec.json")
+    path = os.path.join(base_dir, "in", jurisdiction, "01_benchmarks", "01_benchmark_spec.json")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def load_benchmark_values(base_dir: str) -> List[Dict]:
+def load_benchmark_values(base_dir: str, jurisdiction: str = "ny") -> List[Dict]:
     """
     Load the benchmark "gold" values JSON.
+
+    Args:
+        base_dir: Project base directory containing the `in/` folder.
+        jurisdiction: Jurisdiction subfolder name (e.g. "ny", "ca").
 
     Returns:
         List of goal-schema records keyed by `ruling_id`, used for evaluation.
     """
-    path = os.path.join(base_dir, "in", "01_benchmarks", "02_benchmark_values.json")
+    path = os.path.join(base_dir, "in", jurisdiction, "01_benchmarks", "02_benchmark_values.json")
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)

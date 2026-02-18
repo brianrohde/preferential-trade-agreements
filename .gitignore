@@ -25,6 +25,10 @@ out/
 .DS_Store
 Thumbs.db
 
+# Downloaded ruling documents (re-fetchable via cache)
+*.doc
+*.pdf
+
 # Sensitive data
 *.env
 .env

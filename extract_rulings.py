@@ -11,33 +11,29 @@ Purpose:
 - Optionally export to Excel for manual review
 
 Usage:
-  python extract_rulings.py                    # Fast: regex only, JSON output
-  python extract_rulings.py --llm              # Full: regex + LLM comparison
-  python extract_rulings.py --excel            # Regex + Excel review (no LLM)
-  python extract_rulings.py --llm --excel      # Full + Excel review
-  python extract_rulings.py --base-dir /path   # Custom base directory (instead of cwd)
+  python extract_rulings.py                        # Fast: regex only, JSON output (NY)
+  python extract_rulings.py --llm                  # Full: regex + LLM comparison
+  python extract_rulings.py --excel                # Regex + Excel review (no LLM)
+  python extract_rulings.py --llm --excel          # Full + Excel review
+  python extract_rulings.py --jurisdiction ny      # Explicit NY (default)
+  python extract_rulings.py --jurisdiction ca      # CA rulings (once implemented)
+  python extract_rulings.py --base-dir /path       # Custom base directory (instead of cwd)
 """
 
 import argparse
 import json
 import os
 from dataclasses import asdict
-from pathlib import Path
-from typing import List, Dict, Optional
+from typing import List, Dict
 from datetime import datetime as dt
 
-# Core pipeline modules
-from jurisdictions.ny.config import FALLBACK_RULING_IDS
-from jurisdictions.ny.regex_parser import extract_record
-from jurisdictions.ny.document_fetchers import fetch_tier_3
-from jurisdictions.ny.schema import export_to_goal_schema
-from jurisdictions.ny.llm import llm_extract
 from shared.io_inputs import load_ruling_ids, load_benchmark_spec, load_benchmark_values
 from shared.reports import triage_report_goal
 from shared.utils import ensure_dir, load_json_if_exists
 from shared.excel_export import export_to_excel
 from shared.fetchers_report import run_all_tiers, export_fetchers_report
 from shared.performance_logger import PerformanceLogger
+from shared.llm_config import LLM_PRICING
 
 
 
@@ -76,9 +72,32 @@ def main() -> None:
         action="store_true",
         help="Enable performance logging (writes to out/06_performance_logs/performance_log.jsonl)"
     )
+    parser.add_argument(
+        "--jurisdiction",
+        type=str,
+        default="ny",
+        choices=["ny", "ca"],
+        help="Jurisdiction to process: 'ny' (default) or 'ca'"
+    )
 
-    
     args = parser.parse_args()
+    jurisdiction = args.jurisdiction
+
+    # ====================
+    # JURISDICTION DISPATCH
+    # ====================
+    # Import jurisdiction-specific modules based on --jurisdiction flag.
+
+    if jurisdiction == "ny":
+        from jurisdictions.ny.config import FALLBACK_RULING_IDS
+        from jurisdictions.ny.regex_parser import extract_record
+        from jurisdictions.ny.schema import export_to_goal_schema
+        from jurisdictions.ny.llm import llm_extract
+    elif jurisdiction == "ca":
+        raise NotImplementedError(
+            "CA jurisdiction is not yet implemented. "
+            "See jurisdictions/ca/ to add your implementation."
+        )
 
     # ====================
     # DIRECTORY STRUCTURE
@@ -90,12 +109,12 @@ def main() -> None:
     else:
         base_dir = os.getcwd()
 
-    cache_dir = os.path.join(base_dir, "cache")
-    out_dir = os.path.join(base_dir, "out")
+    cache_dir = os.path.join(base_dir, "cache", jurisdiction)
+    out_dir = os.path.join(base_dir, "out", jurisdiction)
     raw_dir = os.path.join(out_dir, "02_extractions_raw")     # Raw extraction results
     checks_dir = os.path.join(out_dir, "03_checks")           # Comparison/triage reports
     review_dir = os.path.join(out_dir, "04_review")           # Excel exports (if --excel)
-    fetchers_report_dir = os.path.join(out_dir, "04_review")    # Fetcher report (if --fetchers_report)
+    fetchers_report_dir = os.path.join(out_dir, "04_review")  # Fetcher report (if --fetchers_report)
 
     # Create all output directories
     for d in [cache_dir, out_dir, raw_dir, checks_dir]:
@@ -130,8 +149,8 @@ def main() -> None:
 
     # Load benchmark specification (field definitions, regex patterns)
     # and ground truth values for comparison
-    bench_spec = load_benchmark_spec(base_dir)
-    bench_values = load_benchmark_values(base_dir)
+    bench_spec = load_benchmark_spec(base_dir, jurisdiction=jurisdiction)
+    bench_values = load_benchmark_values(base_dir, jurisdiction=jurisdiction)
 
     # ====================
     # LOAD/INIT RESULTS
@@ -153,42 +172,107 @@ def main() -> None:
     # ====================
 
     # Get list of ruling IDs to process (from config file or fallback list)
-    ruling_ids = load_ruling_ids(base_dir, fallback=FALLBACK_RULING_IDS)
+    ruling_ids = load_ruling_ids(base_dir, fallback=FALLBACK_RULING_IDS, jurisdiction=jurisdiction)
 
-    # Main extraction loop: one ruling at a time
+    # ====================
+    # EXTRACTION LOOP
+    # ====================
+
+    LLM_MODEL = "gpt-5-nano-2025-08-07"
+    LLM_PROVIDER = "openai"
+    llm_price = LLM_PRICING.get(LLM_PROVIDER, {}).get(LLM_MODEL, {"input_per_1k": 0.0, "output_per_1k": 0.0})
+
+    # Running totals
+    total_in_tok = 0
+    total_out_tok = 0
+    total_cost = 0.0
+    regex_ok = 0
+    regex_fail = 0
+    llm_ok = 0
+    llm_fail = 0
+
+    # Table header
+    if args.llm:
+        hdr = (f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12}"
+               f" {'LLM.Start':<10} {'LLM.End':<9} {'LLM.Status':<12}"
+               f" {'IN Tok':>7} {'OUT Tok':>7} {'Cost':>10}")
+    else:
+        hdr = f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12}"
+    print(hdr)
+    print("-" * len(hdr))
+
     for rid in ruling_ids:
-        print(f"\n--- Processing ruling: {rid} ---")
-        
-        # ALWAYS run regex extraction (fast, reliable baseline)
-        rec, text = extract_record(rid, cache_dir=cache_dir)
-        regex_raw_records.append(export_to_goal_schema(asdict(rec), bench_spec))
-        print(f"✓ Regex extraction complete for {rid}")
-        
-        # Track ruling as processed (assume cached for now, we'll improve this later)
+        # --- Regex extraction ---
+        rx_start = dt.now()
+        try:
+            rec, text = extract_record(rid, cache_dir=cache_dir)
+            regex_raw_records.append(export_to_goal_schema(asdict(rec), bench_spec))
+            rx_end = dt.now()
+            rx_status = "Complete"
+            regex_ok += 1
+        except Exception:
+            rx_end = dt.now()
+            rx_status = "Failed"
+            regex_fail += 1
+            text = ""
+
         if perf_logger:
             perf_logger.track_ruling(is_cached=False)
-        
-        # OPTIONAL LLM extraction (slower, called only with --llm flag)
+
+        # --- LLM extraction (optional) ---
         if args.llm:
-            print(f"Starting LLM extraction for {rid}...")
+            llm_start = dt.now()
+            in_tok = out_tok = 0
+            cost = 0.0
             try:
                 llm_result = llm_extract(text=text, ruling_id=rid)
-                
-                # Track LLM token usage
+                token_usage = llm_result.get("token_usage", {})
+                in_tok = token_usage.get("input_tokens", 0)
+                out_tok = token_usage.get("output_tokens", 0)
+                cost = (in_tok / 1000 * llm_price["input_per_1k"]) + (out_tok / 1000 * llm_price["output_per_1k"])
+                total_in_tok += in_tok
+                total_out_tok += out_tok
+                total_cost += cost
+
                 if perf_logger:
-                    token_usage = llm_result.get("token_usage", {})
                     perf_logger.track_llm_call(
-                        provider="openai",
-                        model="gpt-5-nano-2025-08-07",
-                        input_tokens=token_usage.get("input_tokens", 0),
-                        output_tokens=token_usage.get("output_tokens", 0)
+                        provider=LLM_PROVIDER,
+                        model=LLM_MODEL,
+                        input_tokens=in_tok,
+                        output_tokens=out_tok,
                     )
-                
+
                 llm_raw_records.append(export_to_goal_schema(llm_result["extracted_data"], bench_spec))
                 llm_updated_this_run = True
-                print(f"✓ LLM extraction complete for {rid}")
-            except Exception as e:
-                print(f"[LLM ERROR] {rid}: {e}")
+                llm_end = dt.now()
+                llm_status = "Complete"
+                llm_ok += 1
+            except Exception as exc:
+                llm_end = dt.now()
+                llm_status = "Failed"
+                llm_fail += 1
+                print(f"  [LLM ERROR] {rid}: {exc}")
+
+            print(
+                f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12}"
+                f" {llm_start.strftime('%H:%M:%S'):<10} {llm_end.strftime('%H:%M:%S'):<9} {llm_status:<12}"
+                f" {in_tok:>7} {out_tok:>7} ${cost:>9.4f}"
+            )
+        else:
+            print(f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12}")
+
+    # Totals row
+    print("-" * len(hdr))
+    rx_total = f"{regex_ok} OK" + (f", {regex_fail} Err" if regex_fail else "")
+    if args.llm:
+        llm_total = f"{llm_ok} OK" + (f", {llm_fail} Err" if llm_fail else "")
+        print(
+            f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12}"
+            f" {'':<10} {'':<9} {llm_total:<12}"
+            f" {total_in_tok:>7} {total_out_tok:>7} ${total_cost:>9.4f}"
+        )
+    else:
+        print(f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12}")
 
 
 
@@ -267,29 +351,19 @@ def main() -> None:
     print("\n" + "=" * 60)
     print("EXTRACTION COMPLETE")
     print("=" * 60)
-    print(f"Regex extraction: ✓ {len(regex_raw_records)} rulings processed")
+    print(f"Base directory:  {base_dir}")
+    print(f"Regex results:   {regex_raw_path}")
     if args.llm:
-        llm_success = len(llm_raw_records)
-        llm_failed = len(regex_raw_records) - llm_success
-        if llm_failed > 0:
-            print(f"LLM extraction: ⚠ {llm_success} succeeded, {llm_failed} failed")
-        else:
-            print(f"LLM extraction: ✓ {llm_success} rulings processed")
-    print("=" * 60)
-    print(f"Base directory: {base_dir}")
-    print(f"Rulings processed: {len(regex_raw_records)}")
-    print(f"Regex results: {regex_raw_path}")
-    if args.llm:
-        print(f"LLM results: {llm_raw_path}")
-    print(f"Triage report: {triage_path}")
+        print(f"LLM results:     {llm_raw_path}")
+    print(f"Triage report:   {triage_path}")
     if args.excel and excel_path:
-        print(f"Excel export: {excel_path}")
+        print(f"Excel export:    {excel_path}")
     print("=" * 60 + "\n")
 
 
     # Write performance log
     if perf_logger:
-        perf_logger.write_log(jurisdiction="ny")
+        perf_logger.write_log(jurisdiction=jurisdiction)
 
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@ CBP Parser - Regex Extraction Engine
 Rule-based (regex + heuristic) field extraction for CBP ruling documents.
 
 This module is responsible for:
-- Downloading a ruling document (via cbp_download).
+- Downloading a ruling document (via document_fetchers).
 - Extracting core benchmark fields (dates, HTS codes, duty rate, product description).
 - Extracting parties/people (submitter, submitting firm, importer, signature, case handler).
 - Returning a structured internal record (`RulingRecord`) plus the raw document text.
@@ -192,18 +192,6 @@ def extract_hts_codes(text: str) -> Tuple[Optional[str], Optional[str]]:
         codes = re.findall(r"\b\d{4}\.\d{2}\.\d{4}\b", text)
         codes = list(dict.fromkeys(codes))
         decision = codes[-1] if codes else None
-
-    return suggestion, decision
-
-    # Fallback heuristic (only if needed)
-    # NOTE: This block is currently unreachable due to the return above.
-    # It is kept as-is to avoid any logic/behavior change in this comment-only pass.
-    if not suggestion or not decision:
-        codes = re.findall(r"\b\d{4}\.\d{2}\.\d{4}\b", text)
-        codes = list(dict.fromkeys(codes))
-        if codes:
-            suggestion = suggestion or (codes[0] if len(codes) > 1 else None)
-            decision = decision or codes[-1]
 
     return suggestion, decision
 

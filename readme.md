@@ -61,39 +61,59 @@ $env:OPENAI_ORGANIZATION_ID = "[org-your-org-id-here]"
 $env:OPENAI_PROJECT_ID = "[proj-your-project-id-here]" 
 ```
 
-## Run (No Excel Review Report)
+## Run
 
-The main function is being orchastrated and coordinated via "extract_rulings.py". Optionally with a "--llm" flag the perplexity LLM extraction method can be used to have multiple indicators for each ruling extraction.
+The pipeline is orchestrated via `extract_rulings.py`. Jurisdiction defaults to `ny`. Optionally use `--llm` for OpenAI-assisted extraction alongside regex — this improves accuracy but costs approximately $0.06 per 4 rulings (last checked 07.01.2026).
 
-Each "--llm" run runs cost of approximately $0.06 for 4 rulings (last checked 07.01.2026), so it is a cost decision. The results were generally more accurate though.
-
- It can be operated as seen below:
-
-
-### REGEX Only Extraction
+### REGEX only (fast baseline)
 ```powershell
 python .\extract_rulings.py
 ```
-### Optional: Perplexity LLM API Extraction
+
+### REGEX + LLM extraction
 ```powershell
 python .\extract_rulings.py --llm
-``` 
+```
 
-## Run (with Excel Review Report)
-
-### REGEX Only Extraction + Excel Review
+### REGEX + Excel review report
 ```powershell
 python .\extract_rulings.py --excel
 ```
 
-### Optional: Perplexity LLM API Extraction + Excel Review
+### REGEX + LLM + Excel review report (full run)
 ```powershell
-python .\extract_rulings.py --excel --llm
+python .\extract_rulings.py --llm --excel
+```
+
+### Specify jurisdiction explicitly (default is ny)
+```powershell
+python .\extract_rulings.py --jurisdiction ny
+python .\extract_rulings.py --jurisdiction ca
+```
+
+### Run fetcher tier comparison report
+```powershell
+python .\extract_rulings.py --fetchers_report
+```
+
+### Enable performance/cost logging
+```powershell
+python .\extract_rulings.py --llm --performance-log
+```
+
+### Custom base directory
+```powershell
+python .\extract_rulings.py --base_dir "C:\path\to\project"
+```
+
+### Combined example (full run, explicit jurisdiction, with logging)
+```powershell
+python .\extract_rulings.py --jurisdiction ny --llm --excel --performance-log
 ```
 
 ## Clear Cached Ruling Texts (Optional)
 ```powershell
-python .\cbp_parser\clean_cache.py
+python shared\clean_cache.py
 ```
 
 If a cache file cannot be deleted, close Microsoft Word and end any lingering WINWORD.EXE, then re-run the clean command.

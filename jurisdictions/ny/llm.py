@@ -120,7 +120,6 @@ OUTPUT RULES:
     
     # Execute request
     resp = requests.post(url, headers=headers, json=payload, timeout=90)
-    print(f"DEBUG: Status={resp.status_code}, Response={resp.text[:500]}")
     resp.raise_for_status()
 
     resp_json = resp.json()
