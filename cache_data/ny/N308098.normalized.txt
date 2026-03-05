@@ -1,0 +1,47 @@
+N308098
+
+December 17, 2019
+
+OT:RR:NC:N:2:208
+ 
+CATEGORY: Country of Origin
+
+Ryan Swerdloff 
+Vinpower, Inc. 
+817 South Palm Ave. 
+Alhambra, California 91803
+
+Dear Mr. Swerdloff:
+
+In your letter dated December 5, 2019, you requested a country of origin ruling determination on unrecorded optical discs.
+The merchandise under consideration is the Optodisc DVD-R 4.7GB, models OPTODISCR004, OPTODISCR008, OPTODISCR016, OPTODISC OR4, OPTODISC OR8, and OPTODISC R16. All the subject DVD’s are being imported as unrecorded optical discs. 
+
+You state in your request that the unrecorded optical discs are classified in subheading 8523.41.0000, Harmonized Tariff Schedule of the United States (HTSUS), which provided for Discs, tapes, solid-state non-volatile storage devices, "smart cards" and other media for the recording of sound or of other phenomena, whether or not recorded, including matrices and
+masters for the production of discs, but excluding products of Chapter 37: Optical media: Unrecorded. The general rate of duty is free.
+
+According to the information provided, the following manufacturing processes took place in China by Chinese workers: 
+
+In China, Taiwanese polycarbonate is added to the injection-molding machine. The injection-molding machine melts the polycarbonate and injects the melted polycarbonate into a stamper. This process creates a polycarbonate disc with nanometer grooves in it that defines the unrecorded optical disc and allows it to be recorded and read by an optical disc player. 
+
+Next, the polycarbonate disc is transferred with the nanometer grooves to the main production machine (ADM), which is also located in China. In the first spin coating stage, the ADM adds the Taiwanese DS-166 dye onto the disc with the nanometer grooves, to create the recordable layer. Once the dye has adhered, the ADM transfers the discs to the next station where the silver sputtering process takes place. Chinese silver is used to add a shiny reflective layer on top of the dye to make the recording layer more reflective.
+The DVD-R discs contain a second “dummy” polycarbonate disc that does not have any nanometer grooves, but is made from the same Taiwanese polycarbonate and is used as protection for the recording layer. This is added by the ADM passing both polycarbonate discs to another spin coating stage area where it uses Taiwanese bonding glue to adhere to the clear polycarbonate disc on top of the dye coated polycarbonate disc to create a sandwich of polycarbonate discs with the DVD-R Dye in the middle. Lastly, the ADM passes the bonded discs automatically through to the UV curing area, where the glue and polycarbonate surfaces are cured to finalize the DVD-R production process. 
+The finished UV cured discs are removed from the ADM and then passed through to the Quality Inspection Stations. They are placed in the Chinese factory for the purpose of quality control for the unrecorded optical discs. The final step is to pack the finished discs for shipment. 
+The "country of origin" is defined in 19 CFR 134.1(b) as "the country of manufacture, production, or growth of any article of foreign origin entering the United States. Further work or material added to an article in another country must effect a substantial transformation in order to render such other country the 'country of origin' within the meaning of this part. 
+When considering a product that may be subject to antidumping, countervailing, or other safeguard measures, the substantial transformation analysis is applied to determine the country of origin. See 19 C.F.R. § 102.0; HQ 563205, dated June 28, 2006; see also Belcrest Linens v. United States, 741 F.2d 1368, 1370-71 (Fed. Cir. 1984) (finding that “the term ‘product of’ at the least includes manufactured articles of such country or area” and that substantial transformation “is essentially the test used…in determining whether an article is a manufacturer of a given country”). 
+The courts have held that a substantial transformation occurs when an article emerges from a process with a new name, character or use different from that possessed by the article prior to processing. United States v. Gibson-Thomsen Co., Inc., 27 CCPA 267, C.A.D. 98 (1940); National Hand Tool Corp. v. United States, 16 CIT 308 (1992), aff’d, 989 F. 2d 1201 (Fed. Cir. 1993); Anheuser Busch Brewing Association v. The United States, 207 U.S. 556 (1908) and Uniroyal Inc. v. United States, 542 F. Supp. 1026 (1982).However, if the manufacturing or combining process is merely a minor one that leaves the identity of the article intact, a substantial transformation has not occurred. Uniroyal, Inc. v. United States, 3 CIT 220, 542 F. Supp. 1026, 1029 (1982), aff’d, 702 F.2d 1022 (Fed. Cir. 1983). Substantial transformation determinations are based on the totality of the evidence. See Headquarters Ruling (HQ) W968434, date January 17, 2007, citing Ferrostaal Metals Corp. v. United States, 11 CIT 470, 478, 664 F. Supp. 535, 541 (1987).
+Based on the facts presented, it is the opinion of this office that the country of origin for the optical discs will be China. The components of the unrecorded optical discs from Taiwan, such as the polycarbonate, dye, and glue are transformed within China into a different article with a new name, character, and use. They lose their separate identities and become an integral part of a new article as a result of the manufacturing process. 
+Pursuant to U.S. Note 20 to Subchapter III, Chapter 99, HTSUS, products of China classified under subheading 8523.41.0000, HTSUS, unless specifically excluded, are subject to an additional 15 percent ad valorem rate of duty. At the time of importation, you must report the Chapter 99 subheading, i.e., 9903.88.15, in addition to subheading 8523.41.0000, HTSUS, listed above.
+ 
+The HTSUS is subject to periodic amendment so you should exercise reasonable care in monitoring the status of goods covered by the Note cited above and the applicable Chapter 99 subheading. 
+
+For background information regarding the trade remedy initiated pursuant to Section 301 of the Trade Act of 1974, you may refer to the relevant parts of the USTR and CBP websites, which are available at https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions and https://www.cbp.gov/trade/remedies/301-certain-products-china, respectively.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Lisa Cariello at lisa.a.cariello@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

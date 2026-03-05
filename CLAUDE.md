@@ -51,6 +51,7 @@ pta-cbp-parser/
 │   ├── fetchers_report.py      # Tier comparison Excel report
 │   ├── llm_config.py           # LLM provider config + pricing table
 │   ├── performance_logger.py   # Cost/timing JSONL logger
+│   ├── id_scraper.py           # Ruling ID harvester (scrapes CBP search API)
 │   └── clean_cache.py          # Standalone cache-clearing script
 ├── input_data/
 │   ├── ny/                     # NY-specific inputs
@@ -118,6 +119,7 @@ main.py --jurisdiction ny
         → (optional) ny_llm.llm_extract() → OpenAI API → dict
     → triage_report_goal() → compare regex vs LLM vs benchmark
     → (optional) export_to_excel() → output_data/ny/checks/review.xlsx
+        sheets: session_summary | id_scrape_results | metadata | data_dictionary | summary | details
 ```
 
 ## Environment Variables (`.env`)

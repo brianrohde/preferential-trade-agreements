@@ -1,0 +1,154 @@
+N336734
+N336734
+December
+12, 2023
+CLA-2-39:OT:RR:NC:N:5:137
+CATEGORY: Classification; Country of Origin
+TARIFF NO.: 3918.10.1020
+David Olave
+Sandler, Travis & Rosenberg P.A.
+1300 Pennsylvania Ave. NW, Suite 400
+Washington, DC 20004
+RE:  The tariff classification, country of origin and status
+under the United States-Panama Trade Promotion Agreement of vinyl flooring
+planks from Panama
+Dear Mr. Olave:
+In your letter dated November 27, 2023, you requested a tariff
+classification, country of origin and status under the US-PTA determination
+ruling on behalf of your client CPF Floors LLC.
+The products under review are vinyl flooring tiles with click lock
+installation edging. The tiles consist of the following layers: a UV coating
+layer, polyvinyl chloride (PVC) wear layer and a PVC decorative layer, a stone
+plastic composite (SPC) core comprised of a mixture of PVC and calcium
+carbonate, and an ethylene-vinyl acetate (EVA) acoustic padding layer.
+Imported in boxes, the subject planks are typically manufactured in
+lengths of 1220 mm (4 feet) and widths of 183 mm (approximately 7 inches).
+The applicable subheading for the vinyl flooring tiles will be
+3918.10.1020, Harmonized Tariff Schedule of the United States (HTSUS), which
+provides for floor coverings or plastics, whether or not self-adhesive, in
+rolls or in the form of tiles: of polymers of vinyl chloride: floor coverings:
+vinyl tile: vinyl tile consisting of a rigid solid polymer core. The general
+rate of duty will be 5.3 percent ad valorem.
+The "country of origin" is defined in 19 CFR 134.1(b) as
+"the country of manufacture, production, or growth of any article of
+foreign origin entering the United States. Further work or material added to an
+article in another country must effect a substantial transformation in order to
+render such other country the 'country of origin' within the meaning of this
+part.”
+When considering a product that may be subject to antidumping,
+countervailing, or other safeguard measures, the substantial transformation
+analysis is applied to determine the country of origin. See 19 C.F.R. §
+102.0; HQ 563205, dated June 28, 2006; see also HQ 563205, dated September 16,
+1996 (finding that "the term 'product of' at the least includes
+manufactured articles of such country or area" and that substantial
+transformation "is essentially the test used... in determining whether an
+article is a manufacture of a given country").
+The courts have held that a substantial transformation occurs when
+an article emerges from a process with a new name, character or use different
+from that possessed by the article prior to processing. United States v.
+Gibson-Thomsen Co., Inc., 27 CCPA 267, C.A.D. 98 (1940); National Hand Tool
+Corp. v. United States, 16 CIT 308 (1992), aff'd, 989 F. 2d 1201 (Fed. Cir.
+1993); Anheuser Busch Brewing Association v. The United States, 207 U.S. 556
+(1908) and Uniroyal Inc. v. United States, 542 F. Supp. 1026 (1982).
+However, if the manufacturing or combining process is merely a
+minor one that leaves the identity of the article intact, a substantial
+transformation has not occurred. Uniroyal, Inc. v. United States, 3 CIT 220,
+542 F. Supp. 1026, 1029 (1982), aff'd, 702 F.2d 1022 (Fed. Cir. 1983).
+Substantial transformation determinations are based on the totality of the
+evidence. See Headquarters Ruling (HQ)
+W968434
+, date January 17, 2007, citing Ferrostaal Metals Corp. v.
+United States, 11 CIT 470, 478, 664 F. Supp. 535, 541 (1987).
+Large SPC sheets are manufactured in either China or
+Vietnam.  Polyvinyl chloride, calcium carbonate powder and plasticizers
+are mixed together and compounded.  The mixture is then extruded into a
+continuous SPC layer.  This layer will form the core. Next the core SPC
+sheet is laminated with the PVC color layer and PVC wear layers through a hot
+press roller that embosses textures onto the surface.  This is followed by
+a UV coating that is sprayed on top of the bonding. The SPC sheet is cooled
+until rigid and is then cut into rectangles of 980 mm x 1245 mm.
+The large SPC sheets are shipped to Panama for further
+production.  The first step in the process is the “cutting”
+process.  The large sheets go through an automated cutting machine that
+divides it into tiles per desired width size, generally five 196 mm planks. The
+next step is “slotting” sometimes referred to as
+“profiling.” In this step the tiles go through two slotting
+machines to create high precision patented “angle-angle click”
+slots on each of their four edges. The resulting tiles will measure 183 mm x
+1220 mm at the end of the slotting process. The final transformation step is
+the “padding.” In this step a padding made from cellular
+ethylene-vinyl acetate (EVA), sourced from India or China will be bonded
+through a series of hot gluing rollers to the bottom of the SPC layer.
+This step provides the resulting SPC click flooring with required acoustic
+insulation properties. The tiles are then packed in groups of nine to twelve
+tiles per box and the boxes are palletized for shipment to the United States.
+We find that the processing performed in Panama with respect to
+cutting the tiles, creating the angle-angle click slots, and adding padding
+does constitute a substantial transformation of the imported components into
+"products of" Panama. The manufacturing process in Panama transforms
+the non-originating components and parts to produce the finished SPC flooring
+tiles. It creates a new and different article of commerce with a distinct
+character and use that is not inherent in the components imported into Vietnam.
+Therefore, the "product of" requirement has been satisfied. It is of
+the opinion of this office that the country of origin for the SPC flooring will
+be Panama.
+You also requested a ruling on the status of vinyl flooring tiles
+from Panama under the United States-Panama Trade Promotion Agreement.
+General Note 35, HTSUS, sets forth the criteria for determining
+whether a good is originating under the US-PATPA. General Note 35(b), HTSUS,
+states, in pertinent part, that
+For the purposes of this note, subject to the provisions of
+subdivisions (c), (d), (n) and (o) thereof, a good imported into the customs
+territory of the United States is eligible for treatment as an originating good
+under the terms of this note if-
+(i) the good is a good wholly obtained or produced entirely in the
+territory of Panama, the United States, or both;
+(ii) the good was produced entirely in the territory of Panama,
+the United States, or both, and-
+(A) each of the non-originating materials used in the production
+of the good undergoes an applicable change in tariff classification specified
+in subdivision (o) of this note; or
+(B) the good otherwise satisfies any applicable regional value
+content or other requirements specified in such subdivision (o); and satisfies
+all other applicable requirements of this note and of applicable regulations;
+or
+(iii) the good was produced entirely in the territory of Panama or
+of the United States, or both, exclusively from materials described in
+subdivision (i) or (ii), above
+For goods classified in 3918, General Note 35(o) 39.2 requires:
+A
+change to subheadings 3916.10 through 3918.90 from any other subheading.
+The non-originating SPC sheets are classified in subheading
+3920.43, HTSUS and the non-originating EVA padding is classified in subheading
+3921.19, HTSUS. Therefore, the vinyl flooring tiles with SPC core qualify for
+preferential tariff treatment under the United States-Panama Trade Promotion
+Agreement.
+Duty rates are provided for your convenience and are subject to change.
+The text of the most recent HTSUS and the accompanying duty rates are provided
+at
+https://hts.usitc.gov/current
+.
+The holding set forth above applies only to the specific factual
+situation and merchandise description as identified in the ruling request. This
+position is clearly set forth in Title 19, Code of Federal Regulations (CFR),
+Section 177.9(b)(1). This section states that a ruling letter is issued on the
+assumption that all of the information furnished in the ruling letter, whether
+directly, by reference, or by implication, is accurate and complete in every
+material respect. In the event that the facts are modified in any way, or if
+the goods do not conform to these facts at time of importation, you should
+bring this to the attention of U.S. Customs and Border Protection (CBP) and
+submit a request for a new ruling in accordance with 19 CFR 177.2.
+Additionally, we note that the material facts described in the foregoing ruling
+may be subject to periodic verification by CBP.
+This ruling is being issued under the provisions of Part 177 of
+the Customs and Border Protection Regulations (19 C.F.R. 177).
+A copy of the ruling or the control number indicated above should
+be provided with the entry documents filed at the time this merchandise is
+imported. If you have any questions regarding the ruling, please contact
+National Import Specialist Christina Allen at julie.c.allen@cbp.dhs.gov.
+Sincerely,
+Steven
+A. Mack
+Director
+National
+Commodity Specialist Division

@@ -63,57 +63,60 @@ $env:OPENAI_PROJECT_ID = "[proj-your-project-id-here]"
 
 ## Run
 
-The pipeline is orchestrated via `extract_rulings.py`. Jurisdiction defaults to `ny`. Optionally use `--llm` for OpenAI-assisted extraction alongside regex — this improves accuracy but costs approximately $0.06 per 4 rulings (last checked 07.01.2026).
+The pipeline is orchestrated via `main.py`. Jurisdiction defaults to `ny`. Optionally use `--llm` for OpenAI-assisted extraction alongside regex — this improves accuracy but costs approximately $0.06 per 4 rulings (last checked 07.01.2026).
+
+### Scrape ruling IDs (optional — creates ny_ruling_ids_scraper.jsonl)
+Run `shared_modules/id_scraper.py` directly to harvest ruling IDs from the CBP search API before extraction.
 
 ### REGEX only (fast baseline)
 ```powershell
-python .\extract_rulings.py
+python .\main.py
 ```
 
 ### REGEX + LLM extraction
 ```powershell
-python .\extract_rulings.py --llm
+python .\main.py --llm
 ```
 
 ### REGEX + Excel review report
 ```powershell
-python .\extract_rulings.py --excel
+python .\main.py --excel
 ```
 
 ### REGEX + LLM + Excel review report (full run)
 ```powershell
-python .\extract_rulings.py --llm --excel
+python .\main.py --llm --excel
 ```
 
 ### Specify jurisdiction explicitly (default is ny)
 ```powershell
-python .\extract_rulings.py --jurisdiction ny
-python .\extract_rulings.py --jurisdiction ca
+python .\main.py --jurisdiction ny
+python .\main.py --jurisdiction ca
 ```
 
 ### Run fetcher tier comparison report
 ```powershell
-python .\extract_rulings.py --fetchers_report
+python .\main.py --fetchers_report
 ```
 
 ### Enable performance/cost logging
 ```powershell
-python .\extract_rulings.py --llm --performance-log
+python .\main.py --llm --performance-log
 ```
 
 ### Custom base directory
 ```powershell
-python .\extract_rulings.py --base_dir "C:\path\to\project"
+python .\main.py --base_dir "C:\path\to\project"
 ```
 
 ### Combined example (full run, explicit jurisdiction, with logging)
 ```powershell
-python .\extract_rulings.py --jurisdiction ny --llm --excel --performance-log
+python .\main.py --jurisdiction ny --llm --excel --performance-log
 ```
 
 ## Clear Cached Ruling Texts (Optional)
 ```powershell
-python shared\clean_cache.py
+python shared_modules\clean_cache.py
 ```
 
 If a cache file cannot be deleted, close Microsoft Word and end any lingering WINWORD.EXE, then re-run the clean command.

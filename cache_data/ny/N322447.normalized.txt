@@ -1,0 +1,40 @@
+N322447
+
+November 18, 2021
+
+OT:RR:NC:N:1:105
+ 
+CATEGORY: Country of Origin
+
+Tracey Gonzalez Esq.
+GDLSK LLP
+599 Lexington Avenue
+New York, New York 10022
+
+RE: The country of origin of a digital food thermometer.
+
+Dear Ms. Gonzalez:
+
+In your letter dated October 26, 2021, on behalf of your client, Taylor Precision Products Inc., you requested a country of origin ruling determination on a digital food thermometer.
+The merchandise under consideration is a digital food thermometer (model #9848EFDA), which works by putting out a small current through its metal probe, then measuring the ease with which the current is able to flow. Inside the thermometer, an integrated circuit sensor converts this resistance into a temperature measurement that is displayed on the digital face of the thermometer. The thermometer can provide temperature measurements from -40 degrees Fahrenheit to 450 degrees Fahrenheit (-40 degrees Celsius to 232 degrees Celsius). In your request, you provided a description of the manufacturing process for the digital food thermometer. The production of the thermometer begins with the manufacture of the Taiwanese integrated circuit (IC). In Taiwan, the IC is programmed, with Taiwanese produced software, to give it the ability to receive, interpret, and measure the signal from the later incorporated negative temperature coefficient (NTC) sensor. The NTC sensor, which is produced in Japan, is a resistor with a negative temperature coefficient (or “thermistor”), such that the resistance decreases with increasing temperature and voltage increases as temperature increases. Thermistors are extremely small and must be encapsulated in glass beads of uniform thickness. 
+
+Once the Taiwanese IC and Japanese NTC are constructed, they are shipped to China for further processing. The operations performed in China include inspecting the raw materials; bonding the IC, NTC sensor, and other components onto the printed circuit board (PCB); inserting the NTC sensor into the probe; integrating the probe with the PCB and plastic housing; and installing the LCD readout display and battery. The assembled thermometer is then tested, labeled, and packaged for retail sale and shipment to the United States. The Chinese components include the electronic components (e.g., LCD, PCB, backlite diffuser), electromechanical components (e.g., battery contacts, probe, screws, O-rings), plastic & silicon parts (e.g., zebra strip connectors, plastic covers, battery door, sleeves/casings, faceplate), battery, packaging, labels, stickers, LCD cling film and any additional production materials such as solder, paste and glue. 
+
+With regard to your request for the appropriate country of origin of the digital food thermometers, 19 C.F.R. § 134.1(b) provides in pertinent part as follows: 
+
+Country of origin means the country of manufacture, production, or growth of any article of foreign origin entering the United States. Further work or material added to an article in another country must effect a substantial transformation in order to render such other country the “country of origin” within the meaning of this part; 
+
+As stated in HQ 735009 (dated July 30, 1993), “The country of origin is the country where the article last underwent a “substantial transformation”, that is, processing which results in a change in the article's name, character, or use”. In addition, the court, in United States v. Gibson-Thomsen Co., 27 C.C.P.A. 267 (C.A.D. 98) (1940) and National Hand Tool Corp. v. United States, 16 CIT 308 (1992), aff’d, 989 F. 2d 1201 (Fed. Cir. 1993), has held that “A substantial transformation occurs when an article emerges from a manufacturing process with a name, character, and use that differs from the original material subjected to the processing.” However, if the manufacturing or combining process is merely a minor one that leaves the identity of the article intact, a substantial transformation has not occurred, see Uniroyal, Inc. v. United States, 3 CIT 220, 542 F. Supp. 1026, 1029 (1982), aff’d, 702 F.2d 1022 (Fed. Cir. 1983).
+
+In order to determine whether a substantial transformation occurs when components of various origins are assembled into completed products, all factors such as the components used to create the product and manufacturing processes that these components undergo are considered in order to determine whether a product with a new name, character and use has been produced. No one factor is decisive, see Belcrest Linens v. United States, 573 F. Supp. 1149 (CIT 1983), aff’d, 741 F.2d 1368 (Fed. Cir. 1984). Assembly operations that are minimal will generally not result in a substantial transformation, see C.S.D. 80-111, C.S.D. 85-25, C.S.D. 89-110, C.S.D. 89-118, C.S.D. 90-51, and C.S.D. 90-97.
+In this instance, it is this office’s opinion that the Taiwanese produced integrated circuit (with Taiwanese software) cannot perform the essential functions of the thermometer without the addition of the Japanese negative temperature coefficient sensor. Essentially, the IC does not have the ability to perform any measurement calculations without the sensor’s ability to obtain the readings. Therefore, the thermometer is not a functional unit until the parts are combined in China and hence a new article is created that has the ability to measure. In your request you reference several rulings that you feel are similar to the immediate request including N314011 (dated August 24, 2020), N310618 (dated March 31, 2020), N313952 (dated August 24, 2020), and N302764 (dated April 19, 2019). In each of these rulings the sensor probe and software were all produced in the same country and therefore, they provided the enabling technology needed for the thermometers to operate. In this instance, the IC and software are from Taiwan and the NTC sensor is from Japan. Individually, they are not able to perform the functions necessary to operate as a thermometer. In essence, the NTC sensor and IC are transformed from non-working units into a new and different article that can perform measurement functions. In view of these facts, the country of origin is China and is subject to Section 301 trade remedies upon importation into the United States.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Jason Christie at Jason.M.Christie@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

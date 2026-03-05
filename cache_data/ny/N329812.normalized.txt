@@ -1,0 +1,104 @@
+N329812
+
+December 14, 2022
+
+CLA-1-32:OT:RR:NC:N3:136 
+
+CATEGORY: UKFTA
+
+TARIFF NO.: 3208.90
+
+Ilse Madrazo Butze
+Intrade Consultores
+Av. Paseo de las Palmas 820 Lomas de Chapultepec
+11000 Miguel Hidalgo
+CDMX, 11000
+Mexico
+
+RE: The eligibility for preferential treatment under the United States-Korea Free Trade Agreement (UKFTA) of insulation coating solution from Korea
+
+Dear Ms. Madrazo Butze:
+
+In your request dated December 12, 2022, on behalf of your client, Lg Energy Solutions Michigan, Inc., you requested a ruling on the eligibility for preferential treatment under the United States-Korea Free Trade Agreement (UKFTA) of insulation coating solution.
+
+Your submission describes the subject product as insulation coating solution for manufacturing lithium-ion batteries. The insulation coating solution will be in transparent liquid form and contained in an IBC tank to be imported into the United States from Korea. You state that the subject product will be produced entirely in Korea by mixing N-Methyl-alpha-pyrrolidinone, Boehmite, Styrene-butadiene rubber, and Tannic acid. You propose classification in subheading 3208.90, Harmonized Tariff Schedule of the United States, (HTSUS), which you state is supported by the Explanatory Notes (ENs) to heading 3208, HTSUS.
+
+The following chart details the source countries, and HTSUS chapter level classifications of the described raw materials used to produce the subject goods in Korea:
+ 
+
+Chemical name 
+Other name 
+CAS no. 
+Content (%) 
+Country of Origin, HTSUS Chapter
+
+1-methyl-2-pyrrolidone 
+N-Methyl-alpha-pyrrolidinone 
+872-50-4 
+84 
+China, Chapter 29
+
+Hydrated aluminum monohydrate 
+Boehmite 
+1318-23-6 
+9 
+China, Chapter 28
+
+Styrene-butadiene rubber 
+Styrene-butadiene rubber
+91829-76-4 
+6 
+Korea
+
+Tannic acid 
+Tannic acid 
+1401-55-4 
+<1 
+China, Chapter 32*
+
+
+* In compliance with UKFTA (e) (i) (A), the value of Tannic acid does not exceed 10% of the adjusted value of the subject insulating coating material. 
+
+You describe a scenario where the importer, LGESMI, will claim preferential treatment in the United States, under UKFTA using an origin certificate issued by the producer, Hoimyung Corporation, Korea. For logistical purposes, the subject product will first be shipped to Mexico via sea containers and then transferred to export trailers destined for the United States. You state that the transshipment through Mexico, does not exceed unloading and reloading, or any processing or alteration of the goods. You indicate that the subject goods will remain under the control of Mexican Customs authorities while in Mexico. The transshipment operation will be carried out in a IMMEX warehouse registered by “Maquila Solutions Mexico S.A. de C.V.” under the IMMEX program. This warehouse is legally registered with the Mexican tax authorities (SAT) and with the Secretary of the Economy (authority in charge of monitoring the correct functioning of the IMMEX program in Mexico). 
+
+The requirements for eligibility for preferential tariff treatment under the UKFTA are set forth in General Note (GN) 33 of the HTSUS (19 U.S.C. § 1202). GN 33 provides in pertinent part:
+
+(b) For the purposes of this note subject to the provisions of subdivisions (c), (d), (n) and (o) thereof, a good imported into the customs territory of the United States is eligible for treatment as an originating good of a UKFTA country under the terms of this note if-
+
+(i) the good is wholly obtained or produced entirely in the territory of Korea or of the United States, or both.
+
+(ii) the good is produced entirely in the territory of Korea or of the United States, or both, and-
+
+(A) each of the non-originating materials used in the production of the good undergoes an applicable change in tariff classification specified in subdivision (o) of this note; or
+
+(B) the good otherwise satisfies any applicable regional value-content or other requirements set forth in such subdivision (o); and satisfies all other applicable requirements of this note and of applicable regulations; or
+
+(iii) The good is produced entirely in the territory of Korea or of the United States, or both, exclusively from materials described in subdivisions (i) or (ii), above.
+
+For the purposes of this note, the term “UKFTA country” refers only to Korea or to the United States.
+
+(c) (iii) Transit and transshipment. A good has undergone production necessary to qualify as an originating good under this note shall not be considered to be an originating good, if subsequent to that production, the good- 
+
+(A) undergoes further production or any other operation outside the territory of Korea or the United States, other than unloading, reloading or any other process necessary to preserve the good in good condition or to transport the good to the territory of Korea or of the United States, or
+
+(B) does not remain under the control of customs authorities in the territory of a country other than Korea or the United States.
+(o) Product-specific rules
+
+Chapter 32.
+
+6. A change to headings 3207 through 3212 from any other chapter.
+
+Based on the provided information and in accordance with GN 33 of the HTSUS, we have determined that the insulation coating solution is eligible for preferential treatment under the UKFTA. 
+
+This merchandise may be subject to the requirements of the Toxic Substances Control Act (TSCA), which are administered by the U.S. Environmental Protection Agency. Information on the TSCA can be obtained by contacting the EPA at 1200 Pennsylvania Avenue, N.W., Mail Code 70480, Washington, D.C., by telephone at (202) 554-1404, or by visiting their website at www.epa.gov.
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided on World Wide Web at https://hts.usitc.gov/current.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177). 
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Nuccio Fera at nuccio.fera@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

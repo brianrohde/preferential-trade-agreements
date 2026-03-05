@@ -1,0 +1,36 @@
+N308138
+
+December 18, 2019
+
+OT:RR:NC:N:N2:208
+ 
+CATEGORY: Country of Origin
+
+Jonathan Wiens
+PricewaterhouseCoopers LLP
+1420 Fifth Avenue
+Seattle, Washington 98101
+
+RE: The country of origin of a Side Sensing Camera Forward Module 
+
+Dear Mr. Wiens:
+
+In your letter dated December 6, 2019, on behalf of Samsung Electro-Mechanics Co., Ltd., you requested a country of origin ruling determination.
+The merchandise under consideration is the side sensing camera Forward (SSC-FW) module, model VSM2S902M2C, which is designed to capture image data at 30 frames per second (FPS) for a vehicle capable of autonomous driving. The SSC-FW is designed to be mounted in the B-Pillar (body between the front and rear doors) of the vehicle for forward-side sensing with a 90° Field of View (FOV). Moreover, this camera module captures and transmits video images to a location outside the camera. The SSC-BW does not contain any recording capability. 
+The following is the manufacturing processes for the subject camera module:
+The SSC-FW's Sensor and Printed Circuit Board Assembly (PCBA) are made in Vietnam and populated with twenty-eight discrete electronic components using surface mount technology (SMT). The passive components include seven resistors, seven multilayers ceramic chip (MLCC) capacitors, three inductors, and three ferrite beads. The active components include multilayer one transient-voltage-suppression (TVS) diode, six integrated circuits (serializer/line transceiver, an electrically erasable programmable read-only memory (EEPROM), DC/DC converter, linear power regulator, oscillator clock, and a 1.2-megapixel (MP) 1/3" complementary metal-oxide­ semiconductor (CMOS) image sensor, SEMCO material number 1209-002521). In addition, the SSC-FW PCBA includes a coaxial electrical connector, epoxy adhesive, solder, and a barcode label.
+
+The final assembly in China begins with the lens, which is made in China. The cylindrical barrel of the lens, which includes six glass elements, is seated in a plastic housing top (made in Korea) and a plastic housing bottom (made in Korea) conceals the PCBA. An O-ring seal, three metal screws, epoxy adhesive, and a barcode label are then attached. Packaging includes a plastic tray with cover, foam pad, box, box label, bag, and tape. 
+The "country of origin" is defined in 19 CFR 134.1(b) as "the country of manufacture, production, or growth of any article of foreign origin entering the United States. Further work or material added to an article in another country must effect a substantial transformation in order to render such other country the 'country of origin' within the meaning of this part. 
+When considering a product that may be subject to antidumping, countervailing, or other safeguard measures, the substantial transformation analysis is applied to determine the country of origin. See 19 C.F.R. § 102.0; HQ 563205, dated June 28, 2006; see also Belcrest Linens v. United States, 741 F.2d 1368, 1370-71 (Fed. Cir. 1984) (finding that “the term ‘product of’ at the least includes manufactured articles of such country or area” and that substantial transformation “is essentially the test used…in determining whether an article is a manufacturer of a given country”). 
+The courts have held that a substantial transformation occurs when an article emerges from a process with a new name, character or use different from that possessed by the article prior to processing. United States v. Gibson-Thomsen Co., Inc., 27 CCPA 267, C.A.D. 98 (1940); National Hand Tool Corp. v. United States, 16 CIT 308 (1992), aff’d, 989 F. 2d 1201 (Fed. Cir. 1993); Anheuser Busch Brewing Association v. The United States, 207 U.S. 556 (1908) and Uniroyal Inc. v. United States, 542 F. Supp. 1026 (1982).However, if the manufacturing or combining process is merely a minor one that leaves the identity of the article intact, a substantial transformation has not occurred. Uniroyal, Inc. v. United States, 3 CIT 220, 542 F. Supp. 1026, 1029 (1982), aff’d, 702 F.2d 1022 (Fed. Cir. 1983). Substantial transformation determinations are based on the totality of the evidence. See Headquarters Ruling (HQ) W968434, date January 17, 2007, citing Ferrostaal Metals Corp. v. United States, 11 CIT 470, 478, 664 F. Supp. 535, 541 (1987).Based on the facts presented, it is the opinion of this office that the PCBA with an image sensor, which was created in Vietnam, is the essence of the camera module. The assembly processes that take place in China do not result in a substantial transformation of the PCBA with an image sensor. Therefore, this camera module would be considered a product of Vietnam at the time of importation into the United States.
+ 
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+ A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Lisa Cariello at lisa.a.cariello@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

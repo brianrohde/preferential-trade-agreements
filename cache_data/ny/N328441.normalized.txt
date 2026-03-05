@@ -1,0 +1,54 @@
+N328441
+
+October 21, 2022
+
+CLA-2-85:OT:RR:NC:N2:220
+
+CATEGORY: Classification
+
+TARIFF NO.: 8537.10.9170; 8538.90.3000; 8543.70.4500; 9903.88.02; 9903.88.03
+
+Eric Rock
+Rock Trade Law, LLC.
+134 N La Salle Street
+Chicago, IL 60602 
+
+RE: The tariff classification of Printed Circuit Board Assemblies (PCBAs) from China.
+
+Dear Mr. Rock:
+
+In your letter dated September 28, 2022, you requested a tariff classification ruling.
+
+The first item under consideration is identified as the PCBA, PN 201154-11, which is described as a printed circuit board having terminal blocks, resistors, inductors, diodes, microprocessors, a switching regulator, a switch, a fuse, connectors, and more. The subject PCBA is incorporated into an air velocity transmitter for HVAC Systems. The subject PCBA is said to be designed for a voltage not exceeding 1,000 V.
+
+The second item under consideration is identified as the PCBA, PN 4367-0530, which is described as a printed circuit board mounted with electrical components such as resistors, diodes, transistors, capacitors, a heatsink compound and opto-triacs. The subject PCBA is used in a temperature limit control device, which controls the temperature of the gas fired heaters, such as on and off functions. Based on the information provided, the PCBA is designed for a voltage not exceeding 1,000 V. 
+
+The third item under consideration is identified as the PCBA, PN 18.116, which is described as a printed circuit board containing electrical components such as hall chip, hall sensor, capacitors, a ferrite bead, diode, connectors, contact and tubing. The subject PCBA is said to detect the position of an internal joystick magnet, which you describe as a position sensor. Based on the information provided, the PCBA can be incorporated in various types of joysticks, such as joysticks that have electrical switches on the thumb and palms, and also joysticks without switches. However, we would note that the PCBA does not provide a function of electrical control or the distribution of electricity.
+
+In your request, you suggest the PCBA, PN 201154-11 is properly classified under subheading 8537.10.9170, Harmonized Tariff Schedule of the United States (HTSUS). We agree. 
+
+The applicable subheading for PCBA, PN 201154-11 will be 8537.10.9170, HTSUS, which provides for “Boards, panels, consoles, desks, cabinets and other bases, equipped with two or more apparatus of 8535 or 8536, for electric control or the distribution of electricity…: For a collage not exceeding 1,000 V: Other: Other: Other.” The general rate of duty will be 2.7 percent ad valorem. 
+
+In your request, you suggest the second PCBA, PN 4367-0530 is properly classified under subheading 8538.90.3000, HTSUS. We agree. 
+
+The applicable subheading for PCBA, PN 4367-0530 will be 8538.90.3000, HTSUS, which provides for “Parts suitable for use solely or principally with the apparatus of heading 8535, 8537 or 8537: Other: Printed circuit assemblies: Other.” The general rate of duty will be 3.5 percent ad valorem. 
+
+In your request, you suggest the third PCBA, PN 18.116, is properly classified under subheading 8538.90.3000, HTSUS. We disagree. Based on the information presented, the subject PCBA is not of a kind solely or principally used in a joystick controller of heading 8537. To the contrary, the PCBA can be utilized in various types of joysticks and in our view, the subject PCBA does not meet the prerequisites of heading 8538, HTSUS. In addition, the PCBA is said to function as a sensor to detect the physical position of an internal magnet and translate that position into an electrical signal. In our view, this PCBA acts as a transducer. As such, and in accordance with Note 2(a) to Section XVI, HTSUS, parts which themselves are merchandise within the headings of Chapters 84 and 85, HTSUS, are to be classified in their respective headings. 
+
+The applicable subheading for PCBA, PN 18.116 will be 8543.70.4500, HTSUS, which provides for “Electrical machines and apparatus, having individual functions, not specified or included elsewhere in this chapter; parts thereof: Other machines and apparatus: Other.” The general rate of duty will be 2.6 percent ad valorem. 
+
+Pursuant to U.S. Note 20 to Subchapter III, Chapter 99, HTSUS, products of China classified under subheading 8537.10.9170 and 8538.90.3000, HTSUS, unless specified excluded, are subject to an additional 25 percent ad valorem rate of duty. At the time of importation, you must report the Chapter 99 subheading, i.e., 9903.88.03, in addition to subheading 8537.10.9170 and 8538.90.3000, HTSUS, listed above. 
+
+Pursuant to U.S. Note 20 to Subchapter III, Chapter 99, HTSUS, products of China classified under subheading 8543.70.4500, HTSUS, unless specified excluded, are subject to an additional 25 percent ad valorem rate of duty. At the time of importation, you must report the Chapter 99 subheading, i.e., 9903.88.02, in addition to subheading 8543.70.4500, HTSUS, listed above. 
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided on the World Wide Web at https://hts.usitc.gov/current.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Karl Moosbrugger at karl.moosbrugger@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

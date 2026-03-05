@@ -15,7 +15,7 @@ rest of the pipeline independent of file formats.
 import csv
 import json
 import os
-from typing import List, Dict
+from typing import List, Dict, Tuple
 
 
 # Optional dependency: XLSX support requires pandas (and typically openpyxl).
@@ -64,11 +64,12 @@ def _normalize_ruling_ids(items: List[str]) -> List[str]:
     return cleaned
 
 
-def load_ruling_ids(base_dir: str, fallback: List[str], jurisdiction: str = "ny") -> List[str]:
+def load_ruling_ids(base_dir: str, fallback: List[str], jurisdiction: str = "ny") -> Tuple[List[str], str]:
     """
     Load ruling IDs from the standard input folder, falling back to provided defaults.
 
     Search order (first match wins):
+    0) input_data/{jurisdiction}/ruling_ids/{jurisdiction}_ruling_ids_scraper.jsonl
     1) input_data/{jurisdiction}/ruling_ids/ruling_ids.json
     2) input_data/{jurisdiction}/ruling_ids/ruling_ids.csv
     3) input_data/{jurisdiction}/ruling_ids/ruling_ids.xlsx  (requires pandas + openpyxl)
@@ -80,12 +81,35 @@ def load_ruling_ids(base_dir: str, fallback: List[str], jurisdiction: str = "ny"
         jurisdiction: Jurisdiction subfolder name (e.g. "ny", "ca").
 
     Returns:
-        A normalized list of ruling IDs.
+        Tuple of (normalized list of ruling IDs, source description string).
     """
     rulings_dir = os.path.join(base_dir, "input_data", jurisdiction, "ruling_ids")
+    jsonl_path = os.path.join(rulings_dir, f"{jurisdiction}_ruling_ids_scraper.jsonl")
     json_path = os.path.join(rulings_dir, "ruling_ids.json")
     csv_path = os.path.join(rulings_dir, "ruling_ids.csv")
     xlsx_path = os.path.join(rulings_dir, "ruling_ids.xlsx")
+
+    # 0) JSONL scraper file
+    # One JSON object per line. Skip lines where "type" == "session_summary".
+    # Extract "ruling_number" from each remaining line.
+    if os.path.exists(jsonl_path):
+        ids = []
+        with open(jsonl_path, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    obj = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                if obj.get("type") == "session_summary":
+                    continue
+                ruling_number = obj.get("ruling_number")
+                if ruling_number is not None:
+                    ids.append(ruling_number)
+        ids = _normalize_ruling_ids(ids)
+        return ids, f"JSONL scraper ({jurisdiction}_ruling_ids_scraper.jsonl) — {len(ids)} rulings"
 
     # 1) JSON
     # Accepted JSON shapes:
@@ -96,10 +120,12 @@ def load_ruling_ids(base_dir: str, fallback: List[str], jurisdiction: str = "ny"
             obj = json.load(f)
 
         if isinstance(obj, list):
-            return _normalize_ruling_ids(obj)
+            ids = _normalize_ruling_ids(obj)
+            return ids, f"JSON file (ruling_ids.json) — {len(ids)} rulings"
 
         if isinstance(obj, dict) and isinstance(obj.get("ruling_ids"), list):
-            return _normalize_ruling_ids(obj["ruling_ids"])
+            ids = _normalize_ruling_ids(obj["ruling_ids"])
+            return ids, f"JSON file (ruling_ids.json) — {len(ids)} rulings"
 
         raise ValueError("ruling_ids.json must be a list or a dict with key 'ruling_ids' (list)")
 
@@ -125,7 +151,8 @@ def load_ruling_ids(base_dir: str, fallback: List[str], jurisdiction: str = "ny"
                     if row:
                         ids.append(row[0])
 
-        return _normalize_ruling_ids(ids)
+        ids = _normalize_ruling_ids(ids)
+        return ids, f"CSV file (ruling_ids.csv) — {len(ids)} rulings"
 
     # 3) XLSX (requires pandas + openpyxl)
     # Reads the first sheet by default. Prefers a "ruling_id" column if present;
@@ -136,16 +163,18 @@ def load_ruling_ids(base_dir: str, fallback: List[str], jurisdiction: str = "ny"
 
         df = pd.read_excel(xlsx_path)  # first sheet by default
         if df.shape[1] == 0:
-            return _normalize_ruling_ids([])
+            ids = _normalize_ruling_ids([])
+            return ids, f"Excel file (ruling_ids.xlsx) — {len(ids)} rulings"
 
         # Prefer named columns; otherwise first column.
         cols = {c.lower(): c for c in df.columns if isinstance(c, str)}
         col = cols.get("ruling_id") or cols.get("ruling_id") or df.columns[0]
-        ids = df[col].tolist()
-        return _normalize_ruling_ids(ids)
+        ids = _normalize_ruling_ids(df[col].tolist())
+        return ids, f"Excel file (ruling_ids.xlsx) — {len(ids)} rulings"
 
     # 4) Fallback
-    return _normalize_ruling_ids(fallback)
+    ids = _normalize_ruling_ids(fallback)
+    return ids, f"Fallback config list — {len(ids)} rulings"
 
 
 # =========================

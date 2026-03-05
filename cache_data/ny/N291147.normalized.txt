@@ -1,0 +1,76 @@
+N291147
+
+November 21, 2017
+
+CLA-2-21:OT:RR:NC:N2:228 
+
+CATEGORY: Classification
+
+TARIFF NO.: 2106.90.7800, 2106.90.8000 
+
+Ms. Julie Dreke
+Cargill Incorporated
+15407 McGinty Road West
+Wayzata, MN 55391
+
+RE: The tariff classification and status under the North American Free Trade Agreement (NAFTA) of a confectionery coating product from Canada; Article 509
+
+Dear Ms. Dreke:
+
+In your letter dated October 11, 2017, you requested a ruling on the status of a confectionery coating product from Canada under the NAFTA.
+
+An ingredients breakdown, manufacturing flowchart, description of the manufacturing process, and product specification sheet were provided with your inquiry. The white confectionery coating is said to be composed of approximately 61 percent sugar cane, 26 percent palm kernel oil, 7 percent whole milk powder, 6 percent non-fat dry milk, and less than one percent each soy lecithin, and methyl vanillin flavor. You state that the confectionery coating will be produced in Canada, and imported into the United States (U.S.) in liquid bulk tank trucks. You state that the confectionery coating product will be sold to the pretzel industry manufacturers to enrobe pretzels. Cargill contracts with two common carriers with tank trucks to transport the confectionery coating product across the U.S. / Canadian border.
+
+The applicable tariff provision for the white confectionery coating product will be 2106.90.7800, Harmonized Tariff Schedule of the United States (HTSUS), which provides for food preparations not elsewhere specified or included . . . other . . . other . . . other . . . containing over 10 percent by weight of milk solids . . . other . . . articles containing over 10 percent by dry weight of sugar described in additional U.S. note 3 to chapter 17 . . . described in additional U.S. note 8 to chapter 17 and entered pursuant to its provisions. The general rate of duty will be 10 percent ad valorem. If the quantitative limits of additional U.S. note 8 to chapter 17 have been reached, the product will be classified in subheading 2106.90.8000, HTSUS, and dutiable at the general rate of 70.4 cents per kilogram plus 8.5 percent ad valorem. In addition, products classified in subheading 2106.90.8000, HTSUS, will be subject to additional duties based on their value, as described in subheadings 9904.17.49 to 9904.17.56, HTSUS.
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided on the World Wide Web at https://hts.usitc.gov/current.
+
+The rules for determining whether the confectionery coating product is to be considered an “originating good” of Canada and thus eligible for preferential tariff treatment under the provisions of the North American Free Trade Act are provided for in General Note 12 of the HTSUS, which provides, in relevant part, as follows:
+
+(a) Goods in the territory of a party to the North American Free Trade Agreement (NAFTA) are subject to duty as provided therein. For the purposes of this note -
+
+(a) (i) Goods that originate in the territory of a NAFTA party under subdivision (b) of this note and that qualify to be marked as goods of Canada under the terms of the marking rules set forth in regulations issued by the Secretary of the Treasury (whether or not the goods are marked), when such goods are imported into the customs territory of the United States and are entered under a subheading for which a rate of duty appears in the “Special” sub column followed by the symbol “CA” in parentheses, are eligible for such duty rate, in accordance with section 201 of the North American Free Trade Implementation Act.
+
+* * *
+
+General Note 12(b), HTSUS, sets forth the criteria for determining whether a good is originating under the NAFTA. General Note 12(b), HTSUS, (19 U.S.C. § 1202) states, in pertinent part, that
+
+For the purposes of this note, goods imported into the customs territory of the United States are eligible for the tariff treatment and quantitative limitations set forth in the tariff schedule as “goods originating in the territory of a NAFTA party” only if--
+
+(i) they are goods wholly obtained or produced entirely in the territory of Canada, Mexico and/or the United States; or
+
+(ii) they have been transformed in the territory of Canada, Mexico and/or the United States so that--
+
+(A) except as provided in subdivision (f) of this note, each of the non-originating materials used in the production of such goods undergoes a change in tariff classification described in subdivisions (r), (s) and (t) of this note or the rules set forth therein, or
+
+(B) the goods otherwise satisfy the applicable requirements of subdivisions (r), (s) and (t) where no change in tariff classification is required, and the goods satisfy all other requirements of this note; or
+
+(iii) they are goods produced entirely in the territory of Canada, Mexico and/or the United States exclusively from originating materials; . . . .
+
+Based on the facts provided, the non-originating materials, such as, the sugar cane, and the palm kernel oil, meet the tariff shift in General Note 12(t), Chapter 21, No.12, which states in part: “A change to tariff items . . . 2106.90.78, 2106.90.80 . . . from any other chapter, . . . . The sugar is classified in subheading 1701.13.10, HTSUS, and the palm kernel oil is classified in subheading 1513.29.90, HTSUS, therefore, the confectionery coating product meets the eligibility requirement for the NAFTA preference which qualifies it for the free rate of duty under the NAFTA upon compliance with all applicable laws, regulations, and agreements. Therefore, the country of origin for customs duty purposes will be Canada.
+
+The marking statute, section 304, Tariff Act of 1930, as amended (19 U.S.C. § 1304), provides that, unless excepted, every article of foreign origin (or its container) imported into the U.S. shall be marked in a conspicuous place as legibly, indelibly and permanently as the nature of the article (or its container) will permit, in such a manner as to indicate to the ultimate purchaser in the U.S. the English name of the country of origin of the article. Part 134, CBP Regulations (19 C.F.R. Part 134) implements the country of origin marking requirements and exceptions of 19 U.S.C. § 1304.
+The country of origin marking requirements for a "good of a NAFTA country" are also determined in accordance with Annex 311 of the North American Free Trade Agreement ("NAFTA"), as implemented by section 207 of the North American Free Trade Agreement Implementation Act (Pub. L. 103-182, 107 Stat 2057) (December 8, 1993) and the appropriate CBP Regulations. The Marking Rules used for determining whether a good is a good of a NAFTA country are contained in Part 102, CBP Regulations. The marking requirements of these goods are set forth in Part 134, CBP Regulations.Section 134.1(b) of the regulations, defines "country of origin" as:
+ the country of manufacture, production, or growth of any article of foreign origin entering the U.S. Further work or material added to an article in another country must effect a substantial transformation in order to render such other country the "country of origin" within this Part; however, for a good of a NAFTA country, the NAFTA Marking Rules will determine the country of origin.
+
+Part 134, Customs Regulations (19 C.F.R. Part 134), implements the country of origin marking requirements and exceptions of 19 U.S.C. 1304. Section 134.1(d) of the regulations, provides that the ultimate purchaser of a good of a NAFTA country is the last person in the United States who purchases the good in the form in which it was imported. In this case, based on the facts provided, the ultimate purchasers are said to be commercial establishments in the pretzel industry.
+
+An article is excepted from marking under 19 U.S.C. 1304 (a)(3)(D) and section 134.32(d), Customs Regulations (19 C.F.R. 134.32(d)), if the marking of a container of such article will reasonably indicate the origin of such article.
+
+The confectionery coating product will be imported in liquid bulk tank trucks and is exempt from marking under Customs Regulations (19 C.F.R. 134.32), entitled “General exceptions to marking requirements. The specific exception pertaining to the confectionery coating product is contained in item “(a) Articles that are incapable of being marked.” The confectionery coating product is in liquid form in bulk, therefore, it is incapable itself of being marked.
+
+The tank trucks, in this case, are considered “instruments of international traffic” with in meaning of section 332(a), Tariff Act of 1930, as amended. The marking of these tank trucks are not within the purview of Part 134 of the CBP Regulations rather they are within the purview of by Part 10 and Part 123 of the CBP Regulations which is beyond the scope of this ruling.
+
+Based on the facts provided, the white confectionery coating product for marking purposes is Canada, but the product meets the exception to being marked under CBP Regulations, 19 C.F.R. 134.32(a) Articles that are incapable of being marked. 
+
+This merchandise is subject to The Public Health Security and Bioterrorism Preparedness and Response Act of 2002 (The Bioterrorism Act), which is regulated by the Food and Drug Administration (FDA). Information on the Bioterrorism Act can be obtained by calling FDA at 301-575-0156, or at the Web site www.fda.gov/oc/bioterrorism/bioact.html.
+
+This ruling is being issued under the provisions of Part 181 of the Customs Regulations (19 C.F.R. 181).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Bruce N. Hadley, Jr. at bruce.hadleyjr@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

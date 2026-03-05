@@ -1,0 +1,42 @@
+N301932
+
+December 18, 2018
+
+CLA-2-96:OT:RR:NC:N4:415
+
+CATEGORY: Classification
+
+TARIFF NO.: 9615.11.4000; 9615.19.6000; 9902.17.96
+
+Ms. Cathy Cheng
+Laufer Group International
+20 Vesey Street, Suite 601
+New York, NY 10007
+
+RE: The tariff classification of claw and snap clips from China.
+
+Dear Ms. Cheng:
+
+In your letter dated November 26, 2018, you requested a tariff classification ruling on behalf of your client, Uncas International.
+
+Your submission included four items, two plastic claw clips and two sets of metal snap clips. The claw clips are described as “50mm x 105mm Acrylic Faux Tortoise Shell Claw Clip,” item number 608667, and “42mm x 95mm Acrylic Cream Claw Clip,” item number 608672. The snap clips are described as “48mm x 14mm Metal Snap Clip W/Acrylic Faux Tortoise Shell Top,” item number 608665, and “48mm x 14mm Metal Snap Clip,” item number 608666. The claw clips appear to be packaged one each and the snap clips come in a set of 12.
+
+In your request, you proposed that the metal snap clips should be classified under 9615.90.6000, Harmonized Tariff Schedule of the United States (HTSUS), which provides for “[c]ombs, hair-slides and the like; hairpins, curling pins, curling grips, hair-curlers and the like, other than those of heading 8516, and parts thereof: [o]ther: [o]ther: [o]ther.” We disagree. As metal snap clips are considered hair slides, they are described by the terms in subheading 9615.19, HTSUS, and cannot be described as something “other” than hair slides in subheading 9615.90, HTSUS. Please refer to Headquarters ruling H248338, dated February 5, 2018.
+
+The applicable subheading for the two plastic claw clips, item numbers 608667 and 608672, will be 9615.11.4000, HTSUS, which provides for “[c]ombs, hair-slides and the like; hairpins, curling pins, curling grips, hair curlers and the like, other than those of heading 8516, and parts thereof: [c]ombs, hair-slides and the like: [o]f hard rubber or plastics: [o]ther: [n]ot set with imitation pearls or imitation gemstones.” The column one, general rate of duty is 5.3 percent ad valorem.
+
+The applicable subheading for the two sets of metal snap clips, item numbers 608665 and 608666, will be 9615.19.6000, HTSUS, which provides for “[c]ombs, hair-slides and the like; hairpins, curling pins, curling grips, hair curlers and the like, other than those of heading 8516, and parts thereof: [c]ombs, hair-slides and the like: [o]ther: [o]ther.” The column one, general rate of duty is 11 percent ad valorem.
+
+With regard to the applicable rate of duty, the subject snap clips are also provided for in HTSUS heading 9902. HTSUS subheading 9902.17.96, by virtue of legislative action, provides for a temporary reduction in the rate of duty for “[h]air-slides, the foregoing not set with imitation pearls or imitation gem stones, not of hard rubber or plastics (provided for in subheading 9615.19.60).” These snap clips meet the prerequisites of this tariff provision. Accordingly, these snap clips are entitled to beneficial treatment under HTSUS subheading 9902.17.96. The rate of duty will be Free. This rate only applies to articles entered on or before December 31, 2020.
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided at https://hts.usitc.gov/current.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 CFR 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Kristopher Burton at kristopher.burton@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

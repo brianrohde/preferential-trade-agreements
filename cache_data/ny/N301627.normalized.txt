@@ -1,0 +1,46 @@
+N301627
+
+December 3, 2018
+
+CLA-2-96:OT:RR:NC:N4:422
+
+CATEGORY: Classification
+
+TARIFF NO.: 9613.80.2090
+
+Mr. William Polkinhorn
+Bill Polkinhorn Inc.
+2401 Portico Blvd.
+Calexico, CA 92231
+
+RE: The tariff classification of electrical igniters for gas fired residential stoves from Mexico. 
+
+Dear Mr. Polkinhorn:
+
+In your letter dated November 6, 2018, on behalf of your client, Robertshaw Controls Company, you requested a tariff classification ruling.
+
+You provided a photograph and detailed description of five part numbers, Z940380600, Z952310000, Z946630000, Z940380800, and Z940381000, identified as igniters. These igniters are found in gas fired residential stoves and are generally attached to a burner device. They function by igniting the natural gas that flows in a controlled manner to the burner apparatus. 
+
+All five of these items may vary slightly from each other in size or configuration depending on which stove model they will be installed in. All consist of a ceramic tube that encases a copper wire. Electricity flows into one end of the igniter via a terminal that attaches to an electrical source. The copper wire at the other end of the device can heat up rapidly and ignite the gas in the burner. You suggest correct classification of these items is 7321.90 as parts of articles in subheading 7321.11.30, nonelectric stoves and ranges, but this office does not agree. 
+
+This office refers to HQ 087496. 
+
+Heading 9613, HTSUSA, provides for "[c]igarette lighters and other lighters, whether or not mechanical or electrical, and parts thereof . . ." The articles at issue are electrical devices used to light or ignite the flame on an electric gas range oven or gas range oven. Heading 9613, HTSUSA, includes electrical lighters which produce a spark by current from the mains or a battery. Explanatory Note (EN) 96.13(2). The igniters at issue are electrical devices used to ignite gas fuel. The lighters classified in heading 9613 may be designed for fitting to gas stoves, etc. EN 96.13. The igniters in question are designed to be fitted to electric gas range ovens or gas range ovens. Accordingly, the igniters satisfy the terms of heading 9613 and are classifiable therein. More specifically, they are provided for within subheading 9613.80.20 HTSUSA, as electrical lighters. 
+
+Heading 7321, HTSUSA, provides for "[s]toves, ranges . . . and similar nonelectric domestic appliances, and parts thereof, of iron or steel." It is claimed that the igniters at issue are properly classifiable as a part of a nonelectric stove or range within subheading 7321.90.30, HTSUSA. However, articles of Chapter 96 are specifically excluded from classification within heading 7321. Section XV, note 1(m). As stated previously, the igniters in question are classifiable within chapter 96. Thus, they are precluded from classification within heading 7321, HTSUSA, by the operation of this legal note.
+ 
+Additional U.S. Rule of Interpretation 1(c) states that "[i]n the absence of special language or context which otherwise requires-- a provision for parts of an article covers products solely or principally used as a part of such article but a provision for `parts' . . . shall not prevail over a specific provision for such part . . ." Subheading 9613.80.20, HTSUSA, provides for electrical lighters. This subheading is a specific provision for the igniters at issue which prevails over the provision for parts of nonelectric stoves or ranges within heading 7321, HTSUSA.”
+
+The applicable subheading for part numbers Z940380600, Z952310000, Z946630000, Z940380800 and Z940381000, will be 9613.80.2090, Harmonized Tariff Schedule of the United States (HTSUS), which provides for “Cigarette lighters and other lighters, whether or not mechanical or electrical…: other lighters: other: electrical: other.” The rate of duty will be 3.9% ad valorem.
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided on the World Wide Web at https://hts.usitc.gov/current.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Sandra Carlson at sandra.carlson@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

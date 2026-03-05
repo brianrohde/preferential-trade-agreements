@@ -1,0 +1,34 @@
+N308320
+
+December 19, 2019
+
+OT:RR:NC:N:N2:208
+ 
+CATEGORY: Country of Origin
+
+Mr. Aaron M. Applebaum
+Sidley Austin LLP
+1501 K Street, N.W.
+Washington, District of Columbia 20005
+
+RE: The country of origin of a Furbo Dog Camera.
+
+Dear Mr. Applebaum:
+
+In your letter dated December 12, 2019, on behalf of Tomofun, LLC, you requested a country of origin ruling determination.
+The merchandise under consideration is the Tomofun Furbo Dog Camera (“the Furbo Cam”), which is a Wi-Fi enabled, app-based dog monitoring camera. It is intended to sit on a table, shelf, desk, countertop, or other raised surface. The camera captures “real time” video and transmits the video to the cloud (via a Wi-Fi router in the user’s home). 
+The following assembly operations take place in Thailand: 
+First, the manufacturing the Main PCBA, which involves assembling numerous individual components onto a bare printed circuit board using surface mount technology (“SMT”). These components include transistors, capacitors, resistors, diodes, inductors, connectors, switches, integrated circuits (e.g., the central processing unit and other task-specific ICs that process data, regulate power, etc.), crystal oscillators, Wi-Fi and Bluetooth antennas and transceivers, an image sensor, etc. Moreover, the SMT process that takes place in Thailand involves sophisticated and expensive machinery, including board load/unload machines, solder paste printers, solder paste inspection equipment, automated component mounting equipment, and solder reflow ovens. 
+Next, in Thailand a China-origin lens module is assembled onto the Thailand-origin main PCBA’s image processor in a “Class 1000 Cleanroom.” Then, the Thai technician aligns the lens module with the image sensor (located on the Main PCBA) and mount the lens module to the Main PCBA using screws, locks, glue, and ultraviolet curing equipment. 
+After that, in Thailand, the Thailand-origin Main PCBA-lens subassembly is combined with the China origin subassemblies (front cover subassembly; feeding subassembly; toss subassembly, and pivot subassembly) to produce the final product. This process includes downloading the FurboCam firmware onto the hardware. Lastly, the Furbo Cam also undergoes extensive product testing and calibrating, step cleaning, inspection and packaging process.
+The "country of origin" is defined in 19 CFR 134.1(b) as "the country of manufacture, production, or growth of any article of foreign origin entering the United States. Further work or material added to an article in another country must effect a substantial transformation in order to render such other country the 'country of origin' within the meaning of this part. 
+When considering a product that may be subject to antidumping, countervailing, or other safeguard measures, the substantial transformation analysis is applied to determine the country of origin. See 19 C.F.R. § 102.0; HQ 563205, dated June 28, 2006; see also Belcrest Linens v. United States, 741 F.2d 1368, 1370-71 (Fed. Cir. 1984) (finding that “the term ‘product of’ at the least includes manufactured articles of such country or area” and that substantial transformation “is essentially the test used…in determining whether an article is a manufacturer of a given country”). 
+The courts have held that a substantial transformation occurs when an article emerges from a process with a new name, character or use different from that possessed by the article prior to processing. United States v. Gibson-Thomsen Co., Inc., 27 CCPA 267, C.A.D. 98 (1940); National Hand Tool Corp. v. United States, 16 CIT 308 (1992), aff’d, 989 F. 2d 1201 (Fed. Cir. 1993); Anheuser Busch Brewing Association v. The United States, 207 U.S. 556 (1908) and Uniroyal Inc. v. United States, 542 F. Supp. 1026 (1982).However, if the manufacturing or combining process is merely a minor one that leaves the identity of the article intact, a substantial transformation has not occurred. Uniroyal, Inc. v. United States, 3 CIT 220, 542 F. Supp. 1026, 1029 (1982), aff’d, 702 F.2d 1022 (Fed. Cir. 1983). Substantial transformation determinations are based on the totality of the evidence. See Headquarters Ruling (HQ) W968434, date January 17, 2007, citing Ferrostaal Metals Corp. v. United States, 11 CIT 470, 478, 664 F. Supp. 535, 541 (1987).Based on the facts presented, the assembly of the main PCBA in the Thailand by soldering the individual components onto the bare board results in a substantial transformation of the components to produce a main PCBA of Thai origin. Furthermore, it is the opinion of this office that the main PCBA provides the essence of the FurboCam because the role of the main PCBA, relative to the functioning of the product (i.e., taking the images, processing it into a digital signal, and transmitting images). Thus, the FurboCam is considered a product of the Thailand for origin and marking purposes at time of importation into the United States.
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Lisa Cariello at lisa.a.cariello@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

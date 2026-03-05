@@ -128,8 +128,6 @@ def main() -> None:
         ensure_dir(perf_log_dir)
         perf_logger = PerformanceLogger(perf_log_dir)
 
-
-
     # ====================
     # OUTPUT FILE PATHS
     # ====================
@@ -164,15 +162,51 @@ def main() -> None:
     regex_raw_records: List[Dict] = []
 
     # ====================
-    # PROCESS ALL RULINGS
+    # PHASE 0 — ID LOADING
     # ====================
 
-    # Get list of ruling IDs to process (from config file or fallback list)
-    ruling_ids = load_ruling_ids(base_dir, fallback=NY_FALLBACK_RULING_IDS, jurisdiction=jurisdiction)
+    phase0_start = dt.now()
+    ruling_ids, id_source = load_ruling_ids(base_dir, fallback=NY_FALLBACK_RULING_IDS, jurisdiction=jurisdiction)
+    phase0_elapsed = (dt.now() - phase0_start).total_seconds()
+    n_rulings = len(ruling_ids)
+
+    print("\n" + "=" * 60)
+    print("PHASE 0 — ID LOADING")
+    print("=" * 60)
+    print(f"  Source:  {id_source}")
 
     # ====================
-    # EXTRACTION LOOP
+    # PHASE 1 — CACHE PRE-SCAN
     # ====================
+
+    cached_set = set()
+    for rid in ruling_ids:
+        if os.path.exists(os.path.join(cache_dir, f"{rid}.normalized.txt")):
+            cached_set.add(rid)
+
+    phase1_cached_count = len(cached_set)
+    phase1_fetched_count = n_rulings - phase1_cached_count
+
+    print("\n" + "=" * 60)
+    print("PHASE 1 — DOCUMENT CACHE PRE-SCAN")
+    print("=" * 60)
+    print(f"  Cached:      {phase1_cached_count} / {n_rulings}")
+    print(f"  To fetch:    {phase1_fetched_count} / {n_rulings}")
+    if phase1_fetched_count > 0:
+        print("  Fetching uncached documents...")
+
+    # ====================
+    # PHASE 2/3 — EXTRACTION
+    # ====================
+
+    if args.llm:
+        phase_label = "PHASE 2+3 — EXTRACTION (REGEX + LLM)"
+    else:
+        phase_label = "PHASE 2 — REGEX EXTRACTION"
+
+    print("\n" + "=" * 60)
+    print(phase_label)
+    print("=" * 60)
 
     LLM_MODEL = "gpt-5-nano-2025-08-07"
     LLM_PROVIDER = "openai"
@@ -189,27 +223,23 @@ def main() -> None:
     regex_fail = 0
     llm_ok = 0
     llm_fail = 0
-
-    # Table header
+    phase1_elapsed_sec = 0.0
+    remaining_to_fetch = phase1_fetched_count
 
     # Print the headers of the tabular summary into the terminal
     if args.llm:
-        hdr = (f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12} {'Rx.Sec':>7}"
+        hdr = (f"{'#':<8} {'Fetch.Sec':<10} {'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12} {'Rx.Sec':>7}"
             f" {'LLM.Start':<10} {'LLM.End':<9} {'LLM.Status':<12} {'LLM.Sec':>8}"
             f" {'IN Tok':>7} {'OUT Tok':>7} {'Cost':>10}")
     else:
-        hdr = f"{'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12} {'Rx.Sec':>7}"
-
-    if perf_logger:
-        print("\n" + "=" * 60)
-        print(f"Session: {perf_logger.session_id}")
-        print("=" * 60 + "\n")
+        hdr = f"{'#':<8} {'Fetch.Sec':<10} {'Ruling':<9} {'Rx.Start':<9} {'Rx.End':<9} {'Rx.Status':<12} {'Rx.Sec':>7}"
 
     print(hdr)
     print("-" * len(hdr))
 
     # Print for each Ruling processed the tabular summary in the terminal
-    for rid in ruling_ids:
+    for row_num, rid in enumerate(ruling_ids, 1):
+        is_cache_hit = rid in cached_set
 
         # --- Document fetch ---
         fetch_start = dt.now()
@@ -224,6 +254,14 @@ def main() -> None:
             rec = None
         fetch_elapsed = (fetch_end - fetch_start).total_seconds()
         total_fetch_sec += fetch_elapsed
+
+        if not is_cache_hit:
+            phase1_elapsed_sec += fetch_elapsed
+            remaining_to_fetch -= 1
+            print(f"  [FETCH]  {rid:<9} {fetch_elapsed:.2f}s   ({remaining_to_fetch} remaining)")
+
+        fetch_display = "(cache)" if is_cache_hit else f"{fetch_elapsed:.2f}s"
+        row_label = f"{row_num}/{n_rulings}"
 
         # --- Regex parsing ---
         rx_start = dt.now()
@@ -274,6 +312,7 @@ def main() -> None:
                     llm_end = dt.now()
                     llm_status = "Failed"
                     llm_fail += 1
+                    print(f"  [LLM ERROR] {rid}: {exc}")
             llm_elapsed = (llm_end - llm_start).total_seconds()
             total_llm_sec += llm_elapsed
 
@@ -290,18 +329,17 @@ def main() -> None:
                 )
 
             print(
-                f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12} {rx_elapsed:>7.2f}"
+                f"{row_label:<8} {fetch_display:<10} {rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12} {rx_elapsed:>7.2f}"
                 f" {llm_start.strftime('%H:%M:%S'):<10} {llm_end.strftime('%H:%M:%S'):<9} {llm_status:<12} {llm_elapsed:>8.2f}"
                 f" {in_tok:>7} {out_tok:>7} ${cost:>9.4f}"
             )
 
         else:
-            print(f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12} {rx_elapsed:>7.2f}")
+            print(f"{row_label:<8} {fetch_display:<10} {rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12} {rx_elapsed:>7.2f}")
 
 
     # Print the Totals row
     print("-" * len(hdr))
-    n_rulings = len(ruling_ids)
     rx_total = f"{regex_ok} OK" + (f", {regex_fail} Err" if regex_fail else "")
     if args.llm:
         llm_total = f"{llm_ok} OK" + (f", {llm_fail} Err" if llm_fail else "")
@@ -311,19 +349,19 @@ def main() -> None:
         avg_out_tok = total_out_tok / n_rulings if n_rulings else 0
         avg_cost    = total_cost    / n_rulings if n_rulings else 0
         print(
-            f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12} {total_rx_sec:>7.2f}"
+            f"{'TOTAL':<8} {'':<10} {'':<9} {'':<9} {'':<9} {rx_total:<12} {total_rx_sec:>7.2f}"
             f" {'':<10} {'':<9} {llm_total:<12} {total_llm_sec:>8.2f}"
             f" {total_in_tok:>7} {total_out_tok:>7} ${total_cost:>9.4f}"
         )
         print(
-            f"{'AVG':<9} {'':<9} {'':<9} {'':<12} {avg_rx_sec:>7.2f}"
+            f"{'AVG':<8} {'':<10} {'':<9} {'':<9} {'':<9} {'':<12} {avg_rx_sec:>7.2f}"
             f" {'':<10} {'':<9} {'':<12} {avg_llm_sec:>8.2f}"
             f" {avg_in_tok:>7.0f} {avg_out_tok:>7.0f} ${avg_cost:>9.4f}"
         )
     else:
         avg_rx_sec = total_rx_sec / n_rulings if n_rulings else 0
-        print(f"{'TOTAL':<9} {'':<9} {'':<9} {rx_total:<12} {total_rx_sec:>7.2f}")
-        print(f"{'AVG':<9} {'':<9} {'':<9} {'':<12} {avg_rx_sec:>7.2f}")
+        print(f"{'TOTAL':<8} {'':<10} {'':<9} {'':<9} {'':<9} {rx_total:<12} {total_rx_sec:>7.2f}")
+        print(f"{'AVG':<8} {'':<10} {'':<9} {'':<9} {'':<9} {'':<12} {avg_rx_sec:>7.2f}")
 
 
     if args.fetchers_report:
@@ -383,7 +421,10 @@ def main() -> None:
             bench_values=bench_values,
             llm_enabled=args.llm,
             llm_updated_this_run=llm_updated_this_run,
-            timestamp=datetime.now()
+            timestamp=datetime.now(),
+            perf_log_dir=perf_log_dir,
+            jurisdiction=jurisdiction,
+            base_dir=base_dir,
         )
 
 
@@ -392,8 +433,27 @@ def main() -> None:
 
 
     # ====================
-    # SUMMARY OUTPUT
+    # SESSION SUMMARY
     # ====================
+
+    avg_fetch_miss = phase1_elapsed_sec / phase1_fetched_count if phase1_fetched_count else 0.0
+    avg_rx_sec = total_rx_sec / n_rulings if n_rulings else 0.0
+    avg_llm_sec = total_llm_sec / n_rulings if n_rulings else 0.0
+
+    print("\n" + "=" * 60)
+    print("SESSION SUMMARY")
+    print("=" * 60)
+    print(f"  Ruling ID source:    {id_source}")
+    print()
+    print(f"  Phase 0  ID load:       {phase0_elapsed:.2f}s")
+    print(f"  Phase 1  Fetch:        {phase1_elapsed_sec:>7.2f}s total   (avg {avg_fetch_miss:>5.2f}s/ruling,  {phase1_cached_count} cached,  {phase1_fetched_count} fetched)")
+    print(f"  Phase 2  Regex:        {total_rx_sec:>7.2f}s total   (avg {avg_rx_sec:>5.2f}s/ruling)")
+    if args.llm:
+        print(f"  Phase 3  LLM:          {total_llm_sec:>7.2f}s total   (avg {avg_llm_sec:>5.2f}s/ruling)")
+    else:
+        print(f"  Phase 3  LLM:            0.00s total   (avg  0.00s/ruling)   [disabled]")
+    print()
+    print(f"  LLM cost:             ${total_cost:.4f}   ({total_in_tok} in / {total_out_tok} out tokens)")
 
     # --- Extrapolation to 300k rulings ---
     EXTRAP_N = 300_000
@@ -415,30 +475,21 @@ def main() -> None:
             print(f"  LLM cost:     ${extrap_cost:>10,.2f}")
 
     print("\n" + "=" * 60)
-    print("EXTRACTION COMPLETE")
+    print("OUTPUT FILES")
     print("=" * 60)
-
-    print(f"Base directory:  {base_dir}")
-    print(f"Regex results:   {regex_raw_path}")
+    print(f"  Base directory:  {base_dir}")
+    print(f"  Regex results:   {regex_raw_path}")
     if args.llm:
-        print(f"LLM results:     {llm_raw_path}")
-    print(f"Triage report:   {triage_path}")
+        print(f"  LLM results:     {llm_raw_path}")
+    print(f"  Triage report:   {triage_path}")
     if args.excel and excel_path:
-        print(f"Excel export:    {excel_path}")
+        print(f"  Excel export:    {excel_path}")
     print("=" * 60 + "\n")
 
 
     # Write performance log
     if perf_logger:
         perf_logger.write_log(jurisdiction=jurisdiction)
-        n_rulings = len(ruling_ids)
-        avg_rx_sec  = total_rx_sec  / n_rulings if n_rulings else 0
-        avg_llm_sec = total_llm_sec / n_rulings if n_rulings else 0 if args.llm else None
-        print(f"  - Total  tokens:       {total_in_tok:,} in / {total_out_tok:,} out")
-        print(f"  - Avg cost per ruling: ${total_cost / n_rulings:.4f}" if n_rulings else "")
-        print(f"  - Total  Rx time:      {total_rx_sec:.2f}s  (avg {avg_rx_sec:.2f}s/ruling)")
-        if args.llm:
-            print(f"  - Total  LLM time:     {total_llm_sec:.2f}s  (avg {avg_llm_sec:.2f}s/ruling)")
 
 
 

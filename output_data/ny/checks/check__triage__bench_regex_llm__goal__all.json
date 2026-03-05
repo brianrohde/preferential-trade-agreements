@@ -1,101 +1,43 @@
 {
-  "N340865": {
-    "replying_person": {
-      "bench": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
-      "regex": "Steven A. Mack<br>Director<br>National",
-      "llm": "Steven<br>A. Mack<br>Director<br>National<br>Commodity Specialist Division"
-    },
-    "product_description": {
-      "bench": "The sample, identified by the retail packaging as \"Blankets 3-Piece Set,\" consists of three baby blankets which you state are made from 66 percent polyester, 29 percent rayon and 5 percent spandex. Two of the blankets are made of printed, lightweight, finely knit jersey fabric. One blanket is printed with a leaf motif and the other is printed with a dinosaur and leaf motif. The third blanket is made from dyed, lightweight, waffle knit fabric. The edges of the three blankets are finished with an overlock stitch and the corners are rounded. Each blanket measures approximately 30 X 40 inches.",
-      "regex": "The sample, identified by the retail packaging as \"Blankets 3-Piece Set,\" consists of three baby blankets which you state are made from 66 percent polyester, 29 percent rayon and 5 percent spandex. Two of the blankets are made of printed, lightweight, finely knit jersey fabric. One blanket is printed with a leaf motif and the other is printed with a dinosaur and leaf motif. The third blanket is made from dyed, lightweight, waffle knit fabric. The edges of the three blankets are finished with an overlock stitch and the corners are rounded. Each blanket measures approximately 30 X 40 inches.",
-      "llm": "The sample, identified by the retail packaging as “Blankets 3-Piece Set,” consists of three baby blankets which you state are made from 66 percent polyester, 29 percent rayon and 5 percent spandex. Two of the blankets are made of printed, lightweight, finely knit jersey fabric. One blanket is printed with a leaf motif and the other is printed with a dinosaur and leaf motif. The third blanket is made from dyed, lightweight, waffle knit fabric. The edges of the three blankets are finished with an overlock stitch and the corners are rounded. Each blanket measures approximately 30 X 40 inches."
-    },
-    "accepted_flag": {
-      "bench": "True",
-      "regex": null,
-      "llm": null
-    },
-    "decision_reasoning": {
-      "bench": "",
-      "regex": null,
-      "llm": null
-    }
-  },
-  "N340183": {
-    "replying_person": {
-      "bench": null,
-      "regex": "Steven A. Mack<br>Director<br>National",
-      "llm": "Steven<br>A. Mack<br>Director<br>National<br>Commodity Specialist Division"
-    },
-    "product_description": {
-      "bench": null,
-      "regex": "The articles under consideration are two components of a washing machine drum. The first article is identified as a drum back, item number DC66-00885A. It is imported as a thin, flat, near-circular shaped, non-forged stainless-steel sheet that has a thickness of 0.5 mm. The drum back has a width of 715 mm and a length of 715 mm. The shaping of the drum back is obtained through a blanking process from a flat rectangular steel sheet, with no further surface or metal working applied post blanking. In the United States (U.S.), it undergoes additional processing steps such as trimming and flanging, which are essential for its installation into the washing machine drum. The second item under consideration is identified as a drum front, item number DC66-00886A. It is imported as a flat stainless-steel sheet that has a thickness of 0.6 mm. The drum front measures 680 mm in width and 680 mm in length. It features a central circular hole with a 400 mm diameter. The drum front's initial form is produced through a blanking process that transforms the rectangular steel sheet into the circular shape with a hole. Following this process, no additional surface or metal working is conducted. The subsequent manufacturing stages in the U.S., including trimming and flanging, prepare the drum front to become the front portion of the washing machine drum, completing the structure necessary for the appliance's operation. Based on the information provided, the drum back and drum front go through a process called blanking prior to importation into the U.S. You stated that Blanking is a more specific form of a generalized stamping process where a metal workpiece is removed from the primary metal strip or sheet when it is punched. The material that is removed is the new metal workpiece or blank. Therefore, both articles have been stamped with no further working or surface treatments prior to importation.",
-      "llm": null
-    }
-  },
-  "N339572": {
-    "importer": {
-      "bench": null,
-      "regex": "I-D Foods USA Corporation (Plattsburgh, NY)",
-      "llm": "I-D Foods USA Corporation"
-    },
-    "replying_person": {
-      "bench": null,
-      "regex": "Steven A. Mack<br>Director<br>National",
-      "llm": "Steven<br>A. Mack<br>Director<br>National<br>Commodity Specialist Division"
-    }
-  },
-  "N275583": {
-    "importer": {
-      "bench": null,
-      "regex": "Southern Tube, LLC (STL)",
-      "llm": "Southern Tube, LLC"
-    },
-    "duty_rate": {
-      "bench": null,
-      "regex": "free",
-      "llm": "Free"
-    }
-  },
-  "N356840": {
+  "N271132": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356840",
+      "regex": "N271132",
       "llm": null
     },
     "submitting_firm": {
       "bench": null,
-      "regex": "SEIN Customs & Auditing Corp",
+      "regex": null,
       "llm": null
     },
     "submitter": {
       "bench": null,
-      "regex": "Sa Ung Kim",
+      "regex": "Mr. Maxim Lester",
       "llm": null
     },
     "importer": {
       "bench": null,
-      "regex": "Mercury Fiber Optics",
+      "regex": null,
       "llm": null
     },
     "date_submitted": {
       "bench": null,
-      "regex": "December 9, 2025",
+      "regex": "November 30, 2015",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 23, 2025",
+      "regex": "December 28, 2015",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
       "llm": null
     },
     "case_handler": {
       "bench": null,
-      "regex": "Luke LePage",
+      "regex": null,
       "llm": null
     },
     "hts_suggestion": {
@@ -105,12 +47,12 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": "8544.70.0000",
+      "regex": "1901.20.6500",
       "llm": null
     },
     "duty_rate": {
       "bench": null,
-      "regex": "free",
+      "regex": "10 percent ad valorem",
       "llm": null
     },
     "product_description": {
@@ -129,45 +71,45 @@
       "llm": null
     }
   },
-  "N356645": {
+  "N271044": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356645",
+      "regex": "N271044",
       "llm": null
     },
     "submitting_firm": {
       "bench": null,
-      "regex": "RB Medtrade LLC",
+      "regex": null,
       "llm": null
     },
     "submitter": {
       "bench": null,
-      "regex": "Jingjia Liu",
+      "regex": "Mr. John Bentz",
       "llm": null
     },
     "importer": {
       "bench": null,
-      "regex": null,
+      "regex": "Prime Global Importers LLC, FL",
       "llm": null
     },
     "date_submitted": {
       "bench": null,
-      "regex": null,
+      "regex": "November 25, 2015",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 19, 2025",
+      "regex": "December 25, 2015",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
       "llm": null
     },
     "case_handler": {
       "bench": null,
-      "regex": "Laurel Duvall",
+      "regex": null,
       "llm": null
     },
     "hts_suggestion": {
@@ -177,12 +119,12 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": "4421.99.6000",
+      "regex": "1901.90.9095",
       "llm": null
     },
     "duty_rate": {
       "bench": null,
-      "regex": "5.1 percent ad valorem",
+      "regex": "6.4 percent ad valorem",
       "llm": null
     },
     "product_description": {
@@ -201,45 +143,45 @@
       "llm": null
     }
   },
-  "N356609": {
+  "N270956": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356609",
+      "regex": "N270956",
       "llm": null
     },
     "submitting_firm": {
       "bench": null,
-      "regex": null,
+      "regex": "Samuel Shapiro & Company, Inc.",
       "llm": null
     },
     "submitter": {
       "bench": null,
-      "regex": "Mr. Jeandry Mendonça",
+      "regex": "Ms. Kathy Marshall",
       "llm": null
     },
     "importer": {
       "bench": null,
-      "regex": null,
+      "regex": "Ron-Son Foods Inc., NJ",
       "llm": null
     },
     "date_submitted": {
       "bench": null,
-      "regex": null,
+      "regex": "November 23, 2015",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 18, 2025",
+      "regex": "December 24, 2015",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
       "llm": null
     },
     "case_handler": {
       "bench": null,
-      "regex": "Laurel Duvall",
+      "regex": null,
       "llm": null
     },
     "hts_suggestion": {
@@ -249,17 +191,17 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": "4421.99.9880",
+      "regex": "2005.70.9700",
       "llm": null
     },
     "duty_rate": {
       "bench": null,
-      "regex": "3.3 percent ad valorem",
+      "regex": null,
       "llm": null
     },
     "product_description": {
       "bench": null,
-      "regex": "The product under consideration is pre-made deck tiles. Constructed of Ipé, Cumaru, Garapa, Itaúba, Maçaranduba, tiger wood, or plantation Teak, the deck tiles are to be installed on top of an existing surface to form a wood deck surface. The tiles range from 300mm x 300mm to 600mm x 1200mm and between 36mm and 42mm in thickness. Each tile consists of evenly spaced, parallel slats that are mounted on perpendicular and/or diagonal wood slats. When installed, plastic mounts will hold the corners in place. In your letter, you suggest that the panels are classifiable under subheading 4418.79.0000, Harmonized Tariff Schedule of the United States (HTSUS), which provides for builders' joinery in the form of assembled, single-layer, wood flooring. We disagree. In order to be classified in 4418, the goods must be recognizable articles used in the construction of a building. First, the tiles are merely laid on another surface and are not used in construction. Additionally, a deck is not part of a building. They are frequently built adjacent to buildings, but they are not themselves a part of a building. Therefore, the panels will be classified elsewhere.",
+      "regex": null,
       "llm": null
     },
     "accepted_flag": {
@@ -273,10 +215,10 @@
       "llm": null
     }
   },
-  "N355798": {
+  "N271092": {
     "ruling_id": {
       "bench": null,
-      "regex": "N355798",
+      "regex": "N271092",
       "llm": null
     },
     "submitting_firm": {
@@ -286,7 +228,7 @@
     },
     "submitter": {
       "bench": null,
-      "regex": "Jae Hee Park",
+      "regex": "Mr. Reynaldo Vasquez",
       "llm": null
     },
     "importer": {
@@ -296,17 +238,17 @@
     },
     "date_submitted": {
       "bench": null,
-      "regex": "November 6, 2025",
+      "regex": "November 20, 2015",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 17, 2025",
+      "regex": "December 24, 2015",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
       "llm": null
     },
     "case_handler": {
@@ -321,7 +263,3823 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": "6406.20.0000",
+      "regex": "6403.91.9045",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "10 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N271081": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N271081",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Nicole M. Rule",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Spin Master Inc., you requested a tariff classification ruling on “Kinetic Foam.” The provided sample has been reviewed and will be returned",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 22, 2015",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Nuccio Fera",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3407.00.2000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N271091": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N271091",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Reynaldo Vasquez",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 9, 2015",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 22, 2015",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Stacey Kalkines",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6404.19.3960",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "37.5 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N270829": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N270829",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Shameel N. Bowman",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2015",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Nuccio Fera",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2833.27.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "0.6 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N270709": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N270709",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Dan Mabee",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 13, 2015",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 15, 2015",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "0712.90.4020",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "29.8 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N270904": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N270904",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Capol LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Annette Lupinski",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 20, 2015",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 15, 2015",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2106.90.9998",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "6.4 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N270851": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N270851",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Nippon Paint (America) Corporation",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Shameel Bowman",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 19, 2015",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 11, 2015",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Gwenn Klein Kirschner<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Evan Conceicao",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3906.90.5000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N281480": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N281480",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Grunfeld, Desiderio, Lebowitz, Silverman and Klestadt LLP",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Patrick J. Caulfield",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "The Men’s Wearhouse, you requested a ruling on the classification and status under the DR-CAFTA of a men’s suit-type jacket from Guatemala",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 17, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 29, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Maryalice Nowak",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6203.31.9020",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N277893": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N277893",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Robert Tice",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "July 28, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 28, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2005.99.9700",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "11.2 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N279654": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N279654",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Judy Awana",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "KC Biotech Inc., CA",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 28, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2106.90.9998",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "6.4 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N280119": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N280119",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "RAD Snack Trade, LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Renee Dunn",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "September 28, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 28, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Bruce N. Hadley Jr.",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "0803.10.2000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "1.4 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N280014": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N280014",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Simon Gluck & Kane LLP",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Daniel Gluck",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Royal Ingredients, LLC, NJ",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "September 7, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 27, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Bruce N. Hadley Jr.",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2106.90.9500",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "10 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N276062": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N276062",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. David L. Roberts",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "May 24, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 23, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "0811.90.5200",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "10.9 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N281767": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N281767",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "USL, LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Nina Carrico",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 2, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 23, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Steven Pollichino",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9004.90.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N281888": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N281888",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Shameel N. Bowman",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 23, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Nuccio Fera",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3206.49.1000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "5.9 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N281521": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N281521",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Lawrence Mushinske",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "David Sydorick, you requested a tariff classification ruling",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 27, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 23, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Neil H. Levy",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9705.00.0070",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "the subject merchandise is a motor car, specifically known in car circles as a \"Touring Berlinetta,\" or simply a touring coupe sports car. Therefore, the question before us is whether the subject car is also described as a collectors' piece, in which case, pursuant to Note 4 (a) to Chapter 97, it must be classified there, and not in heading 8703, HTSUS. There exists no strict standard or enumerated criteria for articles classified in heading 9705, HTSUS. The word \"historic\" is not defined by the tariff, nor by the ENs, and the dictionary definition is quite broad. The Oxford English Dictionary states it is, \"A historical work or subject; a history. Now rare\", and \"relating to history; concerned with past events.\" \"historic, n. and adj.\" OED Online. Oxford University Press, December 2014. Web. 23 February 2015. Cars present an interesting conundrum in a heading 9705 analysis, as motor cars and racing cars (even luxury ones) are generally-speaking mass-produced for commercial consumption. Goods produced as a commercial undertaking to commemorate, celebrate, illustrate, or depict an event or any other matter, whether or not production is limited in quantity or circulation, do not fall in this heading as collections or collectors' pieces of historical interest [unless the goods themselves] have subsequently attained that status by reason of their age or rarity. With regard to the aforementioned sentence, noting goods obtain the level of collectors' pieces by reason of their age or rarity, we also note that goods obtain the level of collectors' pieces by their (1) placement along the time spectrum as recorded in the annals of historical accountings, (2) recognized accomplishments as documented and recorded in the pages of historical facts, and (3) association to famous persons with or without a nexus to an historical time. For purposes of entitlement of duty-free status under heading 9705, goods need only show they reach the level of collectors' pieces as set by one of the three \"parameters\" as listed in the last paragraph, last sentence above. If goods qualify by their placement in time to be of historical interest, then there is no requirement that those same goods be deed-worthy or belong to famous persons. In the event and outcome that the 1937 Alfa Romeo 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001, qualifies by its placement in time to be of historical interest, this office will not rule upon whether the deeds of the sports car, or relationship of the manufacturer or previous owners to the sports car, rise to the level of historical importance. The Cité de l'Automobile Museum in Mulhouse, France is claimed to be the largest car museum in the world, and showcases 98 brands and over 400 classic and prestigious racing cars that trace the history of the automobile. The Cité de l'Automobile Museum is built around the Schlumpf collection of Bugatti classic automobiles and contains the largest and most comprehensive collection of Bugatti motor vehicles in the world. Specific to Alfa Romeo sports cars, the museum has showcased and displayed the following: an Alfa Romeo, 1931, 6C 1750; an Alfa Romeo, 1932, 8C 2; an Alfa Romeo, 1936, 8C 2900 A Pinin Farina Berlinett; an Alfa Romeo, 1938, 8C 2900 SPA 24H; and an Alfa Romeo, 1938, 8C 2900B Due Posti. One realizes that the Cité de l'Automobile Museum affords a unique and impressive panorama glorifying the automobile industry from its very beginnings to modern times. The museum is segmented into three periods of time: the first being \"the forerunners\" 1878 to 1920, the second being \"the golden age of the car\" 1920 to 1950, and the third being \"modern times\" cars after 1950. This museum offers numerous classic automobiles, throughout the ages, showcased and displayed for public viewing. Another prominent museum located in Philadelphia, Pennsylvania, is the Simeone Foundation Automotive Museum, in which they claim to have one of the world's greatest collections of racing sports cars. A listing of the museum's cars indicate the following: an Alfa Romeo, 1925 RLSS; Alfa Romeo, 1929, 6C 1750 SS; an Alfa Romeo, 1933 8C 2300 Mille Miglia Spyder; an Alfa Romeo 1933, 8C 2300 Monza; and an Alfa Romeo, 1937 8C 2900A. All of the Alfa Romeo sports cars listed above belong to \"the golden age of the car,\" as delineated by the Cité de l'Automobile Museum in Mulhouse. Like the museum in Mulhouse, one would find in this museum numerous classic automobiles, throughout the ages, showcased and displayed for public viewing. We find that, Alfa Romeo sports cars from 1920 to 1950 falling into the category of the golden age of the car; these sports cars are: (1) housed for public display in some of the finest museums around the world, some of which are also captured by placement of time according to historical periods; (2) quite often showcased and displayed for public viewings in numerous \"Concours d'Elegance\" events and similar type events held domestically and internationally, regardless if publically retained or privately owned; and (3) kept in private collections throughout the world. We are further of the mind-set that authentic sports cars (frames, chassis with their engine, and other key mechanical components, as well as body characteristics) belonging to the golden age of the car represent some of the finest \"material remains of human activity\" of historical interest, which are placed along the time spectrum suitable for both human observation and study. With case in point and also referencing back to N278756, we turn to the additional information furnished. We find that the 1937 Alfa Romeo 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001: (1) remains in Canada still in dismantled condition; (2) in 1964 the sports car was in full disrepair, including having cracked engine block; and (3) the sports car had been completely rebuilt at least twice. Because the merchandise concerned is in dismantled condition, we maintain that a hierarchical standard as proposed in N278756 can be applied for purposes of authenticating that the rebuilt 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001, remains upon reassembly an original Alfa Romeo belonging to the golden age of the car. We observe from recorded accountings that there were 33, Alfa Romeo 8C 2900B sports cars built. Twenty-seven of these sports cars were built with the Carrozzeria Touring body of which five were the Berlinetta long chassis, and 6 were privately commissioned Berlinettas. Some Alfa Romeo 8C 2900B sports cars have fallen, some have be cannibalized for their parts, and others have been restored with original, remanufactured or reconstructed parts. With so few Alfa Romeo 8C 2900B sports cars built and fewer original cars remaining our hierarchy of core and critical parts (components) which truly identify this historic line of sports cars from the golden age of the car is as follows: Core and Critical, Parts/Components: (1) One Alfa Romeo, built long frame for the 8C 2900B. (2) One Alfa Romeo, Chassis (built in-line 8 cylinder engine, drivetrain and other key mechanical parts and components) for the 8C 2900B. (3) Dual overhead cams and twin Roots-type superchargers, preferably originals restored, for the 8C 2900B. (4) One Alfa Romeo, Carrozzeria Touring body for the 8C 2900B. (5) Instrument cluster panel and interior coachwork for the 8C 2900B. (6) Thin alloy body panels for the 8C 2900B. Non-Core and Critical, Parts/Components: (7) Other parts and components for the 8C 2900B. For the merchandise concerned, at a minimum to have an automobile of \"historic interest\" of the golden age of the car versus a replica (whether certified or not), we must have an original Alfa Romeo 8C 2900B long chassis frame or modified Alfa Romeo short frame, a built in-line 8 cylinder engine with dual overhead cams and twin Roots-type superchargers, and a Carrozzeria Touring body. We have been asked by the filer of this ruling to undertake a second review for purposes of substantiating the authenticity of the 1937 Alfa Romeo, 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001, as a collectors' piece of historical interest. New information was presented by means of a declaration from the \"Fédération Internationale des Véhicules Anciens\" (FIVA) dated November 11, 2016, in regard to the merchandise concerned and by means of eleven photographs of the merchandise concerned in its disassembled condition. The November 2016 declaration continues to reference the \"FIVA Identity Card dated June 20, 2005\" issued to previous owner, \"William Ainscough,\" certifying the 1937 Alfa Romeo, 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001, as an historic vehicle. This declaration states that Mr. Sydorick can obtain a new FIVA Identity Card when entered into the United Sates through the Historic Vehicle Association – FIVA national authority for the United States. Neither the FIVA Identity Card of 2005 nor the declaration of 2016, have any supporting documents in which to substantiate that the merchandise concerned is an authentic Alfa Romeo sports car belonging to the golden age of the car. Even if we had supporting documentation of the 1994 major restoration undertaken by Tony Merrick of the United Kingdom, a prominent restorer of rare and historic sports cars, maintaining the sports car as authentic, which most likely aided in the issuance of the FIVA Identity Card of 2005, this card would be invalid today because the sports car is in dismantled condition at RX Autoworks of Canada. As such, the FIVA Identity Card of 2005 and the declaration of 2016 hold no weight in determining whether or not the merchandise concerned today is entitled to being classified as a collectors' piece of historical interest in subheading 9705.00.0070, HTSUS. This office does not dispute the fact that Tony Merrick \"reunited and reworked\" the original Engine (422001) to Chassis No. 412020, most likely impacting in the favorable outcome of the issuance of the FIVA Identity Card of 2005 for the 1937 Alfa Romeo 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001. Because the merchandise concerned is in dismantled condition in Canada, not knowing what core and critical, parts and components will be maintained or replaced or replicated, the designation of [historic vehicle] by FIVA does not bestow onto the merchandise concerned. Photographs of the merchandise concerned in its dismantled condition indicates various inscribed identification numbers and badges, either on the frame or chassis, of which we know from a reading of \"The Immortal 2.9 Alfa Romeo 8C2900\" (see N278756) that only the rectangular patent badge survived, which included chassis and engine number, all other badges were removed by salvagers. Observation of eleven photographs indicate inscribed numbers on the frame or chassis, no inscription on the engine block for 422001, and a reproduced graphic badge with the printed words \"Carrozzeria Touring N 2029.\" We note that parts and components from other authentic Alfa Romeo, 8C 2900, sports cars have been used for purposes of preserving and honoring this limited line of historic cars. RX Autoworks of Canada is in the unique position, to issue a certification or declaration upon reassembly that the \"reunited and reworked\" Engine Number 422001 remains attached to Chassis No. 412020, as well as confirming Frame Number 2029, original or modified, will remain as the structure onto which all other parts and components will be attached. Furthermore, RX Autoworks of Canada is in the unique position to provide a complete listing of new, reworked or replicated, parts and components, mechanical as well as related to the body, of the reassembled 1937 Alfa Romeo 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001, sports car. Upon certification or declaration by RX Autoworks of Canada that the 1937 Alfa Romeo 8C 2900B Touring Lungo Berlinetta, Chassis No. 412020, Engine Number 422001, remains intact after reassembly or a like engine from the original 33 sports cars was reworked and used as a replacement, as well as identifying the coachwork performed to maintain the Carrozzeria body, we are of the opinion that the merchandise concerned will be entitled to be classified as a collectors' piece under 9705.00.0070, HTSUS.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N273725": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N273725",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Gerardo Aguilar",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "January 22, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 22, 2016",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Kimberly Rackett via email",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "5402.31.6000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "16.6 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The sample, a yarn on a bobbin is composed of elastomeric core yarn (13 percent by weight) which is covered by textured polyester filament (97 percent by weight) by air entanglement process. The yarn is subject to a false twist process. The sample is not a gimped or braided yarn. The sample has an average diameter of .276 mm and weighs 209.6 decitex. The submitted garment is a pair of women's trousers. In your letter, you state that the trousers are constructed from 75% cotton, 22% polyester, and 3% elastomeric woven fabric. Our laboratory analysis indicates that the garment is constructed from 76.2% cotton, 20.6% polyester, and 3.2% elastomeric woven fabric. The garment features a left over right front fly opening with a zipper closure and a metal button on a flat waistband, five belt loops, a rear yoke, two rear patch pockets, front pockets, and hemmed leg openings.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N292632": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N292632",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Bob Sanshuk",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Umbra LLC",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 30, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 22, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Adleasia Lonesome via email",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6307.90.9889",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "7 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N280991": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N280991",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Sandler, Travis & Rosenberg, P.A.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Neil Helfand",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Bioriginal Food & Science Corp., for the following five products: Fish Oil 40:20 Ethyl Ester, Fish Oil 33.22 Ethyl Ester, Bulk Focus & Attention, Salmon Black Currant Blend, and Caps Focus & Attention",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 21, 2016",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 15, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Patrick Day",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3824.99.4190",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "4.6 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N292234": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N292234",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Air Gaging LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Lori Higgs",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 20, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 12, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Evan Conceicao",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9031.80.8085",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N291749": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N291749",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Daniel Karo",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 2, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 1, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Rosemarie Hayward via email",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6112.41.0010",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "24.9 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N291753": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N291753",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Victoria Waller",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Chicago Import Company Inc., IL",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "April 4, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 29, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "1106.30.4000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "9.6 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N291944": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N291944",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Daniel Karo",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "September 15, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 24, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Rosemarie Hayward via email",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6112.41.0010",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "24.9 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N291525": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N291525",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Gerald Wilk",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "CAPOL LLC, IL",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 25, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 22, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2106.90.9898",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "6.4 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N291530": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N291530",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Michael Roll",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 24, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 22, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2106.90.9898",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "6.4 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N291147": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N291147",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Cargill Incorporated",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Julie Dreke",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 11, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 21, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2106.90.8000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "10 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N291562": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N291562",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Bayer International Trade Services Corporation",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Mark D. Pinchok",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 27, 2017",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 21, 2017",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Judy Lee",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3006.30.5000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301946": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301946",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Dave Fontana",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 27, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 19, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6110.30.3059",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "32 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301925": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301925",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Belle Hsiang",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 26, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6110.30.3059",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "32 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301932": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301932",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Cathy Cheng",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Uncas International",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 26, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Kristopher Burton",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9615.11.4000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301846": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301846",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Gulf Premier Logistics, LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Dee Chase-Unno",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Gascogne Flexible",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 17, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Laurel Duvall",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4811.59.4040",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301862": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301862",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Michael J. Femal",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Telular Corporation",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 19, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 11, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Steven Pollichino",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": "8517.12.0050",
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8517.62.0090",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301735": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301735",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Rise8 Studios, LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Jason Levi",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 12, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 7, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Adleasia Lonesome",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6307.90.7500",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "4.3 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301983": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301983",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Rob McIntyre",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 28, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 6, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Anthony E. Grossi",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9027.90.5650",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The item under consideration is identified as B44829 Monitor Arm. It is used with a line of clinical chemistry analysis instruments, models AU480, AU5800 and DxC 700 AU. Each of these instruments uses optical radiation and is powered by a connection to an electrical power main. The Monitor Arm is mounted to the chemistry analysis instruments and is used to hold a keyboard and monitor for the operator's use. It is comprised of a mounting bracket and an articulated arm with two rotational hinges. The B44829 Monitor Arm is imported separately from the instruments when the existing arm needs to be replaced. You have stated that it does not have an individual function nor general usage unless it is mounted to the instruments. The term \"accessory\" is not defined in either the tariff schedule or the Explanatory Notes. An accessory is generally an article that is not necessary to enable the goods with which it is used to fulfill their intended function. An accessory must be identifiable as being intended solely or principally for use with a specific article. Accessories are of secondary importance, not essential in and of themselves. They must, however, contribute to the effectiveness of the principal article (e.g., facilitate the use or handling of the principal article, widen the range of its uses, or improve its operation). The B44829 Monitor Arm meets the term of \"accessory\" because it is intended for use solely or principally with the specific models of chemistry analysis instruments, but is not essential to their operation. To classify an \"accessory\", we also consult Additional U.S. Rule of Interpretation 1(c) which provides that: \"[i]n the absence of special language or context which otherwise requires . . . . a provision for parts of an article covers products solely or principally used as a part of such articles but a provision for 'parts' or 'parts and accessories' shall not prevail over a specific provision for such part or accessory\". We find that the B44829 Monitor Arm is not specifically provided for elsewhere in the Harmonized Tariff Schedule of the United States (HTSUS), and therefore is classified as an accessory in heading 9027, HTSUS.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301640": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301640",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Dell Will Customs Brokers (USA), Inc.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Marty Bloch",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Flex-N-Gate",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 7, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 4, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Jennifer Jameson",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8302.30.3060",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "10 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The articles under consideration have been identified as Ningbo Siming exhaust tips (CD539 and E2SC). The exhaust tips are a decorative trim piece for the rear of an automobile or truck. According to your documentation, each tip is a piece of chrome plated trim made predominately of metal with a plastic cuff. The tips are not a part of the muffler or exhaust system, but merely attached to the rear of the vehicle for decorative purposes.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301627": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301627",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. William Polkinhorn",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Robertshaw Controls Company, you requested a tariff classification ruling",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 6, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 3, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Sandra Carlson",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9613.80.2090",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N301716": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N301716",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "LM Brokerage & Logistics, Inc.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "James Wickstead",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Neapco Holdings, LLC",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 9, 2018",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 3, 2018",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Liana Alvarez",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8708.99.6890",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "10 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The item under consideration has been identified as a High-Speed Constant Velocity Joint (CVJ) Assembly (Item Number NPFL3W-3B413-AB), used on automobile propeller shafts. The propeller shaft transfers power from the transmission or transfer case to the rear axle in a vehicle. The CVJ assembly consists of a disk sub-assembly with outer race, inner race, cage and balls, rear can cover, boot can cover, stub shaft, clamp, circular clip, grease, and sealant. You state that the components are imported into Mexico and assembled into the final product, ready for importation into the United States.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308097": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308097",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Gulf Premier Logistics, LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Diana Maichetti",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Gascogne Flexible",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 27, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Laurel Duvall",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4811.59.4040",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308088": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308088",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Michael J. Ford",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Bell-Carter Foods, LLC, CA",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 4, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 23, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Bruce N. Hadley Jr.",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N307970": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N307970",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. William Ortiz",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Theory LLC, you requested a ruling on the country of origin of a men’s pullover",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 20, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Maryalice Nowak",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6110.11.0070",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "16 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308325": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308325",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Annabelle Gaudreau",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 12, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 20, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2106.90.9895",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "6.4 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308059": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308059",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Griesson-deBeukalaer GMBH & Co.KG.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Phillip Allmendinger",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 4, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 20, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "1905.31.0049",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308320": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308320",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Aaron M. Applebaum",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Tomofun, LLC, you requested a country of origin ruling determination",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 12, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 19, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Lisa Cariello",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N307926": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N307926",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Thanh Le",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Thinh Welding",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 25, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Angelia Amerson",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "7306.61.5000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308136": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308136",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Samsung Electro-Mechanics Co., Ltd., you requested a country of origin ruling determination",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 6, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Lisa Cariello",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308138": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308138",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Samsung Electro-Mechanics Co., Ltd., you requested a country of origin ruling determination",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 6, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Lisa Cariello",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N308098": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N308098",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 5, 2019",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 17, 2019",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Lisa Cariello",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8523.41.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "15 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N316281": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N316281",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. S. Richard Shostak",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Western Repacking LLP",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 28, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Timothy Petrulonis",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "0702.00.2065",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N316238": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N316238",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Benteler Steel & Tube Corp.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Jenny Konneh",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 2, 2020",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 22, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Angelia Amerson",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "7306.30.1000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N316151": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N316151",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Johnson Electric North America, Inc., and request a confirmation that Section 301 remedies do not apply to the electric motor upon importation",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "Nov 30, 2020",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Karl Moosbrugger",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8501.10.2000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N316158": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N316158",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Grunfeld, Desiderio, Lebowitz, Silverman & Klestadt LLP",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Arthur Bodek",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "KEEN, Incorporated",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 30, 2020",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Stacey Kalkines",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6402.91.4260",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "37.5 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N316328": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N316328",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Diaz Trade Law",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Jennifer Diaz",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Dogipot, on the status of polyethylene pet waste bags from Panama under the US-Panama Trade Promotion Agreement",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 7, 2020",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 17, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Christina Allen",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3923.21.0095",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "3 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The product under consideration is DOGIPOT®'s Plastic Disposable Pet Waste Bag. The product is a disposable bag composed of polyethylene. The bag will be used to collect and dispose of pet waste. The product is manufactured in Panama from a mixture of originating and non-originating materials. The polyethylene resin and other additives are imported into Panama where they are mixed and extruded into rolls of plastic film. This film is printed and converted into rolls of bags which are packaged and prepared for shipment. The applicable tariff provision for the polyethylene pet waste bags will be 3923.21.0095, Harmonized Tariff Schedule of the United States (HTSUS), which provides for articles for the conveyance or packing or goods, of plastics; sacks and bags (including cones): of polymers of ethylene: other: other. The general rate of duty will be 3 percent ad valorem. General Note 35, HTSUS, sets forth the criteria for determining whether a good is originating under the US-Panama Trade Promotion Agreement. General Note 35(b), HTSUS, states, in pertinent part, that For the purposes of this note, subject to the provisions of subdivisions (c), (d), (m) and (n) thereof, a good imported into the customs territory of the United States is eligible for treatment as an originating good under the terms of this note if— (i)the good is a good wholly obtained or produced entirely in the territory of one or more of the parties to the Agreement; (ii) the good was produced entirely in the territory of one or more of the parties to the Agreement, and— (A) each of the nonoriginating materials used in the production of the good undergoes an applicable change in tariff classification specified in subdivision (n) of this note; or (B) the good otherwise satisfies any applicable regional value content or other requirements specified in subdivision (n) of this note; and the good satisfies all other applicable requirements of this note; or (iii) the good was produced entirely in the territory of one or more of the parties to the Agreement exclusively from materials described in subdivisions (i) or (oo) above. HTSUSA General Note 35 (o) provides the product specific rules for goods to be considered originating, specifically, GN 35(o) 39.6 states: A change to headings 3922 through 3926 from any other heading Each of the non-originating materials used to make the DOGIPOT®'s Plastic Disposable Pet Waste Bag satisfies the changes in tariff classification required under HTSUS General Note 35 (o) 39.6. The goods will therefore be entitled to a FREE rate of duty under the US-Panama Trade Promotion Agreement upon compliance with all applicable laws, regulations, and agreements. In addition to qualification under the US-Panama Trade Promotion agreement, you also inquired as to the country of origin of the bags. Part 134, Customs Regulations (19 CFR Part 134), implements the country of origin marking requirements of 19 U.S.C. §1304. Pursuant to 19 CFR 134.1(b), \"country of origin\" means the country of manufacture, production, or growth of any article of foreign origin entering the United States. Further work or material added to an article in another country must effect a substantial transformation in order to render such other country the country of origin. A substantial transformation results when a new and different article emerges from the processing having a distinctive name, character, or use. It is the opinion of this office that a substantial transformation will take place in Panama. Polyethylene resin and other additives will be combined and extruded into polyethylene film. This film is printed, converted to bags, and packaged for export in Panama. The bags are a separate and distinct article of commerce, which possesses a new name, character and use from the starting materials.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N316142": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N316142",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Philipp Maas",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 30, 2020",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 16, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9023.00.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N315970": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N315970",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Fernando Vigil",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 17, 2020",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 8, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Karl Moosbrugger",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8537.10.9170",
       "llm": null
     },
     "duty_rate": {
@@ -345,45 +4103,45 @@
       "llm": null
     }
   },
-  "N356637": {
+  "N315986": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356637",
+      "regex": "N315986",
       "llm": null
     },
     "submitting_firm": {
       "bench": null,
-      "regex": null,
+      "regex": "Alston and Bird LLP",
       "llm": null
     },
     "submitter": {
       "bench": null,
-      "regex": null,
+      "regex": "Ms. BJ Shannon",
       "llm": null
     },
     "importer": {
       "bench": null,
-      "regex": "Focusrite Group US, Inc",
+      "regex": "Co Expo, Ltd",
       "llm": null
     },
     "date_submitted": {
       "bench": null,
-      "regex": "December 2, 2025",
+      "regex": "November 18, 2020",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 17, 2025",
+      "regex": "December 3, 2020",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Steven A. Mack<br>Director<br>National",
       "llm": null
     },
     "case_handler": {
       "bench": null,
-      "regex": "Luke LePage",
+      "regex": "Deanna Boldt via email",
       "llm": null
     },
     "hts_suggestion": {
@@ -393,12 +4151,12 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": null,
+      "regex": "6113.00.9086",
       "llm": null
     },
     "duty_rate": {
       "bench": null,
-      "regex": null,
+      "regex": "7.1 percent ad valorem",
       "llm": null
     },
     "product_description": {
@@ -417,45 +4175,45 @@
       "llm": null
     }
   },
-  "N356676": {
+  "N315798": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356676",
+      "regex": "N315798",
       "llm": null
     },
     "submitting_firm": {
       "bench": null,
-      "regex": null,
+      "regex": "RAR Logistics Company",
       "llm": null
     },
     "submitter": {
       "bench": null,
-      "regex": null,
+      "regex": "Raymond Rodriguez",
       "llm": null
     },
     "importer": {
       "bench": null,
-      "regex": "Acme United Corporation",
+      "regex": "LA Hardwood Inc",
       "llm": null
     },
     "date_submitted": {
       "bench": null,
-      "regex": "December 3, 2025",
+      "regex": "November 09, 2020",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 17, 2025",
+      "regex": "December 2, 2020",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
       "llm": null
     },
     "case_handler": {
       "bench": null,
-      "regex": "Kristopher Burton",
+      "regex": "Seth Mazze",
       "llm": null
     },
     "hts_suggestion": {
@@ -465,12 +4223,12 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": null,
+      "regex": "9403.60.8081",
       "llm": null
     },
     "duty_rate": {
       "bench": null,
-      "regex": null,
+      "regex": "free",
       "llm": null
     },
     "product_description": {
@@ -489,10 +4247,10 @@
       "llm": null
     }
   },
-  "N356337": {
+  "N315824": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356337",
+      "regex": "N315824",
       "llm": null
     },
     "submitting_firm": {
@@ -502,7 +4260,79 @@
     },
     "submitter": {
       "bench": null,
-      "regex": "Donal O'Gorman",
+      "regex": "Mr. Christopher Constantine",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Brazabra Corporation",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 11, 2020",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 2, 2020",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Kristine Dodge",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6307.90.9870",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "7 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N323278": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N323278",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Denise Smalls",
       "llm": null
     },
     "importer": {
@@ -512,17 +4342,521 @@
     },
     "date_submitted": {
       "bench": null,
-      "regex": "November 21, 2025",
+      "regex": null,
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 15, 2025",
+      "regex": "December 29, 2021",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Roseanne Murphy",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9504.90.9080",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N323262": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N323262",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Andrew B. Rogers",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 16, 2021",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 17, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Paul Hodgkiss",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2933.69.6050",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "3.5 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N323006": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N323006",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Printlore LLC.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Samantha Amborn",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 13, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Charlene Miller",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4901.99.0093",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The item under consideration is an adult-themed comic book, \"Thirsty,\" measuring approximately 6.6\" x 10.25\". The comic consists of a 64-page paperback book with color cover and black and white illustrated interior pages. The comic contains five short stories whose plots overlap. The pages contain both illustrations and text; many of the illustrations are graphic in nature.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N322622": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N322622",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Sarah M. Stock",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Blundstone Australia Pty Ltd",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 4, 2021",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 30, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Stacey Kalkines",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6402.91.9065",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "20 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N322746": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N322746",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Patricia Remley",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 30, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Roseanne Murphy",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9503.00.0073",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N322588": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N322588",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Dometic Corporation",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Andy Wood",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 2, 2021",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 29, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Sandra Martinez",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8418.69.0150",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "25 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N322520": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N322520",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Stacee Osaki-Nishibata",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 29, 2021",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 23, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Maryalice Nowak",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6110.30.3053",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N322447": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N322447",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Taylor Precision Products Inc., you requested a country of origin ruling determination on a digital food thermometer",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 26, 2021",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 18, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
       "llm": null
     },
     "case_handler": {
@@ -537,17 +4871,17 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": "9031.80.8085",
+      "regex": null,
       "llm": null
     },
     "duty_rate": {
       "bench": null,
-      "regex": "free",
+      "regex": null,
       "llm": null
     },
     "product_description": {
       "bench": null,
-      "regex": "The item under consideration is described as a Peri sensor (model IDH-AA-01), which is a battery-powered, body-worn electronic unit that captures bio signals and communicates them via Bluetooth to a paired smartphone application. The device is made of a sealed polymer enclosure with a gasket, an internal printed circuit board assembly (PCBA) carrying a microcontroller with memory, power management integrated circuits (ICs), sensors, and a Bluetooth radio transceiver with antenna. Additionally, there are stainless-steel electrodes, a skin-contact thermistor, an optical window for photoplethysmography (PPG) emitter/detector, and medical-grade adhesive patches for on-body attachment. The device measures 66×45×11 mm and weighs 25 g. The Peri sensor has a PPG (optical) for pulse/flow-related signals, electrodermal activity (EDA) electrodes for skin conductance, a 3-axis accelerometer for motion/posture, and a skin-contact temperature sensor. In operation, the sensors generate analog signals that are digitized by on-board electronics before being wirelessly transmitted via Bluetooth to the paired app. Data is also synced to cloud services where it is processed and the outputs displayed on the app. The Peri sensor is designed as a consumer wellness wearable for trend-tracking of perimenopausal symptom patterns (hot flashes, night sweats, sleep disruption, anxiety) as well as step count and menstrual-cycle tracking. The device is imported with two rechargeable batteries, USB-C charging dock/cable, 20 starter adhesive patches, and a quick-start guide. In your letter, you suggest the applicable heading to be 8517, Harmonized Tariff Schedule of the United States (HTSUS), which provides in relevant part for \"…other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network).\" The item concerned is primarily used to monitor various aspects of a person's wellbeing. It incorporates various sensors and a processing system that measures health related information. It also has a secondary function of transmitting that data to a remote Bluetooth enabled device which then transmits to a cloud-based service. Classification under heading 8517, HTSUS, is precluded because the devices concerned are composite goods (Section XVI Note 3 and Chapter 90 Note 3) which execute the principal function of determining/calculating a measurement. The ability to transmit that information to a remote device would be considered the unit's secondary or support function. Additionally, as per the Explanatory Notes to heading 8517, carrier-current and other transmitters and receivers which form a single unit with analogue or digital telemetering instruments or apparatus…, are excluded from heading 8517. Measurement apparatus of Chapter 90 are also excluded from classification within Chapter 85. (Section Note XVI Note 1(m)). As such, classification within heading 8517, HTSUS, is not applicable.",
+      "regex": null,
       "llm": null
     },
     "accepted_flag": {
@@ -561,40 +4895,2128 @@
       "llm": null
     }
   },
-  "N356833": {
+  "N322584": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356833",
+      "regex": "N322584",
       "llm": null
     },
     "submitting_firm": {
       "bench": null,
-      "regex": "4M World Brokers, Inc.",
+      "regex": null,
       "llm": null
     },
     "submitter": {
       "bench": null,
-      "regex": "Eduardo Medina",
+      "regex": "Mr. David Prata",
       "llm": null
     },
     "importer": {
       "bench": null,
-      "regex": "Celular Plus SA de CV",
+      "regex": null,
       "llm": null
     },
     "date_submitted": {
       "bench": null,
-      "regex": "December 8, 2025",
+      "regex": "November 2, 2021",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 15, 2025",
+      "regex": "November 17, 2021",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Kristopher Burton",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9615.19.6000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "5.3 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N322411": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N322411",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Prominent Wire and Cable, LLC",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 25, 2021",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 12, 2021",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Luke LePage",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8544.49.9000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N326865": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N326865",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. James Choh",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Hansae, on the classification and eligibility under the DR-CAFTA of women’s knit trousers",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "June 29, 2022",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 22, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Antoinette Peek-Williams",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6104.62.2011",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "14.9 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N329812": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N329812",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ilse Madrazo Butze",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Lg Energy Solutions Michigan, Inc., you requested a ruling on the eligibility for preferential treatment under the United States-Korea Free Trade Agreement (UKFTA) of insulation coating solution",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 14, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Nuccio Fera",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N329253": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N329253",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 8, 2022",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 23, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Karl Moosbrugger",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N329340": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N329340",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Dollar General Corporation",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Maribeth Dedmon",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 22, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Roseanne Murphy",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9504.90.9080",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N326026": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N326026",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Younggeon Wi",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "May 11, 2022",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 16, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Kimberly Rackett via email",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6204.63.9010",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "28.6 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N329159": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N329159",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Victoria Williams",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 3, 2022",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "November 16, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Sandra Carlson",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9505.10.2500",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N328441": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N328441",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Rock Trade Law, LLC.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Eric Rock",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "September 28, 2022",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "October 21, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Karl Moosbrugger",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8537.10.9170",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "2.7 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N328671": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N328671",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Organic Comfort Market LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Laimute Lipinskaite",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "October 7, 2022",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "October 20, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Seth Mazze",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9404.40.9005",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N328768": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N328768",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Fiona Wu",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "October 20, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Christina Allen",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3919.90.5060",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "5.8 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N328489": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N328489",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Silicon Materials Inc",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "September 29, 2022",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "October 17, 2022",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Steven Pollichino",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336683": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336683",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Pradeep Shah",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 21, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 15, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Judy Lee",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3004.90.9203",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336758": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336758",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Matt King",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 28, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 14, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Jennifer Jameson",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8306.29.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The item under consideration is identified as a Paint and Plant art kit. This craft kit contains 3 metal planters with a metal tray, 3 decorative plaster garden picks (in the shape of a flower, a butterfly, and a ladybug), stickers, paints, paint brushes, and peat soil pellets. The user can decorate the planters, tray, and plaster garden picks with the included stickers and paints. The user would then use the peat soil pellets to grow flowers in the 3 metal planters. When completed, this item will be used as a planter. The Explanatory Notes to the Harmonized Tariff System of the United States (HTSUS) provide guidance in the interpretation of the Harmonized Commodity Description and Coding System at the international level. Explanatory Note X to GRI 3(b) provides that the term \"goods put up in sets for retail sale\" means goods that: (a) consist of at least two 2 different articles which are, prima facie, classifiable in different headings; (b) consist of articles put up together to meet a particular need or carry out a specific activity; and (c) are put up in a manner suitable for sale directly to users without repacking. Goods classifiable under GRI 3(b) are classified as if they consisted of the material or component which gives them their essential character, which may be determined by the nature of the material or component, its bulk, quantity, weight or value, or by the role of a constituent material in relation to the use of the article. This office considers the subject Paint and Plant art kit to be a set for tariff classification purposes. We note that the paint, stickers, and peat pellets will be depleted in the decoration of the planters and the growing of flowers, whereas the base metal planters and the plaster garden picks can continue to be used. We find that the base metal planters, which function to hold and display plants, impart the essential character to the set.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336828": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336828",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Meridian International Co",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 13, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Anthony Grossi",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336734": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336734",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Sandler, Travis & Rosenberg P.A.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "David Olave",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "CPF Floors LLC",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 27, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 12, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Christina Allen",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3918.10.1020",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "5.3 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336751": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336751",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Stacia Keegan",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 28, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 12, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Sandra Sary",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "7116.20.4000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The item under consideration is a \"Flat Pack Wood Burning Pizza Oven & Grill.\" This oven/grill is made of powder-coated steel and features an internal cooking chamber made from cordierite. It also includes a built-in thermometer. This product is packaged in a flat pack and does not require tools for assembly due the groove and tongue design. Legal Note 1 (a) to Chapter 71 of the Harmonized Tariff Schedule of the United States (HTSUS), provides in pertinent part, subject to note 1 (a) to section VI and except as provided by note 3 to the chapter, that all articles consisting wholly or partly of natural or cultures pearls or of precious or semiprecious stones (natural, synthetic, or reconstructed) are to be classified in this chapter – see Explanatory Notes to heading 7117, HTSUS. As cordierite is listed as a semiprecious stone in the annex to heading 7103, HTSUS, and there are no exclusions preventing classification from said chapter, we are of the opinion that the pizza oven box, with internal cooking chamber made from cordierite, falls within the scope of articles classifiable within heading 7116, HTSUS.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336897": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336897",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Bethany Owen",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Unitex International Inc",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 4, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 12, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Christina Allen",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3923.21.0085",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "3 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N333193": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N333193",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Pricewaterhouse Coopers LLP",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ashleigh Strother",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Glanbia Ireland DAC (Kilkenny, Ireland)",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "May 30, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 7, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Ekeng Manczuk",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "0404.90.1000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336500": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336500",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Quality Shirt Company S.A.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Juan Felipe Spataro",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 13, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 7, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Maryalice Nowak",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6205.20.2016",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "19.7 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336508": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336508",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Julie Vair",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Fluidmaster",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 13, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 5, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Christina Allen",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3917.39.0010",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "3.1 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N336482": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N336482",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Tom Savage",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 10, 2023",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 4, 2023",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Liana Alvarez",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8708.29.5160",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "2.5 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344420": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344420",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Crowell & Moring, LLP",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Aaron Marx",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Sappi North America, Inc",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 20, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Christina Allen",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4705.00.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "5.2 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344580": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344580",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "9503.00.0073; 9615.11.4000; 9903.88.15",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 9, 2024",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 20, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Katherine Souffront",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6211.43.1092",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "16 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344583": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344583",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Grunfeld, Desiderio, Lebowitz, Silverman & Klestadt LLP",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Matthew Seymour",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Sazerac Company, Inc",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 11, 2024",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 20, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Frank Troise",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "2208.90.7100",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The subject merchandise is described as Imitation Brandy with Natural Flavors. It is comprised predominately of water and neutral grain spirits. The product is an 80-proof spirit, with 40 percent alcoholic strength by volume. The water and neutral grain spirits are mixed with brandies and flavors to imitate the look and taste of brandy. The Imitation Brandy is blended in the United States. It is said to contain water – deionized processed, spirits neutral grain corn, brandy, French brandy, sherry, high-fructose corn syrup, barrel aged flavoring, vanilla flavoring, kerry flavoring, givaudan flavoring and natural dark flavoring. The product will be packaged in 1-liter glass bottles before being exported to the Netherlands or Ireland for labeling and international distribution. Some of the previously exported product will be returned to the United States. In your letter you suggest that the product is classified under subheading 2208.90.7100, HTSUS, Harmonized Tariff Schedule of the United States (HTSUS). We agree. The applicable tariff provision for the Imitation Brandy with Natural Flavors will be 2208.90.7100, Harmonized Tariff Schedule of the United States (HTSUS), which provides for: Undenatured ethyl alcohol of an alcoholic strength by volume of less than 80 percent vol.; spirits, liqueurs and other spirituous beverages: (con.) : Other: Other: Imitations of brandy and other spirituous beverages.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344427": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344427",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "Gunster, Yoakley & Stewart, P.A.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Peter Quinter",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Lubrication Components Mfg",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 4, 2024",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Paul Huang",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8487.90.0080",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "3.9 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344592": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344592",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Craig Michael",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 11, 2024",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Christina Allen",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3917.40.0095",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "5.3 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344274": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344274",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Ms. Malanie Jimenez",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 13, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Laurel Duvall",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4819.40.0040",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The item under consideration is a paper shopping bag constructed of kraft paper weighing 150 grams per square meter (gsm). The bag measures approximately 17.5cm wide by 18cm high by 11cm deep. The two tube handles are constructed of knitted polyester cord. The handles are threaded through the holes near the top of the bag and are secured with a knot at each end. The top edge of the bag is folded over. The picture provided shows that the bag is colored on the exterior with an embossed design.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344369": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344369",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mireya Ruano",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 13, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Charlene Miller",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4820.10.2020",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "Free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N340955": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N340955",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Kenn Leifheit",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "June 27, 2024",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 12, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
       "llm": null
     },
     "case_handler": {
@@ -609,7 +7031,79 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": "3808.91.2501",
+      "regex": "2924.29.7100",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "6.5 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N344246": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N344246",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 25, 2024",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 10, 2024",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Seth Mazze",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
       "llm": null
     },
     "duty_rate": {
@@ -633,20 +7127,20 @@
       "llm": null
     }
   },
-  "N356014": {
+  "N344067": {
     "ruling_id": {
       "bench": null,
-      "regex": "N356014",
+      "regex": "N344067",
       "llm": null
     },
     "submitting_firm": {
       "bench": null,
-      "regex": null,
+      "regex": "Kuat Innovations LLC",
       "llm": null
     },
     "submitter": {
       "bench": null,
-      "regex": "Malanie Jimenez",
+      "regex": "James Jeffries",
       "llm": null
     },
     "importer": {
@@ -656,22 +7150,22 @@
     },
     "date_submitted": {
       "bench": null,
-      "regex": "November 13, 2025",
+      "regex": "November 15, 2024",
       "llm": null
     },
     "date_replied": {
       "bench": null,
-      "regex": "December 11, 2025",
+      "regex": "December 6, 2024",
       "llm": null
     },
     "replying_person": {
       "bench": null,
-      "regex": "(for)<br>Deborah Marinucci<br>Designated Official Performing the Duties of the Division Director",
+      "regex": "Steven A. Mack<br>Director<br>National",
       "llm": null
     },
     "case_handler": {
       "bench": null,
-      "regex": "Michael Capanna",
+      "regex": "Liana Alvarez",
       "llm": null
     },
     "hts_suggestion": {
@@ -681,17 +7175,17 @@
     },
     "hts_decision": {
       "bench": null,
-      "regex": "5806.32.1080",
+      "regex": "8708.29.5160",
       "llm": null
     },
     "duty_rate": {
       "bench": null,
-      "regex": "6 percent ad valorem",
+      "regex": "2.5 percent ad valorem",
       "llm": null
     },
     "product_description": {
       "bench": null,
-      "regex": null,
+      "regex": "The product under consideration is a Rooftop Platform Rack designed to be attached to the roof of a passenger vehicle for carrying luggage and other similar cargo on the exterior of the vehicle. The rack comprises front and rear cross members, right and left side members, multiple interior support bars, and vehicle mount devices. The components are largely made of aluminum extrusions or die-cast components. In the subsequent correspondence, you state that there are miscellaneous parts including injection-molded plastic end caps, plastic nuts, and steel components to attach the product to specific vehicles. Also, there is a version of the rack that includes lights in the front cross member.",
       "llm": null
     },
     "accepted_flag": {

@@ -1,0 +1,45 @@
+N316238
+
+December 22, 2020
+
+CLA-2-73:OT:RR:NC:N1:116
+
+CATEGORY: Classification
+
+TARIFF NO.: 7306.30.1000; 7306.30.5015; 9903.80.01
+
+Mr. Jenny Konneh
+Benteler Steel & Tube Corp.
+2650 N. Opdyke Rd.
+Auburn Hills, Michigan 48326
+
+RE: The tariff classification of nonalloy steel tubes from Switzerland 
+
+Dear Mr. Konneh:
+
+In your letter dated December 2, 2020, you requested a tariff classification ruling.
+
+The products under consideration are five nonalloy steel tubes for automotive prop shafts. These cold-drawn, welded, circular steel tubes are made to European Standard EN 10305-2. The tubes are machined, cut and swaged and will be imported in lengths ranging from 400 mm to 900 mm.
+
+According to your submission, the first tube has a maximum wall thickness of 1.64 mm and an outside diameter of 54 mm. The second tube measures 1.7 mm in wall thickness with an outside diameter of 80 mm. The third tube has a wall thickness of 1.5 mm and an outside diameter of 50 mm. The fourth tube measures 2.5 mm in wall thickness with an outside diameter of 50 mm. The fifth tube has a wall thickness of 1.7 mm and an outside diameter of 65 mm.
+
+The applicable subheading for the first and third tubes will be 7306.30.1000, Harmonized Tariff Schedule of the United States (HTSUS), which provides for other tubes, pipes and hollow profiles (for example, open seamed or welded, riveted or similarly closed), of iron or steel: other, welded, of circular cross section, of iron or nonalloy steel: having a wall thickness of less than 1.65 mm. The rate of duty will be free.
+
+The applicable subheading for the second, fourth and fifth tubes will be 7306.30.5015, HTSUS, which provides for other tubes, pipes and hollow profiles (for example, open seamed or welded, riveted or similarly closed), of iron or steel: other, welded, of circular cross section, of iron or nonalloy steel: having a wall thickness of 1.65 mm or more: other: other, cold-drawn. The rate of duty will be free.
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided at https://hts.usitc.gov/current. 
+
+Please be advised that the subject tubes may be subject to antidumping duties and countervailing duties (AD/CVD). Written decisions regarding the scope of AD/CVD orders are issued by the Enforcement and Compliance office in the International Trade Administration of the Department of Commerce and are separate from tariff classification and origin rulings issued by Customs and Border Protection (CBP). You can contact them at https://trade.gov/enforcement/ (click on “Contact Us”). For your information, you can view a list of current AD/CVD cases at the United States International Trade Commission website at https://www.usitc.gov/trade_remedy/documents/orders.xls, and you can search AD/CVD deposit and liquidation messages using CBP’s AD/CVD Search tool at https://aceservices.cbp.dhs.gov/adcvdweb.
+
+On March 8, 2018, Presidential proclamations 9704 and 9705 imposed additional tariffs and quotas on a number of steel and aluminum mill products. Exemptions have been made on a temporary basis for some countries. Quantitative limitations or quotas may apply for certain exempted countries and can also be found in Chapter 99. Additional duties for steel of 25 percent and for aluminum of 10 percent are reflected in Chapter 99, subheading 9903.80.01 for steel and subheading 9903.85.01 for aluminum. Products classified under subheadings 7306.30.1000 and 7306.30.5015, HTSUS, may be subject to additional duties or quota. At the time of importation, you must report the Chapter 99 subheading applicable to your product classification in addition to the Chapter 72, 73 or 76 subheading listed above. 
+
+The Proclamations are subject to periodic amendment of the exclusions, so you should exercise reasonable care in monitoring the status of goods covered by the Proclamations and the applicable Chapter 99 numbers.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Angelia Amerson at angelia.m.amerson@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

@@ -1,0 +1,48 @@
+N315824
+
+December 2, 2020
+
+CLA-2:OT:RR:NC:N3:351
+
+CATEGORY: Classification
+
+TARIFF NO.: 6307.90.9870; 9903.88.42
+
+Mr. Christopher Constantine
+Unique Logistics International USA
+35 Village Rd. 
+Middleton, MA 01949
+
+RE: The tariff classification of a face mask with a plastic shield and flip up blackout fabric from China 
+
+Dear Mr. Constantine:
+
+In your letter dated November 11, 2020, you requested a tariff classification ruling on behalf of your client, Brazabra Corporation. You provided a sample of a nonwoven disposable face mask with a nonremovable plastic face shield and a flip up blackout fabric with your request. The sample will be retained for training purposes.
+
+Style #10270, described as a “Sleep N’ See Mask,” is a nonmedical adult nonwoven disposable face mask with a nonremovable plastic face shield that provides coverage to the mouth, nose, and eyes. The pleated face mask which covers the mouth and nose is composed of four layers of spun bonded nonwoven polypropylene textile fabric and is heat sealed around the edges. Sewn to the upper front of the face mask to cover the eyes is a plastic face shield composed of 100 percent polypropylene and an identically shaped piece of 100 percent nylon woven blackout fabric. Glued to the middle of the inside layers of the plastic shield and face mask are hook and loop tabs used to attach and detach the woven nylon blackout fabric which includes a corresponding hook and loop tab allowing the user to flip the blackout fabric up or down when user chooses to sleep or see. The 7.75 X 6.87 inch face mask also features a metal strip on the top edge which lies on the bridge of the nose to help the mask conform to the contours of the face and elastic ear loop strings that fasten behind the ears. You state the item is intended to be used as an all-in-one travel mask for long distance trips. The product will be imported and sold in a package containing three masks.
+
+The nonwoven disposable face mask with a nonremovable plastic face shield and nylon woven blackout fabric is considered a composite good made of textile and plastic. Classification of merchandise under the Harmonized Tariff Schedule of the United States (HTSUS) is in accordance with the General Rules of Interpretation (GRIs), taken in order. GRI 3 provides for classification of composite goods. GRI 3(b) provides that composite goods made up of different components shall be classified as if they consisted of the component which gives them their essential character. In our opinion, it is the textile face mask which provides the essential character of the article.
+
+The applicable subheading for style #10270, described as a “Sleep N’ See Mask,” will be 6307.90.9870, HTSUS, which provides for “Other made up articles, including dress patterns: Other: Other: Other: Face masks, including respirators without replaceable filters: Other face masks: Disposable.” The duty rate will be 7 percent ad valorem.
+
+Pursuant to U.S. Note 20 to Subchapter III, Chapter 99, HTSUS, products of China classified under subheading 6307.90.9870, HTSUS, unless specifically excluded, are subject to an additional 7.5 percent ad valorem rate of duty under 9903.88.15, HTSUS; however, exclusions annotated in the March 17, 2020 Federal Register as revised in the May 13, 2020 Federal Register are available for any product that meets the description in the Annex, regardless of whether the importer filed an exclusion request. Section XXII, Chapter 99, Subchapter III, U.S. Note 20(uu) and Annex Enumeration (9), HTSUS, in pertinent part, states:
+
+(uu) The U.S. Trade Representative determined to establish a process by which particular products classified in heading 9903.88.15 and provided for in U.S. notes 20(r) and (s) to this subchapter could be excluded from the additional duties imposed by heading 9903.88.15. See 84 Fed. Reg. 43304 (August 20, 2019), 84 Fed. Reg. 45821 (August 30, 2019), 84 Fed. Reg. 57144 (October 24, 2019) and 85 Fed. Reg. 3741 (January 22, 2020). Pursuant to the product exclusion process, the U.S. Trade Representative has determined that the additional duties provided for in heading 9903.88.15 shall not apply to the following particular products, which are provided for in the following enumerated statistical reporting numbers:
+ 
+(9) Face masks, and particulate facepiece respirators, of textile fabrics (described in statistical reporting number 6307.90.9889 prior to July 1, 2020; described in statistical reporting number 6307.90.9845, 6307.90.9850, 6307.90.9870, or 6307.90.9875 effective July 1, 2020)
+
+Based on the pertinent facts, the nonwoven disposable face mask with a nonremovable plastic face shield and woven nylon blackout fabric are accurately described and are afforded the exclusion under 9903.88.42, HTSUS. At the time of importation, you must report the Chapter 99 subheading, i.e., 9903.88.42, in addition to subheading 6307.90.9870, HTSUS, listed above.
+
+The HTSUS is subject to periodic amendment so you should exercise reasonable care in monitoring the status of goods covered by the Note cited above and the applicable Chapter 99 subheading. For background information regarding the trade remedy initiated pursuant to Section 301 of the Trade Act of 1974, you may refer to the relevant parts of the USTR and CBP websites, which are available at https://ustr.gov/issue-areas/enforcement/section-301-investigations/tariff-actions and https://www.cbp.gov/trade/remedies/301-certain-products-china, respectively.
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided on the World Wide Web at https://hts.usitc.gov/current. 
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Kristine Dodge at kristine.dodge@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

@@ -1,0 +1,48 @@
+N307926
+
+December 18, 2019
+
+CLA-2-73:OT:RR:NC:N1:116
+
+CATEGORY: Classification
+
+TARIFF NO.: 7306.61.5000; 9903.80.01
+
+Mr. Thanh Le
+Spirit CHB, Inc.
+5450 Orange Avenue, Suite 101
+Cypress, CA 90630
+
+RE: The tariff classification, country of origin, and marking determination of square nonalloy steel tubes from Vietnam 
+
+Dear Mr. Le:
+
+In your letter dated October 25, 2019, you requested a tariff classification ruling on behalf of your client, Thinh Welding.
+
+The products to be imported are square/ rectangular welded steel tubes and are used in construction, staircase railings, steel grates, etc. The tubes will be imported in lengths of 20 feet in four different sizes: 5/8 inches X 5/8 inches (15.875 mm X 15.875 mm) with a wall thickness of 1.2 mm, 1 ¼ inches X 1 ¼ inches (31.75 mm X 31.75 mm) with a wall thickness of 1.4 mm, 1 ½ inches X 1 ½ inches (38.1 mm X 38.1 mm) with a wall thickness of 1.4 mm, and 1 inch X 2 inches (25.4 mm X 50.8 mm) with a wall thickness of 1.4 mm. The chemistry provided in the additional information shows the tubes are nonalloy steel. The manufacturing process begins with nonalloy steel coils from Taiwan, China, or Russia being imported into Vietnam. In Vietnam, the coil is rolled/ bent to its square/ rectangular shape, welded, and cut to 20 foot lengths. At importation into the United States (U.S.), the tubes are not ready for use. After importation into the U.S., the tubes must be cut to specified lengths, bent, and welded to manufacture steel gates and staircase railings.
+
+The applicable subheading for all four sizes of tubes will be 7306.61.5000, Harmonized Tariff Schedule of the United States (HTSUS), which provides for other tubes, pipes and hollow profiles (for example, open seamed or welded, riveted or similarly closed), of iron or steel: other, welded, of noncircular cross section: of square or rectangular cross section: having a wall thickness of less than 4 mm: of iron or nonalloy steel. The rate of duty will be free.
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided at https://hts.usitc.gov/current.
+
+You have also requested a country of origin and marking determination for the tubes. Section 134.1(b), Customs Regulations (19 CFR 134.1(b), defines "country of origin" as the country of manufacture, production or growth of any article of foreign origin entering the U.S. Because the article being considered is the product of more than one country, a substantial transformation must occur in an other country in order to render such other country the "country of origin" within the meaning of Part 134. 
+
+A substantial transformation occurs when an article emerges from a process with a new name, character, and use different from that possessed by the article prior to processing. A substantial transformation will not result from a minor manufacturing or combining process that leaves the identity of the article intact. See United States v. Gibson-Thomsen Co., 27 C.C.P.A. 267 (1940); and National Juice Products Ass’n v. United States, 628 F.Supp. 978 (Ct. Int’l Trade 1986).
+
+As the product enters Vietnam as a coiled sheet of nonalloy steel and leaves Vietnam as a square, welded tube, we find that that the processing performed in Vietnam does effect a substantial transformation. As such, we find the country of origin to be Vietnam.
+
+You have also requested a marking determination. Part 134, Customs Regulations (19 CFR Part 134), implements the country of origin marking requirements and exceptions of 19 U.S.C. 1304. Section 134.41(b), Customs Regulations (19 CFR 134.41(b), mandates that the ultimate purchaser in the U.S. must be able to find the marking easily and read it without strain. Therefore, it is necessary to ascertain who the ultimate purchaser is of the steel tubes. Section 134.1(d), Customs Regulations, (19 CFR 134.1(d)), defines the ultimate purchaser as generally the last person in the U.S. who will receive the article in the form in which it was imported. In C.S.D. 89-47, December 8, 1988, Customs held that a construction company that installed imported steel roofing structural components was the ultimate purchaser in that instance. Similarly, in this case, we find that the actual manufacturer of the staircase railings and steel gates is the ultimate purchaser. Therefore, since Thinh Welding is the ultimate purchaser and will receive the tubes in the form in which they were imported, the tubes or the packaging for the tubes should be marked, at the time of import, in a legible, permanent and conspicuous manner with “Made in Vietnam”, pursuant to 19 U.S.C. 1304(a)(3)(D); 19 CFR 134.32(d).
+
+On March 8, 2018, Presidential proclamations 9704 and 9705 imposed additional tariffs and quotas on a number of steel and aluminum mill products.  Exemptions have been made on a temporary basis for some countries. Quantitative limitations or quotas may apply for certain exempted countries and can also be found in Chapter 99. Additional duties for steel of 25 percent and for aluminum of 10 percent are reflected in Chapter 99, subheading 9903.80.01 for steel and subheading 9903.85.01 for aluminum. Products classified under subheading 7306.61.5000, HTSUS, may be subject to additional duties or quota.  At the time of importation, you must report the Chapter 99 subheading applicable to your product classification in addition to the Chapter 72, 73 or 76 subheading listed above. 
+
+The Proclamations are subject to periodic amendment of the exclusions, so you should exercise reasonable care in monitoring the status of goods covered by the Proclamations and the applicable Chapter 99 numbers.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Angelia Amerson at angelia.m.amerson@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division

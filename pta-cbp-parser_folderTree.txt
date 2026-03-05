@@ -48,7 +48,6 @@ pta-cbp-parser
 │       ├── N356840.pretty.txt
 │       └── N356840.raw.pdf
 ├── CLAUDE.md
-├── extract_rulings.py
 ├── input_data
 │   ├── ca
 │   │   ├── benchmarks
@@ -60,9 +59,7 @@ pta-cbp-parser
 │       │   ├── benchmark_spec.json
 │       │   └── benchmark_values.json
 │       └── ruling_ids
-│           ├── Archive
-│           ├── ruling_ids.json
-│           └── ruling_ids_scraper.json
+│           └── ruling_ids_scraper.jsonl
 ├── jurisdiction_modules
 │   ├── ca
 │   │   └── __init__.py
@@ -90,14 +87,11 @@ pta-cbp-parser
 │       │   ├── extract__llm__raw__all.json
 │       │   └── extract__regex__raw__all.json
 │       └── performance_logs
-│           ├── log_document_fetch.jsonl
+│           ├── log_extract_fetch.jsonl
+│           ├── log_extract_llm.jsonl
 │           ├── log_extract_regex.jsonl
 │           ├── log_extract_session.jsonl
-│           ├── log_fetch.jsonl
-│           ├── log_harvest.jsonl
-│           ├── log_llm.jsonl
-│           ├── log_regex.jsonl
-│           └── log_session.jsonl
+│           └── log_id_fetch_session.jsonl
 ├── pta-cbp-parser_folderTree.txt
 ├── readme.md
 ├── requirements.txt
@@ -106,7 +100,7 @@ pta-cbp-parser
     ├── config.py
     ├── excel_export.py
     ├── fetchers_report.py
-    ├── idharvestor.py
+    ├── id_scraper.py
     ├── io_inputs.py
     ├── llm_config.py
     ├── performance_logger.py

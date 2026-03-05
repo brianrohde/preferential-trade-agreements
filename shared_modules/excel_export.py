@@ -29,6 +29,7 @@ Usage (from main.py):
     )
 """
 
+import json
 import pandas as pd
 from pathlib import Path
 from typing import List, Dict, Optional
@@ -546,6 +547,22 @@ def _apply_conditional_formatting(writer) -> None:
             CellIsRule(operator="equal", formula=['"No"'], fill=no_fill)
         )
 
+    # -------------------------
+    # session_summary sheet formatting
+    # -------------------------
+    # Columns: Section | Key | Value  → Value is col C
+    if "session_summary" in writer.sheets:
+        ws = writer.sheets["session_summary"]
+        cell_range = f"C2:C{ws.max_row}"
+        ws.conditional_formatting.add(
+            cell_range,
+            CellIsRule(operator="equal", formula=['"Yes"'], fill=yes_fill)
+        )
+        ws.conditional_formatting.add(
+            cell_range,
+            CellIsRule(operator="equal", formula=['"No"'], fill=no_fill)
+        )
+
 def _apply_static_detail_diff_highlighting(writer, df_details: pd.DataFrame) -> None:
     """
     Static highlighting rules (NOT conditional formatting):
@@ -706,6 +723,144 @@ def _disable_gridlines(writer) -> None:
         ws.sheet_view.showGridLines = False
 
 
+def _read_last_jsonl_line(path: str) -> dict:
+    """Return the last non-empty JSON object from a JSONL file, or {} if missing/unreadable."""
+    import os
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            last = {}
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    last = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+            return last
+    except OSError:
+        return {}
+
+
+def _nested_get(d: dict, dotted_key: str):
+    """Fetch a value from a nested dict using dot-notation key (e.g. 'timing.total_rx_sec')."""
+    keys = dotted_key.split(".")
+    v = d
+    for k in keys:
+        if not isinstance(v, dict):
+            return None
+        v = v.get(k)
+    return v
+
+
+def _build_session_summary_df(perf_log_dir: Optional[str], jurisdiction: str) -> pd.DataFrame:
+    """
+    Build session_summary sheet from the last line of two JSONL session logs.
+
+    Sources (if perf_log_dir is provided):
+      - log_id_fetch_session.jsonl   → ID Harvest section
+      - log_extract_session.jsonl    → Extraction section
+
+    Returns a DataFrame with columns: Section | Key | Value
+    """
+    import os
+
+    def _get(d, key):
+        v = _nested_get(d, key)
+        return "N/A" if v is None else v
+
+    if perf_log_dir:
+        id_data = _read_last_jsonl_line(os.path.join(perf_log_dir, "log_id_fetch_session.jsonl"))
+        ex_data = _read_last_jsonl_line(os.path.join(perf_log_dir, "log_extract_session.jsonl"))
+    else:
+        id_data = {}
+        ex_data = {}
+
+    # Convert llm_enabled bool → Yes/No for conditional formatting
+    llm_enabled_val = ex_data.get("llm_enabled")
+    if llm_enabled_val is True:
+        llm_enabled_str = "Yes"
+    elif llm_enabled_val is False:
+        llm_enabled_str = "No"
+    else:
+        llm_enabled_str = "N/A"
+
+    rows = [
+        ("ID Harvest", "Session ID",        _get(id_data, "session_id")),
+        ("ID Harvest", "Collection",         _get(id_data, "collection")),
+        ("ID Harvest", "Start Year",         _get(id_data, "start_year")),
+        ("ID Harvest", "End Year",           _get(id_data, "end_year")),
+        ("ID Harvest", "Max Per Year",       _get(id_data, "max_per_year")),
+        ("ID Harvest", "Total Harvested",    _get(id_data, "total_harvested")),
+        ("ID Harvest", "Total Time (sec)",   _get(id_data, "timing.total_elapsed_sec")),
+        ("Extraction", "Session ID",         _get(ex_data, "session_id")),
+        ("Extraction", "Jurisdiction",       _get(ex_data, "jurisdiction")),
+        ("Extraction", "Total Rulings",      _get(ex_data, "total_rulings")),
+        ("Extraction", "LLM Enabled",        llm_enabled_str),
+        ("Extraction", "Regex Total Time (sec)",    _get(ex_data, "timing.total_rx_sec")),
+        ("Extraction", "LLM Total Time (sec)",      _get(ex_data, "timing.total_llm_sec")),
+        ("Extraction", "LLM Total Input Tokens",    _get(ex_data, "llm_metrics.total_input_tokens")),
+        ("Extraction", "LLM Total Output Tokens",   _get(ex_data, "llm_metrics.total_output_tokens")),
+        ("Extraction", "LLM Total Cost (USD)",      _get(ex_data, "llm_metrics.total_cost_usd")),
+    ]
+
+    return pd.DataFrame(rows, columns=["Section", "Key", "Value"])
+
+
+def _build_id_scrape_results_df(base_dir: Optional[str], jurisdiction: str) -> pd.DataFrame:
+    """
+    Build harvest_results sheet from the scraper JSONL file.
+
+    Source: input_data/{jurisdiction}/ruling_ids/{jurisdiction}_ruling_ids_scraper.jsonl
+    Skips lines where "type" == "session_summary".
+
+    Returns a DataFrame with the scraper record columns.
+    """
+    import os
+
+    COLUMNS = [
+        "session_id", "year", "page", "page_index", "ruling_number", "ruling_id",
+        "subject", "categories", "ruling_date", "tariffs", "related_rulings", "status",
+    ]
+    LIST_FIELDS = {"tariffs", "related_rulings", "categories"}
+
+    rows = []
+    if base_dir:
+        jsonl_path = os.path.join(
+            base_dir, "input_data", jurisdiction, "ruling_ids",
+            f"{jurisdiction}_ruling_ids_scraper.jsonl"
+        )
+        if os.path.exists(jsonl_path):
+            with open(jsonl_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        obj = json.loads(line)
+                    except json.JSONDecodeError:
+                        continue
+                    if obj.get("type") == "session_summary":
+                        continue
+                    row = {}
+                    for col in COLUMNS:
+                        val = obj.get(col)
+                        if col in LIST_FIELDS:
+                            if isinstance(val, list):
+                                val = "; ".join(str(v) for v in val)
+                            elif val is None:
+                                val = ""
+                        row[col] = val
+                    rows.append(row)
+
+    if rows:
+        return pd.DataFrame(rows, columns=COLUMNS)
+    # Return empty DataFrame with correct columns when no data
+    return pd.DataFrame(columns=COLUMNS)
+
+
 def export_to_excel(
     output_path: str,
     triage: Dict,
@@ -715,11 +870,20 @@ def export_to_excel(
     bench_values: Optional[Dict | List] = None,
     llm_enabled: bool = False,
     llm_updated_this_run: bool = False,
-    timestamp: Optional[datetime] = None
+    timestamp: Optional[datetime] = None,
+    perf_log_dir: Optional[str] = None,
+    jurisdiction: str = "ny",
+    base_dir: Optional[str] = None,
 ) -> None:
     """
-    Export triage results to Excel workbook with summary, details, and metadata sheets.
-    
+    Export triage results to Excel workbook with 6 sheets in order:
+      1. session_summary    - Key-value metadata from harvest + extraction session logs
+      2. id_scrape_results  - One row per ruling record from the scraper JSONL
+      3. metadata           - Execution settings and run stats
+      4. data_dictionary    - Field definitions and notes
+      5. summary            - Per-ruling disagreement counts
+      6. details            - Long-format extraction results with diff highlighting
+
     Args:
         output_path: Path to output .xlsx file (e.g., "output_data/ny/checks/review.xlsx")
         triage: Triage report dict from triage_report_goal()
@@ -729,7 +893,10 @@ def export_to_excel(
         bench_values: Benchmark ground truth values (optional, can be list or dict)
         llm_enabled: Whether --llm flag was used (for metadata)
         timestamp: When extraction was run (defaults to now)
-        
+        perf_log_dir: Path to performance_logs/ directory (for session_summary sheet)
+        jurisdiction: Jurisdiction code used to locate scraper JSONL (for id_scrape_results)
+        base_dir: Project base directory (for input_data/ path in id_scrape_results)
+
     Raises:
         ValueError: If output path is not .xlsx
         OSError: If parent directory cannot be created
@@ -750,6 +917,8 @@ def export_to_excel(
     bench_values_dict = _normalize_bench_values(bench_values)
     
     # Build DataFrames
+    df_session_summary = _build_session_summary_df(perf_log_dir, jurisdiction)
+    df_scrape_results = _build_id_scrape_results_df(base_dir, jurisdiction)
     df_metadata = _build_metadata_df(
         regex_records=regex_records,
         llm_records=llm_records,
@@ -767,24 +936,26 @@ def export_to_excel(
         bench_values_dict=bench_values_dict
     )
 
-    
-
-    
-    # Write to Excel with three sheets
+    # Write to Excel — sheet order: session_summary, id_scrape_results, metadata,
+    # data_dictionary, summary, details
     with pd.ExcelWriter(output_path, engine="openpyxl") as writer:
+        df_session_summary.to_excel(writer, sheet_name="session_summary", index=False)
+        df_scrape_results.to_excel(writer, sheet_name="id_scrape_results", index=False)
         df_metadata.to_excel(writer, sheet_name="metadata", index=False)
         df_dict.to_excel(writer, sheet_name="data_dictionary", index=False)
         df_summary.to_excel(writer, sheet_name="summary", index=False)
         df_details.to_excel(writer, sheet_name="details", index=False)
-        
+
         # Apply table formatting and styling
+        _apply_table_formatting(writer, "session_summary", df_session_summary)
+        _apply_table_formatting(writer, "id_scrape_results", df_scrape_results)
         _apply_table_formatting(writer, "metadata", df_metadata)
         _apply_table_formatting(writer, "data_dictionary", df_dict)
         _apply_table_formatting(writer, "summary", df_summary)
 
         print(df_details.columns[df_details.columns.duplicated()].tolist())
         _apply_table_formatting(writer, "details", df_details)
-       
+
         # Apply conditional formatting
         _apply_conditional_formatting(writer)
         _apply_static_detail_diff_highlighting(writer, df_details)

@@ -1,0 +1,40 @@
+N301862
+
+December 11, 2018
+
+CLA-2-85:OT:RR:NC:N2:209
+
+CATEGORY: Classification
+
+TARIFF NO.:8517.62.0090
+
+Michael J. Femal
+Much Shelist P.C.
+191 N. Wacker Dr. Suite 1800 
+Chicago, IL 60004 
+
+RE: The tariff classification of asset tracking devices from China 
+
+Dear Mr. Femal:
+
+In your letter dated November 19, 2018, you requested a tariff classification ruling on behalf of your client, Telular Corporation.
+
+The first item concerned is referred to as the Falcon GXT5002C. This electronic device is an externally mounted asset management/tracking device. It is used to track/report various data elements from (generally) a tractor trailer. It operates on a long-lasting battery pack which is recharged from an integrated solar panel. It operates on an LTE cellular network. The Falcon GXT5002C provides relevant reporting, including on-road vs. on-rail profiling, and is configurable to each user’s needs. Data can be requested from the GXT5002C on-demand. This device can be programmed over-the-air, allowing customers to update reporting frequency and behavior. The Falcon GXT5002C does not incorporate a GPS transceiver.
+
+The second item concerned is referred to as the Falcon GXT5002. This electronic device is an externally mounted asset management/tracking device. It is used to track/report various data elements from (generally) a tractor trailer. It operates on a long-lasting battery pack which is recharged from an integrated solar panel. It is a custom built cellular, remote data collection device that provides accurate pin-point location information of assets and cargo status. The Falcon GXT5002 provides relevant reporting and is configurable to each user’s needs. Data can be requested from the GXT5002 on-demand. This device can also be programmed over-the-air, allowing customers to update reporting frequency and behavior. The Falcon GXT5002 does not incorporate a GPS transceiver.
+
+You proposed classification of both products under subheading 8517.12.0050, Harmonized Tariff Schedule of the United States (HTSUS), which provides for “Telephone sets, including telephones for cellular networks or for other wireless networks;…: Telephone sets, including telephones for cellular networks or for other wireless networks: Telephones for cellular networks or for other wireless networks: Other radio telephones designed for the Public Cellular Radiotelecommunication Service.” Based on the information supplied the products concerned are not telephones. As such classification within subheading 8517.12.0050, HTSUS is inapplicable. 
+
+The applicable subheading for the Falcon GXT5002C and the Falcon GXT5002 will be 8517.62.0090, HTSUS, which provides for “Telephone sets…; other apparatus for the transmission or reception of voice, images or other data...: Other apparatus for transmission or reception of voice, images or other data…: Machines for the reception, conversion and transmission or regeneration of voice, images or other data, including switching and routing apparatus: Other.” The general rate of duty will be Free. 
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided on the World Wide Web at https://hts.usitc.gov/current.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist Steven Pollichino at steven.pollichino@cbp.dhs.gov.
+
+Sincerely,
+
+Steven A. Mack
+Director
+National Commodity Specialist Division
