@@ -12,8 +12,8 @@ ENV/
 env/
 
 # Project-specific - cached and output data
-cache/
-out/
+cache_data/
+output_data/
 
 # IDEs
 .vscode/
