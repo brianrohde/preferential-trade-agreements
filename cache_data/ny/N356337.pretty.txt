@@ -1,0 +1,91 @@
+U.S. Customs and
+Border Protection
+U.S. Department of Homeland Security
+U.S. Customs and Border Protection
+National Commodity Specialist Division
+One World Trade Center, Suite 51.201
+New York, NY 10007
+N356337
+December 15, 2025
+CLA-2-90:OT:RR:NC:N1:105
+CATEGORY: Classification
+TARIFF NO.: 9031.80.8085
+Donal O'Gorman
+identifyHer Inc.
+800 N King Street, Suite 304-3205
+Wilmington, DE 19801
+RE:  The tariff classification of a Peri sensor from China
+Dear Mr. O'Gorman:
+In your letter dated November 21, 2025, you requested a tariff classification ruling. Descriptive literature was
+provided for our review.
+The item under consideration is described as a Peri sensor (model IDH-AA-01), which is a battery-powered,
+body-worn electronic unit that captures bio signals and communicates them via Bluetooth to a paired
+smartphone application. The device is made of a sealed polymer enclosure with a gasket, an internal printed
+circuit board assembly (PCBA) carrying a microcontroller with memory, power management integrated
+circuits (ICs), sensors, and a Bluetooth radio transceiver with antenna. Additionally, there are stainless-steel
+electrodes, a skin-contact thermistor, an optical window for photoplethysmography (PPG) emitter/detector,
+and medical-grade adhesive patches for on-body attachment. The device measures 66×45×11 mm and weighs
+25 g.
+The Peri sensor has a PPG (optical) for pulse/flow-related signals, electrodermal activity (EDA) electrodes
+for skin conductance, a 3-axis accelerometer for motion/posture, and a skin-contact temperature sensor. In
+operation, the sensors generate analog signals that are digitized by on-board electronics before being
+wirelessly transmitted via Bluetooth to the paired app. Data is also synced to cloud services where it is
+processed and the outputs displayed on the app.
+The Peri sensor is designed as a consumer wellness wearable for trend-tracking of perimenopausal symptom
+patterns (hot flashes, night sweats, sleep disruption, anxiety) as well as step count and menstrual-cycle
+tracking. The device is imported with two rechargeable batteries, USB-C charging dock/cable, 20 starter
+adhesive patches, and a quick-start guide.
+In your letter, you suggest the applicable heading to be 8517, Harmonized Tariff Schedule of the United
+States (HTSUS), which provides in relevant part for “…other apparatus for the transmission or reception of
+
+voice, images or other data, including apparatus for communication in a wired or wireless network (such as a
+local or wide area network).” The item concerned is primarily used to monitor various aspects of a person’s
+wellbeing. It incorporates various sensors and a processing system that measures health related information.
+It also has a secondary function of transmitting that data to a remote Bluetooth enabled device which then
+transmits to a cloud-based service. 
+Classification under heading 8517, HTSUS, is precluded because the devices concerned are composite goods
+(Section XVI Note 3 and Chapter 90 Note 3) which execute the principal function of determining/calculating
+a measurement. The ability to transmit that information to a remote device would be considered the unit’s
+secondary or support function. Additionally, as per the Explanatory Notes to heading 8517, carrier-current
+and other transmitters and receivers which form a single unit with analogue or digital telemetering
+instruments or apparatus…, are excluded from heading 8517. Measurement apparatus of Chapter 90 are also
+excluded from classification within Chapter 85. (Section Note XVI Note 1(m)). As such, classification within
+heading 8517, HTSUS, is not applicable. 
+The applicable subheading for the Peri sensor (model IDH-AA-01) will be 9031.80.8085, HTSUS, which
+provides for “Measuring or checking instruments, appliances and machines, not specified or included
+elsewhere in this chapter; profile projectors; parts and accessories thereof: Other instruments, appliances and
+machines: Other: Other.” The general rate of duty will be free.
+The tariffs and additional duties cited in the companion information letter are current as of this ruling’s
+issuance.  Duty rates are provided for your convenience and are subject to change. The text of the most recent
+HTSUS and the accompanying duty rates are provided at https://hts.usitc.gov/.
+This ruling does not address the applicability of any additional duties, taxes, fees, exactions and/or other
+charges, which may apply to the goods discussed herein.  This includes, but is not limited to, tariffs and other
+duties as provided for in Subchapter III to Chapter 99, HTSUS. Thus, for example, in addition to the  
+classification stated above, the merchandise covered by this ruling may also need to be reported with either
+the Chapter 99 provision under which an additional tariff applies or one of the Chapter 99 provisions
+covering exceptions to such tariffs.
+For further information to assist with the importation process, please refer to the frequently updated Cargo
+Systems Messaging Service (CSMS) messages at 
+https://www.cbp.gov/trade/automated/cargo-systems-messaging-service and Frequently Asked Questions on
+the Trade Remedy/IEEPA page at 
+https://www.cbp.gov/trade/programs-administration/trade-remedies/IEEPA-FAQ.
+The holding set forth above applies only to the specific factual situation and merchandise description as
+identified in the ruling request. This position is clearly set forth in Title 19, Code of Federal Regulations
+(CFR), Section 177.9(b)(1). This section states that a ruling letter is issued on the assumption that all of the
+information furnished in the ruling letter, whether directly, by reference, or by implication, is accurate and
+complete in every material respect. In the event that the facts are modified in any way, or if the goods do not
+conform to these facts at time of importation, you should bring this to the attention of U.S. Customs and
+Border Protection (CBP) and submit a request for a new ruling in accordance with 19 CFR 177.2.
+Additionally, we note that the material facts described in the foregoing ruling may be subject to periodic
+verification by CBP.
+This ruling is being issued under the provisions of Part 177 of the Customs and Border Protection
+Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents
+filed at the time this merchandise is imported. If you have any questions regarding the ruling, please contact
+National Import Specialist Jason Christie at jason.m.christie@cbp.dhs.gov.
+Sincerely,
+(for)
+Evan Conceicao
+Designated Official Performing the Duties of the Division Director
+National Commodity Specialist Division

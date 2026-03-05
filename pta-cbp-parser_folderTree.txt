@@ -2,7 +2,8 @@ pta-cbp-parser
 ├── .env
 ├── .env.example
 ├── .gitignore
-├── cache
+├── cache_data
+│   ├── ca
 │   └── ny
 │       ├── N275583.normalized.txt
 │       ├── N275583.pretty.txt
@@ -18,72 +19,94 @@ pta-cbp-parser
 │       ├── N340865.normalized.txt
 │       ├── N340865.pretty.txt
 │       ├── N340865.raw.doc
-│       └── N340865.raw.html
+│       ├── N340865.raw.html
+│       ├── N355798.normalized.txt
+│       ├── N355798.pretty.txt
+│       ├── N355798.raw.pdf
+│       ├── N356014.normalized.txt
+│       ├── N356014.pretty.txt
+│       ├── N356014.raw.pdf
+│       ├── N356337.normalized.txt
+│       ├── N356337.pretty.txt
+│       ├── N356337.raw.pdf
+│       ├── N356609.normalized.txt
+│       ├── N356609.pretty.txt
+│       ├── N356609.raw.pdf
+│       ├── N356637.normalized.txt
+│       ├── N356637.pretty.txt
+│       ├── N356637.raw.pdf
+│       ├── N356645.normalized.txt
+│       ├── N356645.pretty.txt
+│       ├── N356645.raw.pdf
+│       ├── N356676.normalized.txt
+│       ├── N356676.pretty.txt
+│       ├── N356676.raw.pdf
+│       ├── N356833.normalized.txt
+│       ├── N356833.pretty.txt
+│       ├── N356833.raw.pdf
+│       ├── N356840.normalized.txt
+│       ├── N356840.pretty.txt
+│       └── N356840.raw.pdf
 ├── CLAUDE.md
 ├── extract_rulings.py
-├── in
+├── input_data
 │   ├── ca
-│   │   ├── 01_benchmarks
-│   │   │   └── 02_benchmark_values.json
-│   │   └── 02_rulings
-│   │       └── 01_ruling_ids.json
+│   │   ├── benchmarks
+│   │   │   └── benchmark_values.json
+│   │   └── ruling_ids
+│   │       └── ruling_ids.json
 │   └── ny
-│       ├── 01_benchmarks
-│       │   ├── 01_benchmark_spec.json
-│       │   └── 02_benchmark_values.json
-│       └── 02_rulings
-│           └── Archive
-│               └── 01_ruling_ids.json
-├── jurisdictions
+│       ├── benchmarks
+│       │   ├── benchmark_spec.json
+│       │   └── benchmark_values.json
+│       └── ruling_ids
+│           ├── Archive
+│           ├── ruling_ids.json
+│           └── ruling_ids_scraper.json
+├── jurisdiction_modules
 │   ├── ca
 │   │   └── __init__.py
 │   ├── ny
-│   │   ├── config.py
-│   │   ├── document_fetchers.py
-│   │   ├── llm.py
-│   │   ├── regex_parser.py
-│   │   ├── schema.py
+│   │   ├── ny_document_fetchers.py
+│   │   ├── ny_llm.py
+│   │   ├── ny_regex_parser.py
+│   │   ├── ny_schema.py
 │   │   ├── __init__.py
 │   │   └── __pycache__
-│   │       ├── config.cpython-314.pyc
-│   │       ├── constants.cpython-314.pyc
-│   │       ├── document_fetchers.cpython-314.pyc
-│   │       ├── llm.cpython-314.pyc
-│   │       ├── parsers.cpython-314.pyc
-│   │       ├── regex_parser.cpython-314.pyc
-│   │       ├── schema.cpython-314.pyc
-│   │       ├── tier_fetchers.cpython-314.pyc
+│   │       ├── ny_document_fetchers.cpython-314.pyc
+│   │       ├── ny_llm.cpython-314.pyc
+│   │       ├── ny_regex_parser.cpython-314.pyc
+│   │       ├── ny_schema.cpython-314.pyc
 │   │       └── __init__.cpython-314.pyc
 │   ├── __init__.py
 │   └── __pycache__
 │       └── __init__.cpython-314.pyc
-├── out
-│   ├── 00_meta
-│   ├── 01_artifacts
-│   │   └── N340865
-│   ├── 02_extractions_raw
-│   │   ├── extract__llm__raw__all.json
-│   │   └── extract__regex__raw__all.json
-│   ├── 03_checks
-│   │   └── check__triage__bench_regex_llm__goal__all.json
-│   ├── 04_review
-│   │   └── review.xlsx
-│   ├── 06_performance_logs
-│   │   └── performance_log.jsonl
+├── main.py
+├── output_data
 │   └── ny
-│       ├── 02_extractions_raw
+│       ├── checks
+│       │   └── check__triage__bench_regex_llm__goal__all.json
+│       ├── extractions_raw
 │       │   ├── extract__llm__raw__all.json
 │       │   └── extract__regex__raw__all.json
-│       ├── 03_checks
-│       │   └── check__triage__bench_regex_llm__goal__all.json
-│       └── 06_performance_logs
-│           └── performance_log.jsonl
+│       └── performance_logs
+│           ├── log_document_fetch.jsonl
+│           ├── log_extract_regex.jsonl
+│           ├── log_extract_session.jsonl
+│           ├── log_fetch.jsonl
+│           ├── log_harvest.jsonl
+│           ├── log_llm.jsonl
+│           ├── log_regex.jsonl
+│           └── log_session.jsonl
+├── pta-cbp-parser_folderTree.txt
 ├── readme.md
 ├── requirements.txt
-└── shared
+└── shared_modules
     ├── clean_cache.py
+    ├── config.py
     ├── excel_export.py
     ├── fetchers_report.py
+    ├── idharvestor.py
     ├── io_inputs.py
     ├── llm_config.py
     ├── performance_logger.py
@@ -91,8 +114,10 @@ pta-cbp-parser
     ├── utils.py
     ├── __init__.py
     └── __pycache__
+        ├── config.cpython-314.pyc
         ├── excel_export.cpython-314.pyc
         ├── fetchers_report.cpython-314.pyc
+        ├── idharvestor.cpython-314.pyc
         ├── io_inputs.cpython-314.pyc
         ├── llm_config.cpython-314.pyc
         ├── performance_logger.cpython-314.pyc

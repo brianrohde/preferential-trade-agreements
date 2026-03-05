@@ -1,0 +1,38 @@
+N275583
+
+June 2, 2016
+
+CLA-2-84:OT:RR:NC:N1:405
+
+CATEGORY: Classification
+
+TARIFF NO.: 8424.30.9000
+
+Aaron Marx
+Crowell & Moring LLP
+1001 Pennnsylvania Avenue, NW
+Washington, DC 20004-2595 
+
+RE: The tariff classification of a descaler unit from Italy 
+
+Dear Mr. Marx:
+
+In your letter dated May 6, 2016, you requested a tariff classification ruling on behalf of Southern Tube, LLC (STL).
+
+The product under consideration is a descaler unit for use with a rolling mill line. Consisting of a high speed pressure water descaler box containing spraying nozzles, a pumping unit and a valve bench, this descaler unit is used to remove scale from seamless steel pipes before they enter the quenching furnace. 
+
+In your letter, you propose classifying the descaler unit under subheading 8479.81.0000, Harmonized Tariff Schedule of the United States (HTSUS), which provides for “Machines and mechanical appliances having individual functions, not specified or included elsewhere in this chapter, parts thereof: Other machines and mechanical appliances: For treating metal, including electric wire coil-winders”.  As justification for your position, you cite Explanatory Note (“EN”) (II)(E)(2) to 84.79 and NY ruling letter G85305.  In both the EN and the NY ruling, machinery for pickling metals is classified in subheading 8479.81.0000, HTSUS.  However, in both instances, the pickling is achieved through the immersion of the workpieces into baths or vats containing pickle liquor, such as hydrochloric acid, in order to remove any scale.  In this instance, the descaling does not involve immersion but rather high speed jets of water are being sprayed on the workpieces.
+The EN to heading 8479, HTSUS, states, in pertinent part, that “This heading is restricted to machinery having individual functions, which: … (c) Cannot be classified in any other particular heading of this Chapter since:  (i) No other heading covers it by reference to its method of functioning, description or type. …”.  As the method by which the instant descaling is achieved is specifically provided for elsewhere in Chapter 84, classification under subheading 8479.81.0000, HTSUS, would not be appropriate. 
+The applicable subheading for the descaler unit will be 8424.30.9000, HTSUS, which provides for Mechanical appliances (whether or not hand operated) for projecting, dispersing or spraying liquids or powders; fire extinguishers, whether or not charged; spray guns and similar appliances; steam or sand blasting machines and similar jet projecting machines; parts thereof: Steam or sand blasting machines and similar jet projecting machines: Other. The rate of duty will be free.
+
+Duty rates are provided for your convenience and are subject to change. The text of the most recent HTSUS and the accompanying duty rates are provided on World Wide Web at https://hts.usitc.gov/current.
+
+This ruling is being issued under the provisions of Part 177 of the Customs Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents filed at the time this merchandise is imported. If you have any questions regarding the ruling, contact National Import Specialist April Cutuli at april.a.cutuli@cbp.dhs.gov.
+
+Sincerely,
+
+Deborah C. Marinucci
+Acting Director
+National Commodity Specialist Division

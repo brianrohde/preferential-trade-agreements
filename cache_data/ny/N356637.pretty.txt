@@ -1,0 +1,86 @@
+U.S. Customs and
+Border Protection
+U.S. Department of Homeland Security
+U.S. Customs and Border Protection
+National Commodity Specialist Division
+One World Trade Center, Suite 51.201
+New York, NY 10007
+N356637
+December 17, 2025
+OT:RR:NC:N2:212
+CATEGORY: Origin
+Melissa Miller Proctor
+Miller Proctor Law PLLC
+16427 N. Scottsdale Road, Suite 410
+Scottsdale, AZ  85254
+RE:  The country of origin of an audio interface device
+Dear Ms. Miller Proctor:
+In your letter dated December 2, 2025, you requested a country of origin ruling on behalf of your client,
+Focusrite Group US, Inc.
+The merchandise under consideration is identified as the ISA C8X and is described as an input signal
+amplifier audio interface. The subject device is further described as an analog microphone preamplifier and
+signal converter for professional music recording and production. The interface is comprised of multiple
+printed circuit board assemblies (PCBAs) within an enclosure. The front of the device is equipped with
+various knobs, buttons, sliders, and LED displays, which function together as the user interface for the
+device. The back of the device incorporates various audio inputs and outputs for the connection of
+microphones, speakers, and other audio input devices.
+The subject device is designed to function as an interface between the user’s computer and various audio
+inputs for music production, processing, and mixing. The device converts the analog sound from the input
+into digital form, making it accessible to alter with the computer. The device can further convert the digital
+signal back to analog for audio output.
+In your request, you note that there are three primary PCBAs, which provide the necessary functions of the
+device. The Main PCBA contains the analog/digital conversion functions as well as the digital signal
+processing architecture. The Preamp PCBA contains the ISA preamp electronics as well as various
+microphone preamplifiers. The final PCBA is the Front Panel PCBA, which contains the LEDs as well as the
+control and user interface electronics. Based on the information provided, the Main PCBA functions as the
+essential component of the finished device.
+You propose three manufacturing scenarios for the interface device, upon which you would like this office to
+review. In scenario one, the Main PCBA is manufactured and programmed in Malaysia. The process includes
+the placement of the various electronic components, including the converter circuits and digital signal
+processor, on the board via surface mount technology (SMT). The finished PCBA is then sent to China where
+
+the Preamp PCBA and Front Panel PCBA are manufactured via SMT procedures. The three PCBAs are then
+assembled within the enclosure before the finished device is tested, inspected, and packaged for shipment to
+the United States.
+The second scenario begins with both the Main PCBA and Preamp PCBA being manufactured, via the same
+SMT operation described above, in Malaysia. The two PCBAs are then sent to China where they are
+combined with the Front Panel PCBA, which in this case is manufactured in China, and installed within the
+enclosure. The finished device is then tested, inspected, and packaged for shipment to the United States.
+The final scenario begins with all three PCBAs (Main, Preamp, and Front Panel) being manufactured via
+SMT processes in Malaysia. All three PCBAs are then sent to China where they are assembled within the
+final enclosure. The finished device is then tested, inspected, and packaged for shipment to the United States.
+When determining the country of origin for purposes of applying current trade remedies under Section 301
+and additional duties, the substantial transformation analysis is applicable. See, e.g., Headquarters Ruling
+Letter H301619, dated November 6, 2018. The test for determining whether a substantial transformation will
+occur is whether an article emerges from a process with a new name, character, or use different from that
+possessed by the article prior to processing. See Texas Instruments Inc. v. United States, 681 F.2d 778
+(C.C.P.A. 1982). This determination is based on the totality of the evidence. See National Hand Tool Corp. v.
+United States, 16 C.I.T. 308 (1992), aff’d, 989 F.2d 1201 (Fed. Cir. 1993).
+Regarding the origin of the subject interface device, it is the opinion of this office that the Main PCBA, as it
+contains the digital signal processing and conversion functions, imparts the character of the finished device.
+In all three scenarios, this PCBA is fully manufactured in Malaysia. In scenario one, the addition of the
+Preamp and Front Panel PCBAs as well as the minimal operations performed in China would not
+substantially transform the main PCBA into a new and different article of commerce. In scenarios two and
+three, the production of the Preamp and Front Panel PCBAs in Malaysia further enhance the functions that
+are added from the processes performed in that country. Accordingly, the country of origin for the ISA C8X
+as presented in all three scenarios, will be Malaysia.       
+The holding set forth above applies only to the specific factual situation and merchandise description as
+identified in the ruling request. This position is clearly set forth in Title 19, Code of Federal Regulations
+(CFR), Section 177.9(b)(1). This section states that a ruling letter is issued on the assumption that all of the
+information furnished in the ruling letter, whether directly, by reference, or by implication, is accurate and
+complete in every material respect. In the event that the facts are modified in any way, or if the goods do not
+conform to these facts at time of importation, you should bring this to the attention of U.S. Customs and
+Border Protection (CBP) and submit a request for a new ruling in accordance with 19 CFR 177.2.
+Additionally, we note that the material facts described in the foregoing ruling may be subject to periodic
+verification by CBP.
+This ruling is being issued under the provisions of Part 177 of the Customs and Border Protection
+Regulations (19 C.F.R. 177).
+
+A copy of the ruling or the control number indicated above should be provided with the entry documents
+filed at the time this merchandise is imported. If you have any questions regarding the ruling, please contact
+National Import Specialist Luke LePage at luke.lepage@cbp.dhs.gov.
+Sincerely,
+(for)
+Evan Conceicao
+Designated Official Performing the Duties of the Division Director
+National Commodity Specialist Division

@@ -11,13 +11,13 @@ Purpose:
 - Optionally export to Excel for manual review
 
 Usage:
-  python extract_rulings.py                        # Fast: regex only, JSON output (NY)
-  python extract_rulings.py --llm                  # Full: regex + LLM comparison
-  python extract_rulings.py --excel                # Regex + Excel review (no LLM)
-  python extract_rulings.py --llm --excel          # Full + Excel review
-  python extract_rulings.py --jurisdiction ny      # Explicit NY (default)
-  python extract_rulings.py --jurisdiction ca      # CA rulings (once implemented)
-  python extract_rulings.py --base-dir /path       # Custom base directory (instead of cwd)
+  python main.py                        # Fast: regex only, JSON output (NY)
+  python main.py --llm                  # Full: regex + LLM comparison
+  python main.py --excel                # Regex + Excel review (no LLM)
+  python main.py --llm --excel          # Full + Excel review
+  python main.py --jurisdiction ny      # Explicit NY (default)
+  python main.py --jurisdiction ca      # CA rulings (once implemented)
+  python main.py --base-dir /path       # Custom base directory (instead of cwd)
 """
 
 import argparse
@@ -53,24 +53,24 @@ def main() -> None:
     parser.add_argument(
         "--excel",
         action="store_true",
-        help="Export results to Excel workbook (out/04_review/review.xlsx)"
+        help="Export results to Excel workbook"
     )
     parser.add_argument(
         "--base_dir",
         type=str,
         default=None,
-        help="Base directory for in/, out/, cache/ (default: current working directory)"
+        help="Base directory for input_data/, output_data/, cache_data/ (default: current working directory)"
     )
     parser.add_argument(
     "--fetchers_report",
     action="store_true",
-    help="Run all 3 tiers and generate fetchers comparison report (out/05_fetchers_report/)"
+    help="Run all 3 tiers and generate fetchers comparison report (output_data/{jurisdiction}/checks/)"
     )
 
     parser.add_argument(
         "--performance-log",
         action="store_true",
-        help="Enable performance logging (writes to out/06_performance_logs/performance_log.jsonl)"
+        help="Enable performance logging (writes to output_data/{jurisdiction}/performance_logs/)"
     )
     parser.add_argument(
         "--jurisdiction",
@@ -89,7 +89,7 @@ def main() -> None:
     # Import jurisdiction-specific modules based on --jurisdiction flag.
 
     if jurisdiction == "ny":
-        from shared_modules.config import FALLBACK_RULING_IDS
+        from shared_modules.config import NY_FALLBACK_RULING_IDS
         from jurisdiction_modules.ny.ny_regex_parser import extract_record
         from jurisdiction_modules.ny.ny_schema import export_to_goal_schema
         from jurisdiction_modules.ny.ny_llm import llm_extract
@@ -109,22 +109,20 @@ def main() -> None:
     else:
         base_dir = os.getcwd()
 
-    cache_dir = os.path.join(base_dir, "cache", jurisdiction)
-    out_dir = os.path.join(base_dir, "out", jurisdiction)
-    raw_dir = os.path.join(out_dir, "02_extractions_raw")     # Raw extraction results
-    checks_dir = os.path.join(out_dir, "03_checks")           # Comparison/triage reports
-    review_dir = os.path.join(out_dir, "04_review")           # Excel exports (if --excel)
-    fetchers_report_dir = os.path.join(out_dir, "04_review")  # Fetcher report (if --fetchers_report)
+    cache_dir = os.path.join(base_dir, "cache_data", jurisdiction)
+    out_dir = os.path.join(base_dir, "output_data", jurisdiction)
+    raw_dir = os.path.join(out_dir, "extractions_raw")     # Raw extraction results
+    checks_dir = os.path.join(out_dir, "checks")           # Comparison/triage reports
 
     # Create all output directories
     for d in [cache_dir, out_dir, raw_dir, checks_dir]:
         ensure_dir(d)
 
     if args.excel:
-        ensure_dir(review_dir)
+        ensure_dir(checks_dir)
 
     # Performance logging setup
-    perf_log_dir = os.path.join(out_dir, "06_performance_logs")
+    perf_log_dir = os.path.join(out_dir, "performance_logs")
     perf_logger = None
     if args.performance_log:
         ensure_dir(perf_log_dir)
@@ -139,7 +137,7 @@ def main() -> None:
     llm_raw_path = os.path.join(raw_dir, "extract__llm__raw__all.json")
     regex_raw_path = os.path.join(raw_dir, "extract__regex__raw__all.json")
     triage_path = os.path.join(checks_dir, "check__triage__bench_regex_llm__goal__all.json")
-    excel_path = os.path.join(review_dir, "review.xlsx") if args.excel else None
+    excel_path = os.path.join(checks_dir, "review.xlsx") if args.excel else None
 
     # ====================
     # BENCHMARK SETUP
@@ -170,7 +168,7 @@ def main() -> None:
     # ====================
 
     # Get list of ruling IDs to process (from config file or fallback list)
-    ruling_ids = load_ruling_ids(base_dir, fallback=FALLBACK_RULING_IDS, jurisdiction=jurisdiction)
+    ruling_ids = load_ruling_ids(base_dir, fallback=NY_FALLBACK_RULING_IDS, jurisdiction=jurisdiction)
 
     # ====================
     # EXTRACTION LOOP
@@ -212,11 +210,11 @@ def main() -> None:
 
     # Print for each Ruling processed the tabular summary in the terminal
     for rid in ruling_ids:
-        
+
         # --- Document fetch ---
         fetch_start = dt.now()
         try:
-            rec, text = extract_record(rid, cache_dir=cache_dir)
+            rec, text = extract_record(rid, cache_dir=cache_dir, jurisdiction=jurisdiction)
             fetch_end = dt.now()
             fetch_status = "Complete"
         except Exception as fetch_exc:
@@ -278,7 +276,7 @@ def main() -> None:
                     llm_fail += 1
             llm_elapsed = (llm_end - llm_start).total_seconds()
             total_llm_sec += llm_elapsed
-                    
+
             if perf_logger:
                 perf_logger.track_llm_call(
                     provider=LLM_PROVIDER,
@@ -301,7 +299,7 @@ def main() -> None:
             print(f"{rid:<9} {rx_start.strftime('%H:%M:%S'):<9} {rx_end.strftime('%H:%M:%S'):<9} {rx_status:<12} {rx_elapsed:>7.2f}")
 
 
-    # Print the Totals row 
+    # Print the Totals row
     print("-" * len(hdr))
     n_rulings = len(ruling_ids)
     rx_total = f"{regex_ok} OK" + (f", {regex_fail} Err" if regex_fail else "")
@@ -332,9 +330,9 @@ def main() -> None:
         print("\n" + "=" * 60)
         print("RUNNING FETCHERS REPORT")
         print("=" * 60)
-        fetchers_results = run_all_tiers(ruling_ids, cache_dir)
+        fetchers_results = run_all_tiers(ruling_ids, cache_dir, jurisdiction=jurisdiction)
         timestamp = dt.now().strftime("%Y%m%d_%H%M%S")
-        fetchers_excel_path = os.path.join(fetchers_report_dir, f"fetchers_report_{timestamp}.xlsx")
+        fetchers_excel_path = os.path.join(checks_dir, f"fetchers_report_{timestamp}.xlsx")
         export_fetchers_report(fetchers_results, fetchers_excel_path)
 
     # ====================

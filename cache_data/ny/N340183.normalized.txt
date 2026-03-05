@@ -1,0 +1,267 @@
+N340183
+
+N340183
+
+ 
+
+June
+
+3, 2024 
+
+ 
+
+CLA-2-73:OT:RR:NC:N5:113
+
+ 
+
+CATEGORY: Classification
+
+ 
+
+TARIFF NO.: 7326.19.0080
+
+ 
+
+Sergio Fontenelle
+
+Ernst & Young U.S. LLP
+
+One Manhattan West, 395 9th Avenue
+
+New York, NY 10001
+
+ 
+
+RE:  The tariff classification of a drum back and drum front
+
+from South Korea
+
+ 
+
+Dear Mr. Fontenelle:
+
+ 
+
+In your letter dated May 16, 2024, you requested a tariff
+
+classification ruling on behalf of Samsung Electronics Home Appliances America,
+
+LLC. Descriptions and pictures of the drum back and drum front were submitted
+
+for our review.
+
+ 
+
+The articles under consideration are two components of a washing
+
+machine drum. The first article is identified as a drum back, item number
+
+DC66-00885A. It is imported as a thin, flat, near-circular shaped, non-forged
+
+stainless-steel sheet that has a thickness of 0.5 mm. The drum back has a width
+
+of 715 mm and a length of 715 mm. The shaping of the drum back is obtained
+
+through a blanking process from a flat rectangular steel sheet, with no further
+
+surface or metal working applied post blanking. In the United States (U.S.), it
+
+undergoes additional processing steps such as trimming and flanging, which are
+
+essential for its installation into the washing machine drum.
+
+ 
+
+The second item under consideration is identified as a drum front,
+
+item number DC66-00886A. It is imported as a flat stainless-steel sheet that
+
+has a thickness of 0.6 mm. The drum front measures 680 mm in width and 680 mm
+
+in length. It features a central circular hole with a 400 mm diameter. The drum
+
+front's initial form is produced through a blanking process that transforms the
+
+rectangular steel sheet into the circular shape with a hole. Following this
+
+process, no additional surface or metal working is conducted. The subsequent
+
+manufacturing stages in the U.S., including trimming and flanging, prepare the
+
+drum front to become the front portion of the washing machine drum, completing
+
+the structure necessary for the appliance's operation.
+
+ 
+
+Based on the information provided, the drum back and drum front go
+
+through a process called blanking prior to importation into the U.S. You stated
+
+that Blanking is a more specific form of a generalized stamping process where
+
+a metal workpiece is removed from the primary metal strip or sheet when it is
+
+punched. The material that is removed is the new metal workpiece or blank.
+
+Therefore, both articles have been stamped with no further working or surface
+
+treatments prior to importation.
+
+ 
+
+You proposed classification for the drum back and drum front in
+
+subheading 7326.19.0080, Harmonized Tariff Schedule of the United States
+
+(HTSUS). This office agrees with your proposed classification.
+
+ 
+
+Heading 7326, HTSUS, provides for other articles of iron or
+
+steel. The Explanatory Notes (EN) for 73.26 state that This heading
+
+covers all iron or steel articles obtained by forging or punching, by cutting
+
+or stamping or by other processes such as folding, assembling, welding,
+
+turning, milling or perforating other than articles included in the preceding
+
+headings of this Chapter or covered by Note 1 to Section XV or included in
+
+Chapter 82 or 83 or more specifically covered elsewhere in the Nomenclature. Since
+
+the drum back and drum front are not more specifically provided for in any
+
+other heading of the tariff, the drum back and drum front would be classified
+
+in heading 7326, HTSUS, because the articles are not more specifically
+
+provided for in any other heading of the tariff.
+
+ 
+
+Subheading Explanatory Note (EN) 7326.11 and 7326.19, HTSUS,
+
+states that after forging or stamping, the products of these subheadings may
+
+have been subjected to the following working or surface treatments:
+
+ 
+
+Removal of burrs, runouts and other stamping
+
+defects by rough burring, grinding, hammering, chiselling or filling; removal
+
+of annealing by acid dipping; simple sand‑blasting; roughing or rough
+
+bleaching and other operations intended exclusively to detect flaws in the
+
+metal; application of rough coatings of graphite, oil, tar, red lead or similar
+
+products, clearly intended to protect the subjects against rust or other types
+
+of oxidation; stamping, punching, printing, etc., with simple inscriptions, such
+
+as trademarks.
+
+ 
+
+We note that in condition as imported, the subject drum back and
+
+drum front have been stamped but have not been subject to a working or surface
+
+treatment other than those listed in EN Subheading Note 7326.11 and 7326.19.
+
+The subject imported articles have not been further worked as defined in the
+
+ENs, Section XV, Chapter 73, heading 73.26, Subheading EN 7326.11 and 7326.19.
+
+Therefore, the drum back and drum front would be classified in subheading
+
+7326.19, HTSUS.
+
+ 
+
+The applicable subheading for the drum back, part number
+
+DC66-00885A, and drum front, part number DC66-00886A, will be 7326.19,0080,
+
+HTSUS, which provides for other articles of iron or steel: forged or stamped,
+
+but not further worked: other. The rate of duty will be 2.9 percent ad valorem.
+
+ 
+
+ 
+
+Duty rates are provided for your convenience and are subject to
+
+change. The text of the most recent HTSUS and the accompanying duty rates are
+
+provided at 
+https://hts.usitc.gov/
+.
+
+ 
+
+The holding set forth above applies only to the specific factual
+
+situation and merchandise description as identified in the ruling request. This
+
+position is clearly set forth in Title 19, Code of Federal Regulations (CFR),
+
+Section 177.9(b)(1). This section states that a ruling letter is issued on the
+
+assumption that all of the information furnished in the ruling letter, whether
+
+directly, by reference, or by implication, is accurate and complete in every
+
+material respect. In the event that the facts are modified in any way, or if
+
+the goods do not conform to these facts at time of importation, you should
+
+bring this to the attention of U.S. Customs and Border Protection (CBP) and
+
+submit a request for a new ruling in accordance with 19 CFR 177.2.
+
+Additionally, we note that the material facts described in the foregoing ruling
+
+may be subject to periodic verification by CBP.
+
+ 
+
+This ruling is being issued under the provisions of Part 177 of
+
+the Customs and Border Protection Regulations (19 C.F.R. 177).
+
+ 
+
+ 
+
+ 
+
+A copy of the ruling or the control number indicated above should
+
+be provided with the entry documents filed at the time this merchandise is
+
+imported. If you have any questions regarding the ruling, please contact
+
+National Import Specialist Ann Taub at ann.taub@cbp.dhs.gov.
+
+ 
+
+Sincerely, 
+
+ 
+
+Steven
+
+A. Mack 
+
+Director
+
+National
+
+Commodity Specialist Division

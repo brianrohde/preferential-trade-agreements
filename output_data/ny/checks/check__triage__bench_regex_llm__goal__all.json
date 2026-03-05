@@ -1,0 +1,708 @@
+{
+  "N340865": {
+    "replying_person": {
+      "bench": "Steven A. Mack<br>Director<br>National Commodity Specialist Division",
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": "Steven<br>A. Mack<br>Director<br>National<br>Commodity Specialist Division"
+    },
+    "product_description": {
+      "bench": "The sample, identified by the retail packaging as \"Blankets 3-Piece Set,\" consists of three baby blankets which you state are made from 66 percent polyester, 29 percent rayon and 5 percent spandex. Two of the blankets are made of printed, lightweight, finely knit jersey fabric. One blanket is printed with a leaf motif and the other is printed with a dinosaur and leaf motif. The third blanket is made from dyed, lightweight, waffle knit fabric. The edges of the three blankets are finished with an overlock stitch and the corners are rounded. Each blanket measures approximately 30 X 40 inches.",
+      "regex": "The sample, identified by the retail packaging as \"Blankets 3-Piece Set,\" consists of three baby blankets which you state are made from 66 percent polyester, 29 percent rayon and 5 percent spandex. Two of the blankets are made of printed, lightweight, finely knit jersey fabric. One blanket is printed with a leaf motif and the other is printed with a dinosaur and leaf motif. The third blanket is made from dyed, lightweight, waffle knit fabric. The edges of the three blankets are finished with an overlock stitch and the corners are rounded. Each blanket measures approximately 30 X 40 inches.",
+      "llm": "The sample, identified by the retail packaging as “Blankets 3-Piece Set,” consists of three baby blankets which you state are made from 66 percent polyester, 29 percent rayon and 5 percent spandex. Two of the blankets are made of printed, lightweight, finely knit jersey fabric. One blanket is printed with a leaf motif and the other is printed with a dinosaur and leaf motif. The third blanket is made from dyed, lightweight, waffle knit fabric. The edges of the three blankets are finished with an overlock stitch and the corners are rounded. Each blanket measures approximately 30 X 40 inches."
+    },
+    "accepted_flag": {
+      "bench": "True",
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": "",
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N340183": {
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": "Steven<br>A. Mack<br>Director<br>National<br>Commodity Specialist Division"
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The articles under consideration are two components of a washing machine drum. The first article is identified as a drum back, item number DC66-00885A. It is imported as a thin, flat, near-circular shaped, non-forged stainless-steel sheet that has a thickness of 0.5 mm. The drum back has a width of 715 mm and a length of 715 mm. The shaping of the drum back is obtained through a blanking process from a flat rectangular steel sheet, with no further surface or metal working applied post blanking. In the United States (U.S.), it undergoes additional processing steps such as trimming and flanging, which are essential for its installation into the washing machine drum. The second item under consideration is identified as a drum front, item number DC66-00886A. It is imported as a flat stainless-steel sheet that has a thickness of 0.6 mm. The drum front measures 680 mm in width and 680 mm in length. It features a central circular hole with a 400 mm diameter. The drum front's initial form is produced through a blanking process that transforms the rectangular steel sheet into the circular shape with a hole. Following this process, no additional surface or metal working is conducted. The subsequent manufacturing stages in the U.S., including trimming and flanging, prepare the drum front to become the front portion of the washing machine drum, completing the structure necessary for the appliance's operation. Based on the information provided, the drum back and drum front go through a process called blanking prior to importation into the U.S. You stated that Blanking is a more specific form of a generalized stamping process where a metal workpiece is removed from the primary metal strip or sheet when it is punched. The material that is removed is the new metal workpiece or blank. Therefore, both articles have been stamped with no further working or surface treatments prior to importation.",
+      "llm": null
+    }
+  },
+  "N339572": {
+    "importer": {
+      "bench": null,
+      "regex": "I-D Foods USA Corporation (Plattsburgh, NY)",
+      "llm": "I-D Foods USA Corporation"
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "Steven A. Mack<br>Director<br>National",
+      "llm": "Steven<br>A. Mack<br>Director<br>National<br>Commodity Specialist Division"
+    }
+  },
+  "N275583": {
+    "importer": {
+      "bench": null,
+      "regex": "Southern Tube, LLC (STL)",
+      "llm": "Southern Tube, LLC"
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": "Free"
+    }
+  },
+  "N356840": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356840",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "SEIN Customs & Auditing Corp",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Sa Ung Kim",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Mercury Fiber Optics",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 9, 2025",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 23, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Luke LePage",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "8544.70.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N356645": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356645",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "RB Medtrade LLC",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Jingjia Liu",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 19, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Laurel Duvall",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4421.99.6000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "5.1 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N356609": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356609",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Mr. Jeandry Mendonça",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 18, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Laurel Duvall",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "4421.99.9880",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "3.3 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The product under consideration is pre-made deck tiles. Constructed of Ipé, Cumaru, Garapa, Itaúba, Maçaranduba, tiger wood, or plantation Teak, the deck tiles are to be installed on top of an existing surface to form a wood deck surface. The tiles range from 300mm x 300mm to 600mm x 1200mm and between 36mm and 42mm in thickness. Each tile consists of evenly spaced, parallel slats that are mounted on perpendicular and/or diagonal wood slats. When installed, plastic mounts will hold the corners in place. In your letter, you suggest that the panels are classifiable under subheading 4418.79.0000, Harmonized Tariff Schedule of the United States (HTSUS), which provides for builders' joinery in the form of assembled, single-layer, wood flooring. We disagree. In order to be classified in 4418, the goods must be recognizable articles used in the construction of a building. First, the tiles are merely laid on another surface and are not used in construction. Additionally, a deck is not part of a building. They are frequently built adjacent to buildings, but they are not themselves a part of a building. Therefore, the panels will be classified elsewhere.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N355798": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N355798",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Jae Hee Park",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 6, 2025",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 17, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Stacey Kalkines",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "6406.20.0000",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "2.7 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N356637": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356637",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Focusrite Group US, Inc",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 2, 2025",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 17, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Luke LePage",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N356676": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356676",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Acme United Corporation",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 3, 2025",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 17, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Kristopher Burton",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N356337": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356337",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Donal O'Gorman",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 21, 2025",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 15, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Jason Christie",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "9031.80.8085",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "free",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": "The item under consideration is described as a Peri sensor (model IDH-AA-01), which is a battery-powered, body-worn electronic unit that captures bio signals and communicates them via Bluetooth to a paired smartphone application. The device is made of a sealed polymer enclosure with a gasket, an internal printed circuit board assembly (PCBA) carrying a microcontroller with memory, power management integrated circuits (ICs), sensors, and a Bluetooth radio transceiver with antenna. Additionally, there are stainless-steel electrodes, a skin-contact thermistor, an optical window for photoplethysmography (PPG) emitter/detector, and medical-grade adhesive patches for on-body attachment. The device measures 66×45×11 mm and weighs 25 g. The Peri sensor has a PPG (optical) for pulse/flow-related signals, electrodermal activity (EDA) electrodes for skin conductance, a 3-axis accelerometer for motion/posture, and a skin-contact temperature sensor. In operation, the sensors generate analog signals that are digitized by on-board electronics before being wirelessly transmitted via Bluetooth to the paired app. Data is also synced to cloud services where it is processed and the outputs displayed on the app. The Peri sensor is designed as a consumer wellness wearable for trend-tracking of perimenopausal symptom patterns (hot flashes, night sweats, sleep disruption, anxiety) as well as step count and menstrual-cycle tracking. The device is imported with two rechargeable batteries, USB-C charging dock/cable, 20 starter adhesive patches, and a quick-start guide. In your letter, you suggest the applicable heading to be 8517, Harmonized Tariff Schedule of the United States (HTSUS), which provides in relevant part for \"…other apparatus for the transmission or reception of voice, images or other data, including apparatus for communication in a wired or wireless network (such as a local or wide area network).\" The item concerned is primarily used to monitor various aspects of a person's wellbeing. It incorporates various sensors and a processing system that measures health related information. It also has a secondary function of transmitting that data to a remote Bluetooth enabled device which then transmits to a cloud-based service. Classification under heading 8517, HTSUS, is precluded because the devices concerned are composite goods (Section XVI Note 3 and Chapter 90 Note 3) which execute the principal function of determining/calculating a measurement. The ability to transmit that information to a remote device would be considered the unit's secondary or support function. Additionally, as per the Explanatory Notes to heading 8517, carrier-current and other transmitters and receivers which form a single unit with analogue or digital telemetering instruments or apparatus…, are excluded from heading 8517. Measurement apparatus of Chapter 90 are also excluded from classification within Chapter 85. (Section Note XVI Note 1(m)). As such, classification within heading 8517, HTSUS, is not applicable.",
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N356833": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356833",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": "4M World Brokers, Inc.",
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Eduardo Medina",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": "Celular Plus SA de CV",
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "December 8, 2025",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 15, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Evan Conceicao<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Merari Ortiz",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "3808.91.2501",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  },
+  "N356014": {
+    "ruling_id": {
+      "bench": null,
+      "regex": "N356014",
+      "llm": null
+    },
+    "submitting_firm": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "submitter": {
+      "bench": null,
+      "regex": "Malanie Jimenez",
+      "llm": null
+    },
+    "importer": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "date_submitted": {
+      "bench": null,
+      "regex": "November 13, 2025",
+      "llm": null
+    },
+    "date_replied": {
+      "bench": null,
+      "regex": "December 11, 2025",
+      "llm": null
+    },
+    "replying_person": {
+      "bench": null,
+      "regex": "(for)<br>Deborah Marinucci<br>Designated Official Performing the Duties of the Division Director",
+      "llm": null
+    },
+    "case_handler": {
+      "bench": null,
+      "regex": "Michael Capanna",
+      "llm": null
+    },
+    "hts_suggestion": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "hts_decision": {
+      "bench": null,
+      "regex": "5806.32.1080",
+      "llm": null
+    },
+    "duty_rate": {
+      "bench": null,
+      "regex": "6 percent ad valorem",
+      "llm": null
+    },
+    "product_description": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "accepted_flag": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    },
+    "decision_reasoning": {
+      "bench": null,
+      "regex": null,
+      "llm": null
+    }
+  }
+}
