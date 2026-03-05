@@ -20,7 +20,7 @@ from typing import Optional, Tuple
 
 
 from .ny_document_fetchers import fetch_tier_3
-from shared.utils import first_match, collapse_ws
+from shared_modules.utils import first_match, collapse_ws
 
 
 

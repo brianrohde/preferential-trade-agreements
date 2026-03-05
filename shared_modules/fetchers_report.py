@@ -7,7 +7,7 @@ from openpyxl.formatting.rule import ColorScaleRule
 from openpyxl.utils import get_column_letter
 
 from jurisdiction_modules.ny.ny_document_fetchers import fetch_tier_1, fetch_tier_2, fetch_tier_3
-from shared.utils import ensure_dir
+from shared_modules.utils import ensure_dir
 
 
 def has_line_breaks(text: str) -> bool:

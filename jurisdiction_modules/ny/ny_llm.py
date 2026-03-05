@@ -22,7 +22,7 @@ import requests
 from typing import Optional
 
 
-from shared.llm_config import PROVIDERS
+from shared_modules.llm_config import PROVIDERS
 
 
 def llm_extract(

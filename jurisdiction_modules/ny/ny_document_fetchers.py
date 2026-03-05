@@ -20,9 +20,9 @@ from pypdf import PdfReader
 import io
 
 # Constants
-from shared.config import YEAR_CANDIDATES, DOC_URL_TEMPLATE
-# Shared utilities
-from shared.utils import ensure_dir, read_text, normalize_text
+from shared_modules.config import YEAR_CANDIDATES, DOC_URL_TEMPLATE
+# shared_modules utilities
+from shared_modules.utils import ensure_dir, read_text, normalize_text
 
 
 # =========================
